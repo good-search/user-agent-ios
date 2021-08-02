@@ -9,7 +9,7 @@
 import Foundation
 import Shared
 
-protocol CliqzRefreshControlDelegate: class {
+protocol CliqzRefreshControlDelegate: AnyObject {
     func refreshControllAlphaDidChange(alpha: CGFloat)
     func refreshControllMinimumHeight() -> CGFloat
     func refreshControllDidRefresh()

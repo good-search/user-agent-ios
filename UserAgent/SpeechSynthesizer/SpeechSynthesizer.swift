@@ -17,7 +17,7 @@ public enum SpeechLanguage: String {
     case es = "es-ES" // Spanish
 }
 
-protocol SpeechSynthesizerDelegate: class {
+protocol SpeechSynthesizerDelegate: AnyObject {
     func speechSynthesizerDidStart()
     func speechSynthesizerDidPause()
     func speechSynthesizerDidCancel()

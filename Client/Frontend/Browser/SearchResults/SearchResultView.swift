@@ -40,7 +40,7 @@ private struct SearchResultViewUI {
     static let NavigationCellHeight: CGFloat = 60.0
 }
 
-protocol SearchResultViewDelegate: class {
+protocol SearchResultViewDelegate: AnyObject {
     func didSelect(result: SearchResult)
     func didLongPress(result: SearchResult)
     func didShow(result: SearchResult)

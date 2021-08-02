@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol SearchResultNavigationCellDelegate: class {
+protocol SearchResultNavigationCellDelegate: AnyObject {
     func didLongPress(result: SearchResult)
 }
 

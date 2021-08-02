@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol QuerySuggestionDelegate: class {
+protocol QuerySuggestionDelegate: AnyObject {
     func querySuggestionTapped(_ suggestion: String)
 }
 

@@ -25,7 +25,7 @@ class BookmarkDetailViewControllerError: MaybeErrorType {
     public var description = "Unable to save BookmarkNode."
 }
 
-protocol BookmarkDetailViewControllerDelegate: class {
+protocol BookmarkDetailViewControllerDelegate: AnyObject {
     func bookmardDetailViewDidCancel()
     func bookmardDetailViewDidSave()
 }
