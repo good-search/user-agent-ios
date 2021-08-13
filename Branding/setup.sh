@@ -64,6 +64,13 @@ mkdir -p ${OPEN_IN_PATH}/en.lproj
 cp -rf ${BRAND_PATH}/InfoPlists/OpenIn/de.lproj/InfoPlist.strings ${OPEN_IN_PATH}/de.lproj/InfoPlist.strings
 cp -rf ${BRAND_PATH}/InfoPlists/OpenIn/en.lproj/InfoPlist.strings ${OPEN_IN_PATH}/en.lproj/InfoPlist.strings
 
+# Serch folder path
+SEARCH_PATH=${PROJECT_PATH}/Extensions/Search
+
+# Replacing Search assets according target
+rm -rf ${SEARCH_PATH}/Search.xcassets
+cp -rf ${BRAND_PATH}/Assets/Search.xcassets ${SEARCH_PATH}/
+
 # Translations folder path
 TRANSLATIONS_PATH=${PROJECT_PATH}/Translations
 
