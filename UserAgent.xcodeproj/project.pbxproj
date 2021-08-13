@@ -50,6 +50,9 @@
 		2B08FD2B24E690ED0063805E /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD2B3A24E676060098F3D1 /* Features.swift */; };
 		2B0E93692407A92300ED7703 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3905274B1C874D35007E0BB7 /* NotificationCenter.framework */; };
 		2B0E936C2407A92300ED7703 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E936B2407A92300ED7703 /* TodayViewController.swift */; };
+		2B0EB22B26C6AEF300D0D13F /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B0EB22E26C6AEFB00D0D13F /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B0EB23126C6AF0100D0D13F /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2B139CF824B4B23800D43BDA /* brand.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B139CFA24B4B23800D43BDA /* brand.strings */; };
 		2B189393247535EF003DA87D /* DataAndPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B189392247535EF003DA87D /* DataAndPrivacy.swift */; };
 		2B2B173824B7435B00082787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B173724B7435B00082787 /* LaunchScreen.storyboard */; };
@@ -1742,6 +1745,27 @@
 			remoteGlobalIDString = 288A2D851AB8B3260023ABC3;
 			remoteInfo = Shared;
 		};
+		2B0EB22C26C6AEF300D0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = Search;
+		};
+		2B0EB22F26C6AEFB00D0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = Search;
+		};
+		2B0EB23226C6AF0100D0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = Search;
+		};
 		2B656F4E24AB68A7005DE5D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
@@ -2029,6 +2053,7 @@
 			files = (
 				2BAD2AF824E6755B0098F3D1 /* OpenIn.appex in Embed App Extensions */,
 				2BAD2AF924E6755B0098F3D1 /* Siri.appex in Embed App Extensions */,
+				2B0EB22B26C6AEF300D0D13F /* Search.appex in Embed App Extensions */,
 				2BAD2AFA24E6755B0098F3D1 /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -2055,6 +2080,7 @@
 			files = (
 				2BB3DF7324ED34570050370A /* OpenIn.appex in Embed App Extensions */,
 				2BB3DF7424ED34570050370A /* Siri.appex in Embed App Extensions */,
+				2B0EB22E26C6AEFB00D0D13F /* Search.appex in Embed App Extensions */,
 				2BB3DF7524ED34570050370A /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -2081,6 +2107,7 @@
 			files = (
 				2BBB7046254EF17800720613 /* OpenIn.appex in Embed App Extensions */,
 				2BBB7047254EF17800720613 /* Siri.appex in Embed App Extensions */,
+				2B0EB23126C6AF0100D0D13F /* Search.appex in Embed App Extensions */,
 				2BBB7048254EF17800720613 /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -5468,6 +5495,7 @@
 				2BAD298B24E6755B0098F3D1 /* PBXTargetDependency */,
 				2BAD298D24E6755B0098F3D1 /* PBXTargetDependency */,
 				2BAD298F24E6755B0098F3D1 /* PBXTargetDependency */,
+				2B0EB22D26C6AEF300D0D13F /* PBXTargetDependency */,
 			);
 			name = Panda;
 			productName = Client;
@@ -5499,6 +5527,7 @@
 				2BB3DE0624ED34570050370A /* PBXTargetDependency */,
 				2BB3DE0824ED34570050370A /* PBXTargetDependency */,
 				2BB3DE0A24ED34570050370A /* PBXTargetDependency */,
+				2B0EB23026C6AEFB00D0D13F /* PBXTargetDependency */,
 			);
 			name = SEALEGACYBlue;
 			productName = Client;
@@ -5530,6 +5559,7 @@
 				2BBB6ED9254EF17800720613 /* PBXTargetDependency */,
 				2BBB6EDB254EF17800720613 /* PBXTargetDependency */,
 				2BBB6EDD254EF17800720613 /* PBXTargetDependency */,
+				2B0EB23326C6AF0100D0D13F /* PBXTargetDependency */,
 			);
 			name = Blue;
 			productName = Client;
@@ -8726,6 +8756,21 @@
 			isa = PBXTargetDependency;
 			target = 288A2D851AB8B3260023ABC3 /* Shared */;
 			targetProxy = 2B05DA6D26C69F32001D5E1F /* PBXContainerItemProxy */;
+		};
+		2B0EB22D26C6AEF300D0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2B0EB22C26C6AEF300D0D13F /* PBXContainerItemProxy */;
+		};
+		2B0EB23026C6AEFB00D0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2B0EB22F26C6AEFB00D0D13F /* PBXContainerItemProxy */;
+		};
+		2B0EB23326C6AF0100D0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2B0EB23226C6AF0100D0D13F /* PBXContainerItemProxy */;
 		};
 		2B656F4D24AB68A7005DE5D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
