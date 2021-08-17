@@ -22,10 +22,10 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-    <key>FacebookAppID</key>
-    <string>2605499146428611</string>
-    <key>FacebookDisplayName</key>
-    <string>Gexsi iOS App</string>
+	<key>FacebookAppID</key>
+	<string>2605499146428611</string>
+	<key>FacebookDisplayName</key>
+	<string>Gexsi iOS App</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -34,7 +34,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>$(USER_AGENT_URL_SCHEME)</string>
-                <string>fb2605499146428611</string>
+				<string>fb2605499146428611</string>
 				<string>http</string>
 				<string>https</string>
 			</array>

@@ -42,9 +42,17 @@
 		28D52E2F1BCDF53900187A1D /* ResetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D52E081BCDF44100187A1D /* ResetTests.swift */; };
 		28E08C991AF44EF9009BA2FA /* SQLiteHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAE2551ABB531100877008 /* SQLiteHistory.swift */; };
 		28E08C9A1AF44F00009BA2FA /* BrowserSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282915E51AF1A7920006EEB5 /* BrowserSchema.swift */; };
+		2B05DA6B26C69F32001D5E1F /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288A2D861AB8B3260023ABC3 /* Shared.framework */; };
+		2B05DA6C26C69F32001D5E1F /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 288A2D861AB8B3260023ABC3 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2B05DA7026C6A301001D5E1F /* brand.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B139CFA24B4B23800D43BDA /* brand.strings */; };
+		2B05DA7126C6A4BE001D5E1F /* Search.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92A424B5EFD8007B4F2D /* Search.strings */; };
+		2B05DA7226C6A5AF001D5E1F /* Search.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8513226C688D1003CA316 /* Search.xcassets */; };
 		2B08FD2B24E690ED0063805E /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD2B3A24E676060098F3D1 /* Features.swift */; };
 		2B0E93692407A92300ED7703 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3905274B1C874D35007E0BB7 /* NotificationCenter.framework */; };
 		2B0E936C2407A92300ED7703 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E936B2407A92300ED7703 /* TodayViewController.swift */; };
+		2B0EB22B26C6AEF300D0D13F /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B0EB22E26C6AEFB00D0D13F /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B0EB23126C6AF0100D0D13F /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2B139CF824B4B23800D43BDA /* brand.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B139CFA24B4B23800D43BDA /* brand.strings */; };
 		2B189393247535EF003DA87D /* DataAndPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B189392247535EF003DA87D /* DataAndPrivacy.swift */; };
 		2B2B173824B7435B00082787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B173724B7435B00082787 /* LaunchScreen.storyboard */; };
@@ -1508,6 +1516,10 @@
 		2BE3BD82246ECDFB0066D0BD /* Strings+ReaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3BD81246ECDFB0066D0BD /* Strings+ReaderMode.swift */; };
 		2BE3BD98247272F90066D0BD /* Strings+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3BD97247272F90066D0BD /* Strings+Settings.swift */; };
 		2BE3BD9A247298490066D0BD /* Strings+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3BD99247298490066D0BD /* Strings+Today.swift */; };
+		2BE8512C26C688CF003CA316 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8512B26C688CF003CA316 /* WidgetKit.framework */; };
+		2BE8512E26C688CF003CA316 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8512D26C688CF003CA316 /* SwiftUI.framework */; };
+		2BE8513126C688CF003CA316 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8513026C688CF003CA316 /* Search.swift */; };
+		2BE8513726C688D1003CA316 /* Search.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BE8512A26C688CF003CA316 /* Search.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2BF5F142246E6CE500837817 /* Strings+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5F141246E6CE500837817 /* Strings+AlertController.swift */; };
 		2C28F96C201B2D4C00ABA8A5 /* MailAppSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C28F96B201B2D4C00ABA8A5 /* MailAppSettingsTests.swift */; };
 		2C2A5EF41E68469500F02659 /* PrivateBrowsingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A5EF31E68469500F02659 /* PrivateBrowsingTest.swift */; };
@@ -1726,6 +1738,34 @@
 			remoteGlobalIDString = 049DBAD523E4587B00D2D38D;
 			remoteInfo = Widgets;
 		};
+		2B05DA6D26C69F32001D5E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288A2D851AB8B3260023ABC3;
+			remoteInfo = Shared;
+		};
+		2B0EB22C26C6AEF300D0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = Search;
+		};
+		2B0EB22F26C6AEFB00D0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = Search;
+		};
+		2B0EB23226C6AF0100D0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = Search;
+		};
 		2B656F4E24AB68A7005DE5D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
@@ -1915,6 +1955,13 @@
 			remoteGlobalIDString = 288A2D851AB8B3260023ABC3;
 			remoteInfo = Shared;
 		};
+		2BE8513526C688D1003CA316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE8512926C688CF003CA316;
+			remoteInfo = SearchExtension;
+		};
 		2F9A72311ABB856100F9F05D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
@@ -1960,12 +2007,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2B05DA6F26C69F32001D5E1F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B05DA6C26C69F32001D5E1F /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B6570B424AB68A7005DE5D3 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				2BE8513726C688D1003CA316 /* Search.appex in Embed App Extensions */,
 				2B6570B524AB68A7005DE5D3 /* OpenIn.appex in Embed App Extensions */,
 				2B6570B624AB68A7005DE5D3 /* Siri.appex in Embed App Extensions */,
 				2B6570B724AB68A7005DE5D3 /* ShareTo.appex in Embed App Extensions */,
@@ -1994,6 +2053,7 @@
 			files = (
 				2BAD2AF824E6755B0098F3D1 /* OpenIn.appex in Embed App Extensions */,
 				2BAD2AF924E6755B0098F3D1 /* Siri.appex in Embed App Extensions */,
+				2B0EB22B26C6AEF300D0D13F /* Search.appex in Embed App Extensions */,
 				2BAD2AFA24E6755B0098F3D1 /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -2020,6 +2080,7 @@
 			files = (
 				2BB3DF7324ED34570050370A /* OpenIn.appex in Embed App Extensions */,
 				2BB3DF7424ED34570050370A /* Siri.appex in Embed App Extensions */,
+				2B0EB22E26C6AEFB00D0D13F /* Search.appex in Embed App Extensions */,
 				2BB3DF7524ED34570050370A /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -2046,6 +2107,7 @@
 			files = (
 				2BBB7046254EF17800720613 /* OpenIn.appex in Embed App Extensions */,
 				2BBB7047254EF17800720613 /* Siri.appex in Embed App Extensions */,
+				2B0EB23126C6AF0100D0D13F /* Search.appex in Embed App Extensions */,
 				2BBB7048254EF17800720613 /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -2130,6 +2192,10 @@
 		2B0E93682407A92300ED7703 /* Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Today.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0E936B2407A92300ED7703 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		2B0E93702407A92300ED7703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0EB22726C6A5EF00D0D13F /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
+		2B0EB22826C6A60000D0D13F /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
+		2B0EB22926C6A61000D0D13F /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
+		2B0EB22A26C6A61D00D0D13F /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
 		2B139CF924B4B23800D43BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/brand.strings; sourceTree = "<group>"; };
 		2B139CFB24B4B23900D43BDA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/brand.strings; sourceTree = "<group>"; };
 		2B189392247535EF003DA87D /* DataAndPrivacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndPrivacy.swift; sourceTree = "<group>"; };
@@ -2412,6 +2478,12 @@
 		2BE3BD97247272F90066D0BD /* Strings+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Settings.swift"; sourceTree = "<group>"; };
 		2BE3BD99247298490066D0BD /* Strings+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Today.swift"; sourceTree = "<group>"; };
 		2BE7522C24E4443A00482803 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		2BE8512A26C688CF003CA316 /* Search.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Search.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE8512B26C688CF003CA316 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2BE8512D26C688CF003CA316 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2BE8513026C688CF003CA316 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		2BE8513226C688D1003CA316 /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
+		2BE8513426C688D1003CA316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE9C93023E169450074E55E /* OnBrowserStartShowSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBrowserStartShowSettingsViewController.swift; sourceTree = "<group>"; };
 		2BE9D523243C805400553556 /* SpeechSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizer.swift; sourceTree = "<group>"; };
 		2BEA07C12469747F008E1622 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
@@ -3085,6 +3157,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BE8512726C688CF003CA316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8512E26C688CF003CA316 /* SwiftUI.framework in Frameworks */,
+				2B05DA6B26C69F32001D5E1F /* Shared.framework in Frameworks */,
+				2BE8512C26C688CF003CA316 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FCAE2161ABB51F800877008 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3500,6 +3582,7 @@
 		2B6571A224AB693E005DE5D3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2B0EB22726C6A5EF00D0D13F /* Search.xcassets */,
 				2B6571A424AB693E005DE5D3 /* brand.xcassets */,
 				2B6571A324AB693E005DE5D3 /* OpenIn.xcassets */,
 				2B6571A524AB693E005DE5D3 /* ShareTo.xcassets */,
@@ -3667,6 +3750,7 @@
 		2BAD2B4024E676060098F3D1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2B0EB22826C6A60000D0D13F /* Search.xcassets */,
 				2BAD2B4224E676060098F3D1 /* brand.xcassets */,
 				2BAD2B4124E676060098F3D1 /* OpenIn.xcassets */,
 				2BAD2B4324E676060098F3D1 /* ShareTo.xcassets */,
@@ -3796,6 +3880,7 @@
 		2BB3DDFA24ED33850050370A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2B0EB22926C6A61000D0D13F /* Search.xcassets */,
 				2BB3DDFC24ED33850050370A /* brand.xcassets */,
 				2BB3DDFB24ED33850050370A /* OpenIn.xcassets */,
 				2BB3DDFD24ED33850050370A /* ShareTo.xcassets */,
@@ -3925,6 +4010,7 @@
 		2BBB6ECD254EF12B00720613 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2B0EB22A26C6A61D00D0D13F /* Search.xcassets */,
 				2BBB6ECE254EF12B00720613 /* OpenIn.xcassets */,
 				2BBB6ECF254EF12B00720613 /* brand.xcassets */,
 				2BBB6ED0254EF12B00720613 /* ShareTo.xcassets */,
@@ -3987,6 +4073,16 @@
 				2B5D877E24E5432100768664 /* SearchResultNavigationCell.swift */,
 			);
 			path = SearchResults;
+			sourceTree = "<group>";
+		};
+		2BE8512F26C688CF003CA316 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8513026C688CF003CA316 /* Search.swift */,
+				2BE8513226C688D1003CA316 /* Search.xcassets */,
+				2BE8513426C688D1003CA316 /* Info.plist */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		2BE9D522243C802B00553556 /* SpeechSynthesizer */ = {
@@ -4435,6 +4531,8 @@
 				B9BA0EFD4EBA8FB7BF34917B /* Pods_Panda.framework */,
 				DBA0334BFE6A86C1EF0B2029 /* Pods_Blue.framework */,
 				73BC21EFFE886082100C0F0A /* Pods_SEALEGACYBlue.framework */,
+				2BE8512B26C688CF003CA316 /* WidgetKit.framework */,
+				2BE8512D26C688CF003CA316 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -5070,6 +5168,7 @@
 				2BAD2B0724E6755B0098F3D1 /* Panda.app */,
 				2BB3DF8224ED34570050370A /* SEALEGACYBlue.app */,
 				2BBB7055254EF17800720613 /* Blue.app */,
+				2BE8512A26C688CF003CA316 /* Search.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5213,6 +5312,7 @@
 				2B0E936A2407A92300ED7703 /* Today */,
 				F8708D241A0970990051AB07 /* ShareTo */,
 				2BE2586E23BA0C800022ED28 /* OpenIn */,
+				2BE8512F26C688CF003CA316 /* Search */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -5363,6 +5463,7 @@
 				2B656F5324AB68A7005DE5D3 /* PBXTargetDependency */,
 				2B656F5524AB68A7005DE5D3 /* PBXTargetDependency */,
 				2B656F5724AB68A7005DE5D3 /* PBXTargetDependency */,
+				2BE8513626C688D1003CA316 /* PBXTargetDependency */,
 			);
 			name = Gexsi;
 			productName = Client;
@@ -5394,6 +5495,7 @@
 				2BAD298B24E6755B0098F3D1 /* PBXTargetDependency */,
 				2BAD298D24E6755B0098F3D1 /* PBXTargetDependency */,
 				2BAD298F24E6755B0098F3D1 /* PBXTargetDependency */,
+				2B0EB22D26C6AEF300D0D13F /* PBXTargetDependency */,
 			);
 			name = Panda;
 			productName = Client;
@@ -5425,6 +5527,7 @@
 				2BB3DE0624ED34570050370A /* PBXTargetDependency */,
 				2BB3DE0824ED34570050370A /* PBXTargetDependency */,
 				2BB3DE0A24ED34570050370A /* PBXTargetDependency */,
+				2B0EB23026C6AEFB00D0D13F /* PBXTargetDependency */,
 			);
 			name = SEALEGACYBlue;
 			productName = Client;
@@ -5456,6 +5559,7 @@
 				2BBB6ED9254EF17800720613 /* PBXTargetDependency */,
 				2BBB6EDB254EF17800720613 /* PBXTargetDependency */,
 				2BBB6EDD254EF17800720613 /* PBXTargetDependency */,
+				2B0EB23326C6AF0100D0D13F /* PBXTargetDependency */,
 			);
 			name = Blue;
 			productName = Client;
@@ -5480,6 +5584,25 @@
 			name = OpenIn;
 			productName = CliqzOpenIn;
 			productReference = 2BE258D323BA2B4A0022ED28 /* OpenIn.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2BE8512926C688CF003CA316 /* Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE8513C26C688D1003CA316 /* Build configuration list for PBXNativeTarget "Search" */;
+			buildPhases = (
+				2BE8512626C688CF003CA316 /* Sources */,
+				2BE8512726C688CF003CA316 /* Frameworks */,
+				2BE8512826C688CF003CA316 /* Resources */,
+				2B05DA6F26C69F32001D5E1F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B05DA6E26C69F32001D5E1F /* PBXTargetDependency */,
+			);
+			name = Search;
+			productName = SearchExtension;
+			productReference = 2BE8512A26C688CF003CA316 /* Search.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		2FCAE2191ABB51F800877008 /* Storage */ = {
@@ -5623,7 +5746,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Cliqz;
 				TargetAttributes = {
@@ -5670,6 +5793,10 @@
 					2BE258D223BA2B4A0022ED28 = {
 						CreatedOnToolsVersion = 11.3;
 						DevelopmentTeam = ZX98ZK2A75;
+						ProvisioningStyle = Automatic;
+					};
+					2BE8512926C688CF003CA316 = {
+						CreatedOnToolsVersion = 12.5.1;
 						ProvisioningStyle = Automatic;
 					};
 					2FCAE2191ABB51F800877008 = {
@@ -5755,6 +5882,7 @@
 				2BE258D223BA2B4A0022ED28 /* OpenIn */,
 				2B0E93672407A92300ED7703 /* Today */,
 				2B308ABC242B2B4A009AF3D1 /* Siri */,
+				2BE8512926C688CF003CA316 /* Search */,
 				288A2D851AB8B3260023ABC3 /* Shared */,
 				2FCAE2191ABB51F800877008 /* Storage */,
 				049DBAD523E4587B00D2D38D /* Widgets */,
@@ -6074,6 +6202,16 @@
 				2BE2590D23BA2FD40022ED28 /* InfoPlist.strings in Resources */,
 				2BD02D4923BA3698001539F0 /* OpenIn.xcassets in Resources */,
 				2BE258FF23BA2B780022ED28 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE8512826C688CF003CA316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B05DA7226C6A5AF001D5E1F /* Search.xcassets in Resources */,
+				2B05DA7026C6A301001D5E1F /* brand.strings in Resources */,
+				2B05DA7126C6A4BE001D5E1F /* Search.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8414,6 +8552,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BE8512626C688CF003CA316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8513126C688CF003CA316 /* Search.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FCAE2151ABB51F800877008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8606,6 +8752,26 @@
 			target = 049DBAD523E4587B00D2D38D /* Widgets */;
 			targetProxy = 049DBAE023E4587B00D2D38D /* PBXContainerItemProxy */;
 		};
+		2B05DA6E26C69F32001D5E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288A2D851AB8B3260023ABC3 /* Shared */;
+			targetProxy = 2B05DA6D26C69F32001D5E1F /* PBXContainerItemProxy */;
+		};
+		2B0EB22D26C6AEF300D0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2B0EB22C26C6AEF300D0D13F /* PBXContainerItemProxy */;
+		};
+		2B0EB23026C6AEFB00D0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2B0EB22F26C6AEFB00D0D13F /* PBXContainerItemProxy */;
+		};
+		2B0EB23326C6AF0100D0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2B0EB23226C6AF0100D0D13F /* PBXContainerItemProxy */;
+		};
 		2B656F4D24AB68A7005DE5D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 288A2D851AB8B3260023ABC3 /* Shared */;
@@ -8740,6 +8906,11 @@
 			isa = PBXTargetDependency;
 			target = 288A2D851AB8B3260023ABC3 /* Shared */;
 			targetProxy = 2BE3BD9B24729A810066D0BD /* PBXContainerItemProxy */;
+		};
+		2BE8513626C688D1003CA316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE8512926C688CF003CA316 /* Search */;
+			targetProxy = 2BE8513526C688D1003CA316 /* PBXContainerItemProxy */;
 		};
 		2F9A72321ABB856100F9F05D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -9505,7 +9676,7 @@
 			baseConfigurationReference = 8F87D0B7200D772460EF6953 /* Pods-Shared.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -9534,6 +9705,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9572,6 +9744,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9605,6 +9778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9637,6 +9811,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9668,6 +9843,7 @@
 		2B308AC5242B2B4A009AF3D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9702,6 +9878,7 @@
 		2B308AC6242B2B4A009AF3D1 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9731,6 +9908,7 @@
 		2B308AC7242B2B4A009AF3D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -9760,6 +9938,7 @@
 		2B308AC8242B2B4A009AF3D1 /* CI */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -10599,6 +10778,7 @@
 			baseConfigurationReference = C7A9436A55DCEF66F6049B28 /* Pods-OpenIn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -10638,6 +10818,7 @@
 			baseConfigurationReference = 1E78F209B9DF15AA93A83449 /* Pods-OpenIn.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -10672,6 +10853,7 @@
 			baseConfigurationReference = 3E174732E1AE050726D91E40 /* Pods-OpenIn.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -10706,6 +10888,7 @@
 			baseConfigurationReference = AB66669E356CE016AF6D75B7 /* Pods-OpenIn.ci.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -10735,12 +10918,137 @@
 			};
 			name = CI;
 		};
+		2BE8513826C688D1003CA316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Extensions/Search/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE8513926C688D1003CA316 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Extensions/Search/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Adhoc;
+		};
+		2BE8513A26C688D1003CA316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Extensions/Search/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BE8513B26C688D1003CA316 /* CI */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Extensions/Search/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = CI;
+		};
 		2FCAE2341ABB51F900877008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFA2855CC836C6BC85CC4827 /* Pods-Storage.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11075,7 +11383,7 @@
 			baseConfigurationReference = 206D3535CE2C292003B52507 /* Pods-ShareTo.ci.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/ShareTo/Entitlements/ShareTo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11101,7 +11409,7 @@
 			baseConfigurationReference = 325B626FDD9E35A098A7FAC8 /* Pods-Shared.ci.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11132,7 +11440,7 @@
 			baseConfigurationReference = 793FA5EA29FC7837DA9F09B5 /* Pods-Storage.ci.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11405,7 +11713,7 @@
 			baseConfigurationReference = E0C3FD153335C4EA455E6A78 /* Pods-ShareTo.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/ShareTo/Entitlements/ShareToAdHoc.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11431,7 +11739,7 @@
 			baseConfigurationReference = C3ACEE690E29AB32834E99DF /* Pods-Shared.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11461,7 +11769,7 @@
 			baseConfigurationReference = E78165CAC02269DD00B7CF08 /* Pods-Storage.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11760,7 +12068,7 @@
 			baseConfigurationReference = 35F86BE2E8E4AE3FA002A620 /* Pods-ShareTo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/ShareTo/Entitlements/ShareTo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11786,7 +12094,7 @@
 			baseConfigurationReference = 235465CE0354CACB06B20133 /* Pods-Shared.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -11817,7 +12125,7 @@
 			baseConfigurationReference = 0C382C71B5A388709DD6DCD4 /* Pods-Storage.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -12013,7 +12321,7 @@
 			baseConfigurationReference = 84ABA3E805A19707DE49E5EB /* Pods-ShareTo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/ShareTo/Entitlements/ShareToDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -12143,6 +12451,17 @@
 				2BE258E223BA2B4A0022ED28 /* Adhoc */,
 				2BE258E323BA2B4A0022ED28 /* Release */,
 				2BE258E423BA2B4A0022ED28 /* CI */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE8513C26C688D1003CA316 /* Build configuration list for PBXNativeTarget "Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8513826C688D1003CA316 /* Debug */,
+				2BE8513926C688D1003CA316 /* Adhoc */,
+				2BE8513A26C688D1003CA316 /* Release */,
+				2BE8513B26C688D1003CA316 /* CI */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

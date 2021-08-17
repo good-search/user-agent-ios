@@ -68,6 +68,7 @@ enum NavigationPath {
     case url(webURL: URL?, isPrivate: Bool)
     case deepLink(DeepLink)
     case text(String)
+    case widget(isPrivate: Bool)
 
     init?(url: URL) {
         let urlString = url.absoluteString
@@ -85,7 +86,10 @@ enum NavigationPath {
             return nil
         }
 
-        if urlString.starts(with: "\(scheme)://deep-link"), let deepURL = components.valueForQuery("url"), let link = DeepLink(urlString: deepURL.lowercased()) {
+        if urlString.starts(with: "\(scheme)://search-widget") {
+            let value = components.queryItems?.first(where: { $0.name == "isPrivate" })?.value ?? "0"
+            self = .widget(isPrivate: value == "1" ? true : false)
+        } else if urlString.starts(with: "\(scheme)://deep-link"), let deepURL = components.valueForQuery("url"), let link = DeepLink(urlString: deepURL.lowercased()) {
             self = .deepLink(link)
         } else if urlString.starts(with: "\(scheme)://open-url") {
             let url = components.valueForQuery("url")?.asURL
@@ -123,6 +127,7 @@ enum NavigationPath {
         case .deepLink(let link): NavigationPath.handleDeepLink(link, with: bvc)
         case .url(let url, let isPrivate): NavigationPath.handleURL(url: url, isPrivate: isPrivate, with: bvc)
         case .text(let text): NavigationPath.handleText(text: text, with: bvc)
+        case .widget(let isPrivate): NavigationPath.handleURL(url: nil, isPrivate: isPrivate, with: bvc)
         }
     }
 

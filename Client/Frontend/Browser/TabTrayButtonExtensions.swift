@@ -54,6 +54,7 @@ extension TabsButton {
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct PrivateModeButtonRepresentable: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
         let button = PrivateModeButton()

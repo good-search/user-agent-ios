@@ -16,7 +16,7 @@ private struct PhotonActionSheetCollectionCellUX {
     static let CellName = "PhotonActionSheetCollectionCell"
 }
 
-protocol PhotonActionSheetCollectionCellDelegate: class {
+protocol PhotonActionSheetCollectionCellDelegate: AnyObject {
     func collectionCellDidSelectItem(item: PhotonActionSheetItem)
 }
 

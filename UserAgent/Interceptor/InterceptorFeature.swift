@@ -10,7 +10,7 @@ import Foundation
 import WebKit
 import Shared
 
-protocol InterceptorUI: class {
+protocol InterceptorUI: AnyObject {
     func showAntiPhishingAlert(tab: Tab, url: URL, policy: InterceptorPolicy)
 }
 

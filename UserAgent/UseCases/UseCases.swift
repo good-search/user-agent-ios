@@ -9,7 +9,7 @@
 import Foundation
 import Storage
 
-protocol UseCasesPresentationViewController: class {
+protocol UseCasesPresentationViewController: AnyObject {
     func switchOrOpenTabWithURL(_ url: URL)
     func submitURL(_ url: URL, visitType: VisitType, forTab tab: Tab)
     func openURLInNewTab(_ url: URL, isPrivate: Bool)

@@ -54,6 +54,7 @@ fileprivate extension PrivacyIndicator.Widget {
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct SwiftLeeViewRepresentable: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
         return PrivacyIndicator.Widget()
@@ -65,6 +66,7 @@ struct SwiftLeeViewRepresentable: UIViewRepresentable {
         v.update(arcs: arcs, strike: strike)
     }
 }
+
 @available(iOS 13.0, *)
 struct SwiftLeeViewController_Preview: PreviewProvider {
     static var previews: some View {
