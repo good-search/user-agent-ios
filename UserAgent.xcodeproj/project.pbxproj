@@ -43,7 +43,6 @@
 		28E08C991AF44EF9009BA2FA /* SQLiteHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAE2551ABB531100877008 /* SQLiteHistory.swift */; };
 		28E08C9A1AF44F00009BA2FA /* BrowserSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282915E51AF1A7920006EEB5 /* BrowserSchema.swift */; };
 		2B05DA6B26C69F32001D5E1F /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288A2D861AB8B3260023ABC3 /* Shared.framework */; };
-		2B05DA6C26C69F32001D5E1F /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 288A2D861AB8B3260023ABC3 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2B05DA7026C6A301001D5E1F /* brand.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B139CFA24B4B23800D43BDA /* brand.strings */; };
 		2B05DA7126C6A4BE001D5E1F /* Search.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92A424B5EFD8007B4F2D /* Search.strings */; };
 		2B05DA7226C6A5AF001D5E1F /* Search.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8513226C688D1003CA316 /* Search.xcassets */; };
@@ -2007,17 +2006,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2B05DA6F26C69F32001D5E1F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2B05DA6C26C69F32001D5E1F /* Shared.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B6570B424AB68A7005DE5D3 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5593,7 +5581,6 @@
 				2BE8512626C688CF003CA316 /* Sources */,
 				2BE8512726C688CF003CA316 /* Frameworks */,
 				2BE8512826C688CF003CA316 /* Resources */,
-				2B05DA6F26C69F32001D5E1F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -10943,6 +10930,7 @@
 				INFOPLIST_FILE = Extensions/Search/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
@@ -10974,6 +10962,7 @@
 				INFOPLIST_FILE = Extensions/Search/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -11004,6 +10993,7 @@
 				INFOPLIST_FILE = Extensions/Search/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -11034,6 +11024,7 @@
 				INFOPLIST_FILE = Extensions/Search/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}.Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
