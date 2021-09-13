@@ -41,6 +41,8 @@ struct SearchEntryView: View {
     var body: some View {
         VStack {
             Image("icon")
+                .resizable()
+                .scaledToFit()
             Spacer()
             HStack {
                 if self.entry.family == .systemMedium {
