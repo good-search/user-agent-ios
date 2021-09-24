@@ -222,7 +222,6 @@
 		2B1BF0F426FB764D000E6C03 /* ReaderModeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47616C61AB74CA600E7DD25 /* ReaderModeBarView.swift */; };
 		2B1BF0F526FB764D000E6C03 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9072242477CF490003ADC1 /* UIImageViewExtensions.swift */; };
 		2B1BF0F626FB764D000E6C03 /* SiriSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821E9052141B71C00452C55 /* SiriSettingsViewController.swift */; };
-		2B1BF0F726FB764D000E6C03 /* Strings+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2EE624AF1AB600C2A9CB /* Strings+Intro.swift */; };
 		2B1BF0F826FB764D000E6C03 /* ContentBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB894F8219398E500EB91A0 /* ContentBlocker.swift */; };
 		2B1BF0F926FB764D000E6C03 /* PhotonActionSheetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88FDA9E1F4E2B9200FD9709 /* PhotonActionSheetProtocol.swift */; };
 		2B1BF0FA26FB764D000E6C03 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D28238BAC8B006D6B57 /* DownloadsViewController.swift */; };
@@ -239,9 +238,7 @@
 		2B1BF10526FB764D000E6C03 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44FCC41A9E85E900FD20CC /* SettingsTableViewController.swift */; };
 		2B1BF10626FB764D000E6C03 /* ErrorPageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC4869A2195F58200CDA48D /* ErrorPageHelper.swift */; };
 		2B1BF10726FB764D000E6C03 /* TabsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660BDD81BB06521009AC090 /* TabsButton.swift */; };
-		2B1BF10826FB764D000E6C03 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65719B24AB693E005DE5D3 /* Features.swift */; };
 		2B1BF10926FB764D000E6C03 /* SavedTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63306D3821103EAE00F25400 /* SavedTab.swift */; };
-		2B1BF10A26FB764D000E6C03 /* Onboarding+Cliqz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2EE524AF1AB600C2A9CB /* Onboarding+Cliqz.swift */; };
 		2B1BF10B26FB764D000E6C03 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B91209790B60074B35F /* Toast.swift */; };
 		2B1BF10C26FB764D000E6C03 /* LibraryContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D2B238BAC8B006D6B57 /* LibraryContextMenu.swift */; };
 		2B1BF10D26FB764D000E6C03 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34DC84D1A16C40C00D49B7B /* Profile.swift */; };
@@ -272,7 +269,6 @@
 		2B1BF12626FB764D000E6C03 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620EA482350ABF9004586CF /* Search.swift */; };
 		2B1BF12726FB764D000E6C03 /* ScreenshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F95E81AC226CB005C9F3B /* ScreenshotHelper.swift */; };
 		2B1BF12826FB764D000E6C03 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9660B236B33C1003C23F3 /* Constants.m */; };
-		2B1BF12926FB764D000E6C03 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2EE424AF1AB600C2A9CB /* IntroViewController.swift */; };
 		2B1BF12A26FB764D000E6C03 /* NativeFaviconFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79E41A2481041500263B90 /* NativeFaviconFetcher.swift */; };
 		2B1BF12B26FB764D000E6C03 /* AutoCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A4C4D5234775A800F4BCE0 /* AutoCompletion.m */; };
 		2B1BF12C26FB764D000E6C03 /* HomeBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3DB2A252F1ADD00AAE8B5 /* HomeBackgroundViewController.swift */; };
@@ -338,14 +334,12 @@
 		2B1BF16826FB764D000E6C03 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04CD749216CF86B004FF5B0 /* InstructionsViewController.swift */; };
 		2B1BF16926FB764D000E6C03 /* WindowCryto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C247923ED73D700D922B0 /* WindowCryto.swift */; };
 		2B1BF16A26FB764D000E6C03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E96608236B33A1003C23F3 /* Constants.swift */; };
-		2B1BF16C26FB764D000E6C03 /* brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6571A424AB693E005DE5D3 /* brand.xcassets */; };
 		2B1BF16D26FB764D000E6C03 /* CertError.html in Resources */ = {isa = PBXBuildFile; fileRef = D38A1EDF1CB458EC0080C842 /* CertError.html */; };
 		2B1BF16E26FB764D000E6C03 /* NetError.css in Resources */ = {isa = PBXBuildFile; fileRef = 0BA1E02F1B051A07007675AF /* NetError.css */; };
 		2B1BF16F26FB764D000E6C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84B21EF1A0910F600AAB793 /* Images.xcassets */; };
 		2B1BF17026FB764D000E6C03 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC6EC5E232945FF000F5499 /* Colors.xcassets */; };
 		2B1BF17126FB764D000E6C03 /* ForgetMode.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92B624B5EFD8007B4F2D /* ForgetMode.strings */; };
 		2B1BF17226FB764D000E6C03 /* SessionRestore.html in Resources */ = {isa = PBXBuildFile; fileRef = F35B8D2A1D6380EA008E3D61 /* SessionRestore.html */; };
-		2B1BF17326FB764D000E6C03 /* Intro.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D2EE124AF1AB600C2A9CB /* Intro.strings */; };
 		2B1BF17426FB764D000E6C03 /* Menu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92A824B5EFD8007B4F2D /* Menu.strings */; };
 		2B1BF17526FB764D000E6C03 /* Menu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B42406D1CA04CAC009B5C28 /* Menu.xcassets */; };
 		2B1BF17626FB764D000E6C03 /* Storage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92A224B5EFD8007B4F2D /* Storage.strings */; };
@@ -355,18 +349,13 @@
 		2B1BF17A26FB764D000E6C03 /* Licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = E69922121B94E3EF007C480D /* Licenses.html */; };
 		2B1BF17B26FB764D000E6C03 /* Reader.css in Resources */ = {isa = PBXBuildFile; fileRef = E4CD9F5A1A71506C00318571 /* Reader.css */; };
 		2B1BF17C26FB764D000E6C03 /* AllFramesAtDocumentEnd.js in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF8031FE4772C004A7995 /* AllFramesAtDocumentEnd.js */; };
-		2B1BF17D26FB764D000E6C03 /* brand.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B139CFA24B4B23800D43BDA /* brand.strings */; };
 		2B1BF17E26FB764D000E6C03 /* topdomains.txt in Resources */ = {isa = PBXBuildFile; fileRef = D37524861C6E8B5A00A5F6C2 /* topdomains.txt */; };
 		2B1BF17F26FB764D000E6C03 /* safari-ads-network.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620EA4E2354C59F004586CF /* safari-ads-network.json */; };
 		2B1BF18026FB764D000E6C03 /* PrivacyIndicatorColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD654782360927F002D2EE0 /* PrivacyIndicatorColors.xcassets */; };
-		2B1BF18126FB764D000E6C03 /* BrandColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6571A124AB693E005DE5D3 /* BrandColors.xcassets */; };
 		2B1BF18226FB764D000E6C03 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CA610123180E1A0010CE6B /* Icons.xcassets */; };
 		2B1BF18326FB764D000E6C03 /* Search.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92A424B5EFD8007B4F2D /* Search.strings */; };
 		2B1BF18426FB764D000E6C03 /* FocusHelper.js in Resources */ = {isa = PBXBuildFile; fileRef = 39F4C0F92045D87400746155 /* FocusHelper.js */; };
 		2B1BF18526FB764D000E6C03 /* Settings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92C024B5EFD8007B4F2D /* Settings.strings */; };
-		2B1BF18626FB764D000E6C03 /* Intro.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D2EE724AF1AB600C2A9CB /* Intro.xcassets */; };
-		2B1BF18726FB764D000E6C03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B36FC0124B34E5500D61D6A /* GoogleService-Info.plist */; };
-		2B1BF18826FB764D000E6C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B65717724AB693E005DE5D3 /* InfoPlist.strings */; };
 		2B1BF18926FB764D000E6C03 /* ErrorPages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92BC24B5EFD8007B4F2D /* ErrorPages.strings */; };
 		2B1BF18A26FB764D000E6C03 /* MainFrameAtDocumentStart.js in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF8051FE4772D004A7995 /* MainFrameAtDocumentStart.js */; };
 		2B1BF18B26FB764D000E6C03 /* ContextualOnboarding.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92A624B5EFD8007B4F2D /* ContextualOnboarding.strings */; };
@@ -385,7 +374,6 @@
 		2B1BF19826FB764D000E6C03 /* General.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92B024B5EFD8007B4F2D /* General.strings */; };
 		2B1BF19926FB764D000E6C03 /* UserAgent.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD92AC24B5EFD8007B4F2D /* UserAgent.strings */; };
 		2B1BF19A26FB764D000E6C03 /* safari-popups-network.json in Resources */ = {isa = PBXBuildFile; fileRef = 460C247523EB0D3200D922B0 /* safari-popups-network.json */; };
-		2B1BF19B26FB764D000E6C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B173724B7435B00082787 /* LaunchScreen.storyboard */; };
 		2B1BF19C26FB764D000E6C03 /* ReaderViewLoading.html in Resources */ = {isa = PBXBuildFile; fileRef = E4A961371AC06FA50069AD6F /* ReaderViewLoading.html */; };
 		2B1BF19D26FB764D000E6C03 /* tracker_db_v2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B03608F2350B07200273A24 /* tracker_db_v2.json */; };
 		2B1BF19E26FB764D000E6C03 /* SendTo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE7634F20ADCB7500E27F2D /* SendTo.xcassets */; };
@@ -421,6 +409,18 @@
 		2B4400E4242B9C7D00DD26DE /* SearchWithHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4400E3242B9C7D00DD26DE /* SearchWithHandling.swift */; };
 		2B4400E8242B9DB500DD26DE /* SiriActivityTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4400E5242B9DB500DD26DE /* SiriActivityTypes.swift */; };
 		2B4400EB242BA02300DD26DE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2B4400ED242BA02300DD26DE /* Intents.intentdefinition */; };
+		2B491E6B26FDCDAF00E185D4 /* brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEEB026FB7409000E6C03 /* brand.xcassets */; };
+		2B491E6C26FDCDDD00E185D4 /* BrandColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEEAC26FB7409000E6C03 /* BrandColors.xcassets */; };
+		2B491E6D26FDCDE200E185D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8426FB7409000E6C03 /* LaunchScreen.storyboard */; };
+		2B491E6E26FDCDF100E185D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEE7726FB7409000E6C03 /* InfoPlist.strings */; };
+		2B491E7026FDCDFE00E185D4 /* brand.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEE7B26FB7409000E6C03 /* brand.strings */; };
+		2B491E7226FDCE4400E185D4 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BEEA726FB7409000E6C03 /* Features.swift */; };
+		2B491E7326FDCE5000E185D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8D26FB7409000E6C03 /* GoogleService-Info.plist */; };
+		2B491E7426FDCE6600E185D4 /* Intro.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8626FB7409000E6C03 /* Intro.strings */; };
+		2B491E7526FDCE6900E185D4 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8926FB7409000E6C03 /* IntroViewController.swift */; };
+		2B491E7626FDCE6C00E185D4 /* Onboarding+Cliqz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8A26FB7409000E6C03 /* Onboarding+Cliqz.swift */; };
+		2B491E7726FDCE6E00E185D4 /* Strings+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8B26FB7409000E6C03 /* Strings+Intro.swift */; };
+		2B491E7826FDCE7100E185D4 /* Intro.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BEE8C26FB7409000E6C03 /* Intro.xcassets */; };
 		2B4EFBDD239E6F53007A10E0 /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C744CC1A687D6C004CE85D /* URIFixup.swift */; };
 		2B571CB124E6783E00F17C1A /* brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD2B4224E676060098F3D1 /* brand.xcassets */; };
 		2B571CB224E6785500F17C1A /* Intro.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD2B1924E676060098F3D1 /* Intro.strings */; };
@@ -2626,9 +2626,9 @@
 		2B1BEE7826FB7409000E6C03 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B1BEE7A26FB7409000E6C03 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ForgetMode.strings; sourceTree = "<group>"; };
 		2B1BEE7C26FB7409000E6C03 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/brand.strings; sourceTree = "<group>"; };
-		2B1BEE7E26FB7409000E6C03 /* GexsiDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GexsiDebug.xcconfig; sourceTree = "<group>"; };
-		2B1BEE7F26FB7409000E6C03 /* GexsiAdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GexsiAdHoc.xcconfig; sourceTree = "<group>"; };
-		2B1BEE8026FB7409000E6C03 /* GexsiRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GexsiRelease.xcconfig; sourceTree = "<group>"; };
+		2B1BEE7E26FB7409000E6C03 /* SuchHierDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SuchHierDebug.xcconfig; sourceTree = "<group>"; };
+		2B1BEE7F26FB7409000E6C03 /* SuchHierAdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SuchHierAdHoc.xcconfig; sourceTree = "<group>"; };
+		2B1BEE8026FB7409000E6C03 /* SuchHierRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SuchHierRelease.xcconfig; sourceTree = "<group>"; };
 		2B1BEE8126FB7409000E6C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B1BEE8226FB7409000E6C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ForgetMode.strings; sourceTree = "<group>"; };
 		2B1BEE8326FB7409000E6C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/brand.strings; sourceTree = "<group>"; };
@@ -3909,9 +3909,9 @@
 		2B1BEE7D26FB7409000E6C03 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				2B1BEE7E26FB7409000E6C03 /* GexsiDebug.xcconfig */,
-				2B1BEE7F26FB7409000E6C03 /* GexsiAdHoc.xcconfig */,
-				2B1BEE8026FB7409000E6C03 /* GexsiRelease.xcconfig */,
+				2B1BEE7E26FB7409000E6C03 /* SuchHierDebug.xcconfig */,
+				2B1BEE7F26FB7409000E6C03 /* SuchHierAdHoc.xcconfig */,
+				2B1BEE8026FB7409000E6C03 /* SuchHierRelease.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -6584,16 +6584,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1BF16C26FB764D000E6C03 /* brand.xcassets in Resources */,
 				2B1BF16D26FB764D000E6C03 /* CertError.html in Resources */,
 				2B1BF16E26FB764D000E6C03 /* NetError.css in Resources */,
 				2B1BF16F26FB764D000E6C03 /* Images.xcassets in Resources */,
 				2B1BF17026FB764D000E6C03 /* Colors.xcassets in Resources */,
 				2B1BF17126FB764D000E6C03 /* ForgetMode.strings in Resources */,
 				2B1BF17226FB764D000E6C03 /* SessionRestore.html in Resources */,
-				2B1BF17326FB764D000E6C03 /* Intro.strings in Resources */,
+				2B491E6D26FDCDE200E185D4 /* LaunchScreen.storyboard in Resources */,
 				2B1BF17426FB764D000E6C03 /* Menu.strings in Resources */,
 				2B1BF17526FB764D000E6C03 /* Menu.xcassets in Resources */,
+				2B491E6E26FDCDF100E185D4 /* InfoPlist.strings in Resources */,
+				2B491E7326FDCE5000E185D4 /* GoogleService-Info.plist in Resources */,
+				2B491E6C26FDCDDD00E185D4 /* BrandColors.xcassets in Resources */,
 				2B1BF17626FB764D000E6C03 /* Storage.strings in Resources */,
 				2B1BF17726FB764D000E6C03 /* top_sites.json in Resources */,
 				2B1BF17826FB764D000E6C03 /* Reader.html in Resources */,
@@ -6601,18 +6603,13 @@
 				2B1BF17A26FB764D000E6C03 /* Licenses.html in Resources */,
 				2B1BF17B26FB764D000E6C03 /* Reader.css in Resources */,
 				2B1BF17C26FB764D000E6C03 /* AllFramesAtDocumentEnd.js in Resources */,
-				2B1BF17D26FB764D000E6C03 /* brand.strings in Resources */,
 				2B1BF17E26FB764D000E6C03 /* topdomains.txt in Resources */,
 				2B1BF17F26FB764D000E6C03 /* safari-ads-network.json in Resources */,
 				2B1BF18026FB764D000E6C03 /* PrivacyIndicatorColors.xcassets in Resources */,
-				2B1BF18126FB764D000E6C03 /* BrandColors.xcassets in Resources */,
 				2B1BF18226FB764D000E6C03 /* Icons.xcassets in Resources */,
 				2B1BF18326FB764D000E6C03 /* Search.strings in Resources */,
 				2B1BF18426FB764D000E6C03 /* FocusHelper.js in Resources */,
 				2B1BF18526FB764D000E6C03 /* Settings.strings in Resources */,
-				2B1BF18626FB764D000E6C03 /* Intro.xcassets in Resources */,
-				2B1BF18726FB764D000E6C03 /* GoogleService-Info.plist in Resources */,
-				2B1BF18826FB764D000E6C03 /* InfoPlist.strings in Resources */,
 				2B1BF18926FB764D000E6C03 /* ErrorPages.strings in Resources */,
 				2B1BF18A26FB764D000E6C03 /* MainFrameAtDocumentStart.js in Resources */,
 				2B1BF18B26FB764D000E6C03 /* ContextualOnboarding.strings in Resources */,
@@ -6622,22 +6619,25 @@
 				2B1BF18F26FB764D000E6C03 /* ReaderMode.strings in Resources */,
 				2B1BF19026FB764D000E6C03 /* adult-domains.bin in Resources */,
 				2B1BF19126FB764D000E6C03 /* ControlCenter.strings in Resources */,
+				2B491E7426FDCE6600E185D4 /* Intro.strings in Resources */,
 				2B1BF19226FB764D000E6C03 /* Localizable.strings in Resources */,
 				2B1BF19326FB764D000E6C03 /* CertError.css in Resources */,
+				2B491E7826FDCE7100E185D4 /* Intro.xcassets in Resources */,
 				2B1BF19426FB764D000E6C03 /* safari-popups-cosmetic.json in Resources */,
 				2B1BF19526FB764D000E6C03 /* safari-tracking-network.json in Resources */,
 				2B1BF19626FB764D000E6C03 /* NetError.html in Resources */,
 				2B1BF19726FB764D000E6C03 /* safari-ads-cosmetic.json in Resources */,
 				2B1BF19826FB764D000E6C03 /* General.strings in Resources */,
+				2B491E7026FDCDFE00E185D4 /* brand.strings in Resources */,
 				2B1BF19926FB764D000E6C03 /* UserAgent.strings in Resources */,
 				2B1BF19A26FB764D000E6C03 /* safari-popups-network.json in Resources */,
-				2B1BF19B26FB764D000E6C03 /* LaunchScreen.storyboard in Resources */,
 				2B1BF19C26FB764D000E6C03 /* ReaderViewLoading.html in Resources */,
 				2B1BF19D26FB764D000E6C03 /* tracker_db_v2.json in Resources */,
 				2B1BF19E26FB764D000E6C03 /* SendTo.xcassets in Resources */,
 				2B1BF19F26FB764D000E6C03 /* FxASignIn.js in Resources */,
 				2B1BF1A026FB764D000E6C03 /* AlertController.strings in Resources */,
 				2B1BF1A126FB764D000E6C03 /* MenuHelper.strings in Resources */,
+				2B491E6B26FDCDAF00E185D4 /* brand.xcassets in Resources */,
 				2B1BF1A226FB764D000E6C03 /* Accessibility.strings in Resources */,
 				2B1BF1A326FB764D000E6C03 /* SpotlightHelper.js in Resources */,
 				2B1BF1A426FB764D000E6C03 /* MainFrameAtDocumentEnd.js in Resources */,
@@ -8370,6 +8370,7 @@
 				2B1BF0B526FB764D000E6C03 /* PhotonActionSheetCollectionCell.swift in Sources */,
 				2B1BF0B626FB764D000E6C03 /* InnerStrokedView.swift in Sources */,
 				2B1BF0B726FB764D000E6C03 /* OpenInHelper.swift in Sources */,
+				2B491E7526FDCE6900E185D4 /* IntroViewController.swift in Sources */,
 				2B1BF0B826FB764D000E6C03 /* ReaderModeCache.swift in Sources */,
 				2B1BF0B926FB764D000E6C03 /* TopSitesView.swift in Sources */,
 				2B1BF0BA26FB764D000E6C03 /* TabTrayController+KeyCommands.swift in Sources */,
@@ -8390,6 +8391,7 @@
 				2B1BF0C926FB764D000E6C03 /* SearchResultsViewController.swift in Sources */,
 				2B1BF0CA26FB764D000E6C03 /* TranslationSettingsController.swift in Sources */,
 				2B1BF0CB26FB764D000E6C03 /* OpenSearch.swift in Sources */,
+				2B491E7626FDCE6C00E185D4 /* Onboarding+Cliqz.swift in Sources */,
 				2B1BF0CC26FB764D000E6C03 /* BrowserViewController+DownloadQueueDelegate.swift in Sources */,
 				2B1BF0CD26FB764D000E6C03 /* SearchSettingsTableViewController.swift in Sources */,
 				2B1BF0CE26FB764D000E6C03 /* UserActivityHandler.swift in Sources */,
@@ -8433,7 +8435,6 @@
 				2B1BF0F426FB764D000E6C03 /* ReaderModeBarView.swift in Sources */,
 				2B1BF0F526FB764D000E6C03 /* UIImageViewExtensions.swift in Sources */,
 				2B1BF0F626FB764D000E6C03 /* SiriSettingsViewController.swift in Sources */,
-				2B1BF0F726FB764D000E6C03 /* Strings+Intro.swift in Sources */,
 				2B1BF0F826FB764D000E6C03 /* ContentBlocker.swift in Sources */,
 				2B1BF0F926FB764D000E6C03 /* PhotonActionSheetProtocol.swift in Sources */,
 				2B1BF0FA26FB764D000E6C03 /* DownloadsViewController.swift in Sources */,
@@ -8450,9 +8451,7 @@
 				2B1BF10526FB764D000E6C03 /* SettingsTableViewController.swift in Sources */,
 				2B1BF10626FB764D000E6C03 /* ErrorPageHelper.swift in Sources */,
 				2B1BF10726FB764D000E6C03 /* TabsButton.swift in Sources */,
-				2B1BF10826FB764D000E6C03 /* Features.swift in Sources */,
 				2B1BF10926FB764D000E6C03 /* SavedTab.swift in Sources */,
-				2B1BF10A26FB764D000E6C03 /* Onboarding+Cliqz.swift in Sources */,
 				2B1BF10B26FB764D000E6C03 /* Toast.swift in Sources */,
 				2B1BF10C26FB764D000E6C03 /* LibraryContextMenu.swift in Sources */,
 				2B1BF10D26FB764D000E6C03 /* Profile.swift in Sources */,
@@ -8483,7 +8482,7 @@
 				2B1BF12626FB764D000E6C03 /* Search.swift in Sources */,
 				2B1BF12726FB764D000E6C03 /* ScreenshotHelper.swift in Sources */,
 				2B1BF12826FB764D000E6C03 /* Constants.m in Sources */,
-				2B1BF12926FB764D000E6C03 /* IntroViewController.swift in Sources */,
+				2B491E7226FDCE4400E185D4 /* Features.swift in Sources */,
 				2B1BF12A26FB764D000E6C03 /* NativeFaviconFetcher.swift in Sources */,
 				2B1BF12B26FB764D000E6C03 /* AutoCompletion.m in Sources */,
 				2B1BF12C26FB764D000E6C03 /* HomeBackgroundViewController.swift in Sources */,
@@ -8537,6 +8536,7 @@
 				2B1BF15C26FB764D000E6C03 /* DebugSettingsBundleOptions.swift in Sources */,
 				2B1BF15D26FB764D000E6C03 /* LogoView.swift in Sources */,
 				2B1BF15E26FB764D000E6C03 /* BrowserCliqz.swift in Sources */,
+				2B491E7726FDCE6E00E185D4 /* Strings+Intro.swift in Sources */,
 				2B1BF15F26FB764D000E6C03 /* UIImage+ImageEffects.m in Sources */,
 				2B1BF16026FB764D000E6C03 /* ContentBlocker+Tracking+Whitelist.swift in Sources */,
 				2B1BF16126FB764D000E6C03 /* TabContentBlocker.swift in Sources */,

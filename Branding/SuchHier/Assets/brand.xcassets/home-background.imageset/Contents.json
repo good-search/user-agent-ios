@@ -1,13 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "gexsi_bg_tablet_gradiant.png",
+      "filename" : "HOME_Background.jpg",
       "idiom" : "universal"
-    },
-    {
-      "filename" : "gexsi_bg_mobile_gradiant.png",
-      "idiom" : "universal",
-      "width-class" : "compact"
     }
   ],
   "info" : {

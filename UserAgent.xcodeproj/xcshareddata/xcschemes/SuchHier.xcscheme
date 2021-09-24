@@ -15,7 +15,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "2B1BF03C26FB764D000E6C03"
-                     BuildableName = "Gexsi copy.app"
+                     BuildableName = "SuchHier.app"
                      BlueprintName = "SuchHier"
                      ReferencedContainer = "container:UserAgent.xcodeproj">
                   </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B1BF03C26FB764D000E6C03"
-               BuildableName = "Gexsi copy.app"
+               BuildableName = "SuchHier.app"
                BlueprintName = "SuchHier"
                ReferencedContainer = "container:UserAgent.xcodeproj">
             </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B1BF03C26FB764D000E6C03"
-            BuildableName = "Gexsi copy.app"
+            BuildableName = "SuchHier.app"
             BlueprintName = "SuchHier"
             ReferencedContainer = "container:UserAgent.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B1BF03C26FB764D000E6C03"
-            BuildableName = "Gexsi copy.app"
+            BuildableName = "SuchHier.app"
             BlueprintName = "SuchHier"
             ReferencedContainer = "container:UserAgent.xcodeproj">
          </BuildableReference>
