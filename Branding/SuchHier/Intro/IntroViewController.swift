@@ -15,14 +15,14 @@ struct IntroUX {
     static let TextColor = UIColor(hexString: "#607c85")
     static let SkipButtonColor = UIColor(hexString: "#97A4AE")
     static let SkipButtonHeight = 50
-    static let StartBrowsingButtonColor = UIColor.Brand
+    static let StartBrowsingButtonColor = UIColor.Second
     static let StartBrowsingButtonHeight = UIScreen.main.bounds.width <= 320 ? 40 : 50
     static let StartBrowsingButtonWidth = UIScreen.main.bounds.width <= 320 ? 200 : 240
     static let PageControlHeight = 40
     static let FadeDuration = 0.25
     static let LogoImageSize = 42.0
-    static let StartBrowsingBottomOffset = UIScreen.main.bounds.width <= 320 ? -30 : -20
-    static let ContainerImageTopOffes = -40.0
+    static let StartBrowsingBottomOffset = UIScreen.main.bounds.width <= 320 ? -20 : -10
+    static let ContainerImageTopOffes = -70.0
 }
 
 class IntroViewController: UIViewController {
@@ -45,7 +45,7 @@ class IntroViewController: UIViewController {
     lazy var pageControl: UIPageControl = {
         let pc = UIPageControl()
         pc.pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.3)
-        pc.currentPageIndicatorTintColor = UIColor.Brand
+        pc.currentPageIndicatorTintColor = UIColor.Second
         pc.accessibilityIdentifier = "IntroViewController.pageControl"
         pc.addTarget(self, action: #selector(IntroViewController.changePage), for: UIControl.Event.valueChanged)
         return pc
@@ -109,7 +109,7 @@ class IntroViewController: UIViewController {
             make.bottom.equalTo(imageViewContainer)
         }
         imageViewContainer.snp.makeConstraints { make in
-            make.top.equalTo(self.view.safeAreaLayoutGuide.snp.topMargin)
+            make.top.equalTo(self.view.snp.top)
             make.left.equalTo(self.scrollView)
             make.height.equalTo(self.view.snp.height).multipliedBy(0.5)
         }
@@ -165,11 +165,17 @@ class IntroViewController: UIViewController {
         let imageView = UIImageView(image: image)
         imageView.contentMode = card.imageContentMode
         imageContentView.addSubview(imageView)
-        imageView.snp.makeConstraints { make in
-            make.bottom.equalTo(imageContentView)
-            make.height.equalTo(imageContentView.snp.height).offset(IntroUX.ContainerImageTopOffes)
-            make.centerX.equalTo(imageContentView.snp.centerX)
-            make.height.equalTo(imageView.snp.width).multipliedBy(975.0/879.0)
+        if card.isImageFullScreen {
+            imageView.snp.makeConstraints { make in
+                make.edges.equalToSuperview()
+            }
+        } else {
+            imageView.snp.makeConstraints { make in
+                make.bottom.equalTo(imageContentView)
+                make.height.equalTo(imageContentView.snp.height).offset(IntroUX.ContainerImageTopOffes)
+                make.centerX.equalTo(imageContentView.snp.centerX)
+//                make.height.equalTo(imageView.snp.width).multipliedBy(975.0/879.0)
+            }
         }
         imageViewContainer.addArrangedSubview(imageContentView)
         imageContentView.snp.makeConstraints { make in
@@ -292,8 +298,7 @@ extension IntroViewController: UIScrollViewDelegate {
         if self.cards.count > page {
             self.logoImageView.isHidden = false
             if self.cards.count == page + 1 {
-                self.logoImageView.image = nil
-                self.logoImageView.isHidden = true
+                self.logoImageView.image = UIImage(named: "tour-LogoFull")
             } else if page == 1 {
                 self.logoImageView.image = UIImage(named: "tour-lock")
             } else {
@@ -408,8 +413,9 @@ struct IntroCard {
     let imageName: String
     let imageContentMode: UIView.ContentMode
     let imageBackgroundColor: UIColor
+    let isImageFullScreen: Bool
 
-    init(title: String, text: String, imageName: String, imageContentMode: UIView.ContentMode = .center, imageBackgroundColor: UIColor = UIColor.White, buttonText: String? = nil, buttonSelector: String? = nil) {
+    init(title: String, text: String, imageName: String, imageContentMode: UIView.ContentMode = .center, imageBackgroundColor: UIColor = UIColor.White, buttonText: String? = nil, buttonSelector: String? = nil, isImageFullScreen: Bool = false) {
         self.title = title
         self.text = text
         self.imageName = imageName
@@ -417,12 +423,13 @@ struct IntroCard {
         self.buttonSelector = buttonSelector
         self.imageBackgroundColor = imageBackgroundColor
         self.imageContentMode = imageContentMode
+        self.isImageFullScreen = isImageFullScreen
     }
 
     static func defaultCards() -> [IntroCard] {
         let search = IntroCard(title: Strings.Intro.Slides.Search.Title, text: Strings.Intro.Slides.Search.Description, imageName: "tour-Search", imageContentMode: .scaleAspectFit, imageBackgroundColor: UIColor.Brand)
         let antiTracking = IntroCard(title: Strings.Intro.Slides.AntiTracking.Title, text: Strings.Intro.Slides.AntiTracking.Description, imageName: "tour-antiTracking", imageContentMode: .scaleAspectFit, imageBackgroundColor: UIColor.Brand)
-        let welcome = IntroCard(title: "", text: Strings.Intro.Slides.Welcome.Description, imageName: "tour-LogoFull", imageContentMode: .scaleToFill, buttonText: Strings.Intro.Slides.Welcome.ButtonTitle, buttonSelector: #selector(IntroViewController.startBrowsing).description)
+        let welcome = IntroCard(title: Strings.Intro.Slides.Welcome.Title, text: Strings.Intro.Slides.Welcome.Description, imageName: "tour-welcome", imageContentMode: .scaleToFill, imageBackgroundColor: UIColor.Brand, buttonText: Strings.Intro.Slides.Welcome.ButtonTitle, buttonSelector: #selector(IntroViewController.startBrowsing).description, isImageFullScreen: true)
         return [search, antiTracking, welcome]
     }
 
