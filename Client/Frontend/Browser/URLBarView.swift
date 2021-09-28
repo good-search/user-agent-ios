@@ -13,7 +13,7 @@ private struct URLBarViewUX {
     static let Padding: CGFloat = 10
     static let ButtonHeight: CGFloat = 36
 
-    static let TextFieldCornerRadius: CGFloat = 18
+    static let TextFieldCornerRadius: CGFloat = Features.Home.SearchBar.iOSCornerRadius
     static let TextFieldBorderWidth: CGFloat = 0
     static let TextFieldBorderWidthSelected: CGFloat = 0
     static let ProgressBarHeight: CGFloat = 4

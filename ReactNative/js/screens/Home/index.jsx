@@ -61,6 +61,7 @@ const getStyles = (toolbarHeight, isNewsEnabled, isPhoneLandscape) => {
       height: '20%',
       paddingHorizontal: 10,
       width: '100%',
+      alignSelf: 'center',
       justifyContent: 'center',
     },
     speedDialsContainer: {
@@ -168,8 +169,8 @@ export default function Home({
             />
           </View>
 
-          <View style={styles.urlBarWrapper}>
-            <UrlBar />
+          <View style={[styles.urlBarWrapper, {width: Features.Home.SearchBar.widthPercent}]}>
+            <UrlBar Features={Features}/>
           </View>
           
           <View style={styles.speedDialsContainer}>

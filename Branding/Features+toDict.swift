@@ -38,6 +38,10 @@ extension Features {
                 "TopSites": [
                     "isEnabled": Features.Home.TopSites.isEnabled,
                 ],
+                "SearchBar": [
+                    "cornerRadius": Features.Home.SearchBar.reactCornerRadius,
+                    "widthPercent": Features.Home.SearchBar.widthPercent,
+                ],
             ],
             "Icons": [
                 "type": Features.Icons.type.rawValue,

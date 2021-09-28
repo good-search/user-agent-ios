@@ -47,6 +47,18 @@ extension Features.Home.DynamicBackgrounds {
     }
 }
 
+extension Features.Home.SearchBar {
+    public static var reactCornerRadius: CGFloat {
+        return 10.0
+    }
+    public static var iOSCornerRadius: CGFloat {
+        return 8.0
+    }
+    public static var widthPercent: String {
+        return "85%"
+    }
+}
+
 extension Features.HumanWeb {
     public static var isEnabled: Bool {
         return false

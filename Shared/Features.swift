@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 public struct Features {
     public struct BrowserCore {
@@ -112,6 +113,17 @@ public struct Features {
         public struct DynamicBackgrounds {
             public static var isEnabled: Bool {
                 return true
+            }
+        }
+        public struct SearchBar {
+            public static var reactCornerRadius: CGFloat {
+                return 40.0
+            }
+            public static var iOSCornerRadius: CGFloat {
+                return 18.0
+            }
+            public static var widthPercent: String {
+                return "100%"
             }
         }
         public struct TopSites {
