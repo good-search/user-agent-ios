@@ -6,14 +6,14 @@
   Copyright © 2019 Cliqz. All rights reserved.
 */
 
-"website" = "https://suchhier.de/";
-"whatsNewWebsite" = "https://suchhier.de/#more";
+"website" = "https://suchhier.de/index.php";
+"whatsNewWebsite" = "https://suchhier.de/index.php#projekte";
 "humanWebInfoWebsite" = "https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html";
 "repositoryWebsite" = "https://github.com/cliqz/user-agent-ios";
 "privacyPolicyWebsite" = "https://suchhier.de/datenschutz.php";
-"contact" = "https://suchhier.de/#more";
-"about" = "https://suchhier.de/#more";
-"faq" = "https://suchhier.de/#faq";
+"contact" = "https://suchhier.de/kontakt.php";
+"about" = "https://suchhier.de/index.php#more";
+"faq" = "https://suchhier.de/index.php#faq";
 "termsOfUse" = "https://suchhier.de/nutzungsbedingungen.php";
 "licensesHeader" = "SuchHier";
 
@@ -21,4 +21,4 @@
 "UrlBar.Placeholder" = "Suche mit Herz";
 
 /* Label for the button, displayed in the menu, used to open the What's new page. */
-"Menu.OpenWhatsNewAction.Title" = "Aktuelles Projekt";
+"Menu.OpenWhatsNewAction.Title" = "Current Project";

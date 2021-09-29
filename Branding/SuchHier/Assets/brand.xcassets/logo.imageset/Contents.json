@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "gexsi-logo.png",
+      "filename" : "suchhier-logo-negativ-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "gexsi-logo-1.png",
+      "filename" : "suchhier-logo-negativ.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "gexsi-logo-2.png",
+      "filename" : "suchhier-logo-negativ-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -59,6 +59,12 @@ extension Features.Home.SearchBar {
     }
 }
 
+extension Features.Home.TopSites {
+    public static var isEnabled: Bool {
+        return false
+    }
+}
+
 extension Features.HumanWeb {
     public static var isEnabled: Bool {
         return false

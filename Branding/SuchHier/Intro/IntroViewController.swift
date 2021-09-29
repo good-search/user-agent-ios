@@ -174,7 +174,7 @@ class IntroViewController: UIViewController {
                 make.bottom.equalTo(imageContentView)
                 make.height.equalTo(imageContentView.snp.height).offset(IntroUX.ContainerImageTopOffes)
                 make.centerX.equalTo(imageContentView.snp.centerX)
-//                make.height.equalTo(imageView.snp.width).multipliedBy(975.0/879.0)
+                make.height.equalTo(imageView.snp.width).multipliedBy(975.0/879.0)
             }
         }
         imageViewContainer.addArrangedSubview(imageContentView)
