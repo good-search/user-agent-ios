@@ -149,7 +149,7 @@ export default function Home({
     );
     hideKeyboard();
   }, [telemetry]);
-
+  const isBig = Features.Home.Banner.isBig;
   return (
     <ScrollView
       ref={scrollViewElement}
@@ -161,9 +161,9 @@ export default function Home({
     >
       <Background height={height - (isPhoneLandscape ? 0 : toolbarHeight)} backgroundImageUri={backgroundImageUri} Features={Features}>
         <View style={styles.wrapper}>
-          <View style={styles.logoWrapper}>
+          <View style={[styles.logoWrapper, {height: isBig ? '40%' : '20%'}]}>
             <Image
-              style={styles.logo}
+              style={[styles.logo, {height: isBig ? '90%' : '40%'}]}
               source={{ uri: 'banner' }}
               resizeMode="contain"
             />

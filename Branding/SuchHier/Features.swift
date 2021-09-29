@@ -59,6 +59,12 @@ extension Features.Home.SearchBar {
     }
 }
 
+extension Features.Home.Banner {
+    public static var isBig: Bool {
+        return false
+    }
+}
+
 extension Features.Home.TopSites {
     public static var isEnabled: Bool {
         return false

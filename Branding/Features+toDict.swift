@@ -42,6 +42,9 @@ extension Features {
                     "cornerRadius": Features.Home.SearchBar.reactCornerRadius,
                     "widthPercent": Features.Home.SearchBar.widthPercent,
                 ],
+                "Banner": [
+                    "isBig": Features.Home.Banner.isBig,
+                ],
             ],
             "Icons": [
                 "type": Features.Icons.type.rawValue,

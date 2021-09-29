@@ -115,6 +115,11 @@ public struct Features {
                 return true
             }
         }
+        public struct Banner {
+            public static var isBig: Bool {
+                return true
+            }
+        }
         public struct SearchBar {
             public static var reactCornerRadius: CGFloat {
                 return 40.0
