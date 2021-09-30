@@ -94,3 +94,9 @@ extension Features.PrivacyDashboard.ReportPage {
         return false
     }
 }
+
+extension Features.PrivacyDashboard {
+    public static var isAdBlockingEnabled: Bool {
+        return false
+    }
+}
