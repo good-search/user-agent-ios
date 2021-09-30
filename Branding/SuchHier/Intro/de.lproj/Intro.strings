@@ -1,0 +1,24 @@
+
+/* Description for the 'AntiTracking' panel in the First Run tour. */
+"Intro.Slides.AntiTracking.Description" = "Unser intelligentes Anti-Tracking verhindert, dass Datensammler dich quer durchs Netz verfolgen. Unser Werbeblocker hält dir aufdringliche Anzeigen vom Hals.";
+
+/* Title for the 'AntiTracking' panel in the First Run tour. */
+"Intro.Slides.AntiTracking.Title" = "Höchster Datenschutz";
+
+/* Description for the 'Search' panel in the First Run tour. */
+"Intro.Slides.Search.Description" = "Mit Deiner Suche im Internet ganz nebenbei soziale Nachhaltigkeit im Alltag lebbar machen. Mit SuchHier unterstützt Du mit Deiner Websuche Herzensprojekte.";
+
+/* Title for the 'Search' panel in the First Run tour. */
+"Intro.Slides.Search.Title" = "Die Suchmaschine, die Gutes tut";
+
+/* Button title for skipping tour. */
+"Intro.Slides.Skip.Title" = "Überspringen";
+
+/* Button title for starting browsing. */
+"Intro.Slides.Welcome.Button.Title" = "Suche mit Herz";
+
+/* Title for the 'Welcome' panel in the First Run tour. */
+"Intro.Slides.Welcome.Title" = "Gemeinsame Ziele verbinden!";
+
+/* Description for the 'Welcome' panel in the First Run tour. */
+"Intro.Slides.Welcome.Description" = "Mach SuchHier zu Deiner Suchmaschine! Und verbinde Dich mit allen die Gutes tun.";

@@ -1,0 +1,25 @@
+{
+  "images" : [
+    {
+      "filename" : "Screen-2-Dashboard.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "Screen-2-Dashboard-1.png",
+      "idiom" : "universal",
+      "locale" : "de"
+    },
+    {
+      "filename" : "Screen-2-Dashboard-2.png",
+      "idiom" : "universal",
+      "locale" : "en"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

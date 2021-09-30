@@ -1,19 +1,18 @@
 {
   "images" : [
     {
-      "filename" : "72.png",
-      "idiom" : "universal",
-      "scale" : "1x"
+      "filename" : "ios-widget-gexsi.pdf",
+      "idiom" : "universal"
     },
     {
-      "filename" : "144.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "216.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "ios-widget-gexsi-negativ.pdf",
+      "idiom" : "universal"
     }
   ],
   "info" : {

@@ -35,12 +35,13 @@ const getStyles = theme => ({
   },
 });
 
-export default () => {
+export default ({ Features }) => {
+  const cornerRadius = Features.Home.SearchBar.cornerRadius;
   const styles = useStyles(getStyles);
 
   return (
     <TouchableWithoutFeedback onPress={startSearch} accessible={false}>
-      <View style={styles.container} testID="urlbar">
+      <View style={[styles.container, {borderRadius: cornerRadius}]} testID="urlbar">
         <Text style={styles.text}>{t('UrlBar.Placeholder')}</Text>
         <View style={styles.iconWrapper}>
           <NativeDrawable

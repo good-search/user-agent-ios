@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>314696188031-dumtddmt9snqqk7d4uth176ptdkat03j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.314696188031-dumtddmt9snqqk7d4uth176ptdkat03j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5PS3bPJcb4hsM3jSo6ETrL93FGZkca8s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>314696188031</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gexsi.suchHier</string>
+	<key>PROJECT_ID</key>
+	<string>suchhier-9bec7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>suchhier-9bec7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:314696188031:ios:8f81129f8b9ae54e6c7f4a</string>
+</dict>
+</plist>

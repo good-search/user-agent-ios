@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "ios-widgets-suchhier.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "ios-widgets-suchhier-negativ.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
