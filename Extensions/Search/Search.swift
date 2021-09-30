@@ -46,7 +46,7 @@ struct SearchEntryView: View {
             Spacer()
             HStack {
                 if self.entry.family == .systemMedium {
-                    Text(Strings.UrlBar.Placeholder)
+                    Text(Strings.SearchWidgetExtension.Placeholder)
                         .foregroundColor(Color(.systemGray))
                 }
                 Spacer()

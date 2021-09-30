@@ -28,7 +28,7 @@ SHARETO_ENTITLEMENTS_PATH=${PROJECT_PATH}/Extensions/ShareTo/Entitlements
 OPENIN_ENTITLEMENTS_PATH=${PROJECT_PATH}/Extensions/OpenIn/Entitlements
 TODAY_ENTITLEMENTS_PATH=${PROJECT_PATH}/Extensions/Today/Entitlements
 
-# Replacing ShareTo/OpenIn entitlement files according target
+# Replacing ShareTo/OpenIn/Today entitlement files according target
 mkdir -p ${SHARETO_ENTITLEMENTS_PATH}
 cp -rf ${BRAND_PATH}/Entitlements/ShareTo/${TARGET_NAME}ShareTo.entitlements ${SHARETO_ENTITLEMENTS_PATH}/ShareTo.entitlements
 cp -rf ${BRAND_PATH}/Entitlements/ShareTo/${TARGET_NAME}ShareToAdHoc.entitlements ${SHARETO_ENTITLEMENTS_PATH}/ShareToAdHoc.entitlements
@@ -58,18 +58,22 @@ OPEN_IN_PATH=${PROJECT_PATH}/Extensions/OpenIn
 rm -rf ${OPEN_IN_PATH}/OpenIn.xcassets
 cp -rf ${BRAND_PATH}/Assets/OpenIn.xcassets ${OPEN_IN_PATH}/
 
-# Replacing OpenIn assets and InfoPlist.strings according target
+# Replacing OpenIn InfoPlist.strings according target
 mkdir -p ${OPEN_IN_PATH}/de.lproj
 mkdir -p ${OPEN_IN_PATH}/en.lproj
 cp -rf ${BRAND_PATH}/InfoPlists/OpenIn/de.lproj/InfoPlist.strings ${OPEN_IN_PATH}/de.lproj/InfoPlist.strings
 cp -rf ${BRAND_PATH}/InfoPlists/OpenIn/en.lproj/InfoPlist.strings ${OPEN_IN_PATH}/en.lproj/InfoPlist.strings
 
-# Serch folder path
+# Search folder path
 SEARCH_PATH=${PROJECT_PATH}/Extensions/Search
 
 # Replacing Search assets according target
 rm -rf ${SEARCH_PATH}/Search.xcassets
 cp -rf ${BRAND_PATH}/Assets/Search.xcassets ${SEARCH_PATH}/
+
+# Replacing Search translations
+cp -rf ${BRAND_PATH}/de.lproj/Search.strings ${SEARCH_PATH}/de.lproj/Search.strings
+cp -rf ${BRAND_PATH}/en.lproj/Search.strings ${SEARCH_PATH}/en.lproj/Search.strings
 
 # Translations folder path
 TRANSLATIONS_PATH=${PROJECT_PATH}/Translations
@@ -81,7 +85,7 @@ cp -rf ${BRAND_PATH}/en.lproj/ForgetMode.strings ${TRANSLATIONS_PATH}/en.lproj/F
 # Today folder path
 TODAY_PATH=${PROJECT_PATH}/Extensions/Today
 
-# Replacing OpenIn assets and InfoPlist.strings according target
+# Replacing Today InfoPlist.strings according target
 mkdir -p ${TODAY_PATH}/de.lproj
 mkdir -p ${TODAY_PATH}/en.lproj
 cp -rf ${BRAND_PATH}/InfoPlists/Today/de.lproj/InfoPlist.strings ${TODAY_PATH}/de.lproj/InfoPlist.strings
