@@ -1,0 +1,10 @@
+/* 
+  Search.strings
+  UserAgent
+
+  Created by Shahen Antonyan on 30.09.21.
+  Copyright © 2021 Cliqz. All rights reserved.
+*/
+
+/* The text shown in the URL bar on search widget */
+"SearchWidgetExtension.Placeholder" = "Suchen und Gutes tun";

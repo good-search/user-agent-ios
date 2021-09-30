@@ -236,6 +236,11 @@ extension Strings {
         public static let LoadInBackgroundDone = String(format: NSLocalizedString("ShareExtension.LoadInBackgroundActionDone.Title", tableName: "ShareTo", comment: "Share extension label shown after user has performed 'Load in Background' action."), AppInfo.displayName)
     }
 
+    // MARK: - Search Widget Extension
+    public struct SearchWidgetExtension {
+        public static let Placeholder = NSLocalizedString("SearchWidgetExtension.Placeholder", tableName: "Search", comment: "The text shown in the URL bar on search widget")
+    }
+
     // MARK: - Interceptor
     public struct Interceptor {
         public struct AntiPhishing {

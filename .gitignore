@@ -87,5 +87,7 @@ Extensions/Today/de.lproj/InfoPlist.strings
 Extensions/Today/en.lproj/InfoPlist.strings
 Extensions/Siri/de.lproj/Intents.strings
 Extensions/Siri/en.lproj/Intents.strings
+Extensions/Search/de.lproj/Search.strings
+Extensions/Search/en.lproj/Search.strings
 
 Client/Assets/MainFrameAtDocumentEnd.js.LICENSE.txt
