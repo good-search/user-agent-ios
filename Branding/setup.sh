@@ -68,6 +68,8 @@ cp -rf ${BRAND_PATH}/InfoPlists/OpenIn/en.lproj/InfoPlist.strings ${OPEN_IN_PATH
 SEARCH_PATH=${PROJECT_PATH}/Extensions/Search
 
 # Replacing Search assets according target
+mkdir -p ${SEARCH_PATH}/de.lproj
+mkdir -p ${SEARCH_PATH}/en.lproj
 rm -rf ${SEARCH_PATH}/Search.xcassets
 cp -rf ${BRAND_PATH}/Assets/Search.xcassets ${SEARCH_PATH}/
 
