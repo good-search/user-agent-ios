@@ -3,16 +3,6 @@
     {
       "filename" : "ios-widget-panda.pdf",
       "idiom" : "universal"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "ios-widget-panda-negativ.pdf",
-      "idiom" : "universal"
     }
   ],
   "info" : {
