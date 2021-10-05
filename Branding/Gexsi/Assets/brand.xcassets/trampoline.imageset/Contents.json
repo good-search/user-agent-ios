@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "light-grey-icon.png",
+      "filename" : "ios-widget-gexsi.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "ios-widget-gexsi-negativ.pdf",
       "idiom" : "universal"
     }
   ],

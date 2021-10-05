@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "light-grey-icon.png",
+      "filename" : "ios-widget-blue.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "ios-widget-blue-negativ.pdf",
       "idiom" : "universal"
     }
   ],
