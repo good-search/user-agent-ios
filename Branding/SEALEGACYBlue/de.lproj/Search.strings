@@ -8,3 +8,7 @@
 
 /* The text shown in the URL bar on search widget */
 "SearchWidgetExtension.Placeholder" = "Search for our ocean…";
+
+"Search.Widget.ConfigurationDisplayName" = "Schnelle Aktionen";
+
+"Search.Widget.Description" = "Suchen in %@";

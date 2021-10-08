@@ -70,8 +70,8 @@ struct Search: Widget {
         StaticConfiguration(kind: self.kind, provider: Provider()) { entry in
             SearchEntryView(entry: entry)
         }
-        .configurationDisplayName(Strings.Search.Widget.ConfigurationDisplayName)
-        .description(Strings.Search.Widget.Description)
+        .configurationDisplayName(Strings.SearchWidgetExtension.ConfigurationDisplayName)
+        .description(Strings.SearchWidgetExtension.Description)
         .supportedFamilies([.systemSmall, .systemMedium])
     }
 }

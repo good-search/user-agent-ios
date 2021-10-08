@@ -8,3 +8,7 @@
 
 /* The text shown in the URL bar on search widget */
 "SearchWidgetExtension.Placeholder" = "Suche mit Herz";
+
+"Search.Widget.ConfigurationDisplayName" = "Quick Actions";
+
+"Search.Widget.Description" = "Search in %@";

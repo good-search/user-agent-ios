@@ -239,6 +239,9 @@ extension Strings {
     // MARK: - Search Widget Extension
     public struct SearchWidgetExtension {
         public static let Placeholder = NSLocalizedString("SearchWidgetExtension.Placeholder", tableName: "Search", comment: "The text shown in the URL bar on search widget")
+        public static let ConfigurationDisplayName = NSLocalizedString("Search.Widget.ConfigurationDisplayName", tableName: "Search", comment: "Search widget configuration display name")
+        public static let Description =
+            String(format: NSLocalizedString("Search.Widget.Description", tableName: "Search", comment: "Search widget description"), AppInfo.displayName)
     }
 
     // MARK: - Interceptor

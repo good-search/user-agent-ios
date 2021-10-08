@@ -17,10 +17,5 @@ extension Strings {
             public static let AdditionalSearchEnginesHeader = NSLocalizedString("Search.UI.AdditionalSearchEnginesHeader", tableName: "Search", comment: "Additional Search Engines header")
             public static let SwitchToTab = NSLocalizedString("Search.UI.SwitchToTab", tableName: "Search", comment: "Show next to switch to tab result to indicate it's function")
         }
-        public struct Widget {
-            public static let ConfigurationDisplayName = NSLocalizedString("Search.Widget.ConfigurationDisplayName", tableName: "Search", comment: "Search widget configuration display name")
-            public static let Description =
-                String(format: NSLocalizedString("Search.Widget.Description", tableName: "Search", comment: "Search widget description"), AppInfo.displayName)
-        }
     }
 }

@@ -8,7 +8,3 @@
 "Search.UI.AdditionalSearchEnginesHeader" = "Additional Search Engines";
 
 "Search.UI.SwitchToTab" = "SWITCH TO TAB";
-
-"Search.Widget.ConfigurationDisplayName" = "Quick Actions";
-
-"Search.Widget.Description" = "Search in %@";
