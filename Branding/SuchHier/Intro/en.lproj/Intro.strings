@@ -1,6 +1,6 @@
 
 /* Description for the 'AntiTracking' panel in the First Run tour. */
-"Intro.Slides.AntiTracking.Description" = "Unser intelligentes Anti-Tracking verhindert, dass Datensammler dich quer durchs Netz verfolgen. Unser Werbeblocker hält dir aufdringliche Anzeigen vom Hals.";
+"Intro.Slides.AntiTracking.Description" = "Unser intelligentes Anti-Tracking verhindert, dass Datensammler Dich quer durchs Netz verfolgen. Unser Werbeblocker hält Dir aufdringliche Anzeigen vom Hals.";
 
 /* Title for the 'AntiTracking' panel in the First Run tour. */
 "Intro.Slides.AntiTracking.Title" = "Höchster Datenschutz";
