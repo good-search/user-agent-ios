@@ -98,6 +98,11 @@ target 'Blue' do
   firebase
 end
 
+target 'SuchHier' do
+  main_app
+  firebase
+end
+
 target 'Storage' do
   snapkit
   sdwebimage
