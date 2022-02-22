@@ -20,6 +20,7 @@ class SearchSuggestClient {
     fileprivate let searchEngine: OpenSearchEngine
     fileprivate let userAgent: String
     fileprivate var task: URLSessionTask?
+    private var lastQuery: String?
 
     lazy fileprivate var urlSession: URLSession = makeURLSession(userAgent: self.userAgent, configuration: URLSessionConfiguration.ephemeral)
 
@@ -42,8 +43,9 @@ class SearchSuggestClient {
             callback(nil, error)
             return
         }
-
+        self.lastQuery = query
         task = urlSession.dataTask(with: url!) { (data, response, error) in
+            guard self.lastQuery == query else { return }
             if let error = error {
                 callback(nil, error as NSError?)
                 return
@@ -58,6 +60,7 @@ class SearchSuggestClient {
             let json = JSON(data)
             let result = Features.AutoSuggestion.parse(json: json)
             callback(result, nil)
+            self.lastQuery = nil
         }
         task?.resume()
     }
