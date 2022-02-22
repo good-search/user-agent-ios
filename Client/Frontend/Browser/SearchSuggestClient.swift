@@ -56,27 +56,8 @@ class SearchSuggestClient {
             }
 
             let json = JSON(data)
-            let dict = json.dictionaryObject
-            let array = dict?["results"] as? [[String: Any]]
-            let mappedQueries = array?.compactMap({ (dict) -> String? in
-                guard let type = dict["type"] as? String, let query = dict["q"] as? String else {
-                    return nil
-                }
-                if type == "QUERY" && !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-                    return query
-                }
-                return nil
-            }) ?? []
-            let mappedNavigations = array?.compactMap({ (dict) -> [String: Any]? in
-                guard let type = dict["type"] as? String else {
-                    return nil
-                }
-                if type == "NAVIGATION" {
-                    return dict
-                }
-                return nil
-            }) ?? []
-            callback((mappedQueries, mappedNavigations), nil)
+            let result = Features.AutoSuggestion.parse(json: json)
+            callback(result, nil)
         }
         task?.resume()
     }

@@ -7,6 +7,7 @@
 //
 
 import Shared
+import SwiftyJSON
 
 extension Features.BrowserCore {
     public static var configUrl: String {
@@ -99,4 +100,20 @@ extension Features.PrivacyDashboard {
     public static var isAdBlockingEnabled: Bool {
         return false
     }
+}
+
+extension Features.AutoSuggestion {
+
+    public static func parse(json: JSON) -> ([String], [[String: Any]]) {
+        guard let jsonArray = json.arrayObject else {
+            return ([], [[:]])
+        }
+        var mappedQueries = [String]()
+        for array in jsonArray {
+            guard let stringArray = array as? [String] else { continue }
+            mappedQueries.append(contentsOf: stringArray)
+        }
+        return (mappedQueries, [[:]])
+    }
+
 }
