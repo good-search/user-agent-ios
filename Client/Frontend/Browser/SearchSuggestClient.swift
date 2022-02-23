@@ -20,6 +20,7 @@ class SearchSuggestClient {
     fileprivate let searchEngine: OpenSearchEngine
     fileprivate let userAgent: String
     fileprivate var task: URLSessionTask?
+    private var lastQuery: String?
 
     lazy fileprivate var urlSession: URLSession = makeURLSession(userAgent: self.userAgent, configuration: URLSessionConfiguration.ephemeral)
 
@@ -42,8 +43,9 @@ class SearchSuggestClient {
             callback(nil, error)
             return
         }
-
+        self.lastQuery = query
         task = urlSession.dataTask(with: url!) { (data, response, error) in
+            guard self.lastQuery == query else { return }
             if let error = error {
                 callback(nil, error as NSError?)
                 return
@@ -56,27 +58,9 @@ class SearchSuggestClient {
             }
 
             let json = JSON(data)
-            let dict = json.dictionaryObject
-            let array = dict?["results"] as? [[String: Any]]
-            let mappedQueries = array?.compactMap({ (dict) -> String? in
-                guard let type = dict["type"] as? String, let query = dict["q"] as? String else {
-                    return nil
-                }
-                if type == "QUERY" && !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-                    return query
-                }
-                return nil
-            }) ?? []
-            let mappedNavigations = array?.compactMap({ (dict) -> [String: Any]? in
-                guard let type = dict["type"] as? String else {
-                    return nil
-                }
-                if type == "NAVIGATION" {
-                    return dict
-                }
-                return nil
-            }) ?? []
-            callback((mappedQueries, mappedNavigations), nil)
+            let result = Features.AutoSuggestion.parse(json: json)
+            callback(result, nil)
+            self.lastQuery = nil
         }
         task?.resume()
     }

@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreGraphics
+import SwiftyJSON
 
 public struct Features {
     public struct BrowserCore {
@@ -161,6 +162,33 @@ public struct Features {
         }
         public static var collectorProxyUrl: String {
             return "https://proxy*.cliqz.foxyproxy.com"
+        }
+    }
+
+    public struct AutoSuggestion {
+        public static func parse(json: JSON) -> ([String], [[String: Any]]) {
+            let dict = json.dictionaryObject
+            let array = dict?["results"] as? [[String: Any]]
+            let mappedQueries = array?.compactMap({ (dict) -> String? in
+                guard let type = dict["type"] as? String, let query = dict["q"] as? String else {
+                    return nil
+                }
+                if type == "QUERY" && !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                    return query
+                }
+                return nil
+            }) ?? []
+            let mappedNavigations = array?.compactMap({ (dict) -> [String: Any]? in
+                guard let type = dict["type"] as? String else {
+                    return nil
+                }
+                if type == "NAVIGATION" {
+                    return dict
+                }
+                return nil
+            }) ?? []
+
+            return (mappedQueries, mappedNavigations)
         }
     }
 
