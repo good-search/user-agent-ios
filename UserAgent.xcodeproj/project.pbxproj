@@ -21,7 +21,7 @@
 		0BC9C9C41F26F54D000E8AB5 /* SiteLoadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9C9C31F26F54D000E8AB5 /* SiteLoadTest.swift */; };
 		0BF0DB4A1E57B05E009172B0 /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65075861E37F7AB006961AC /* LaunchArguments.swift */; };
 		0D184DAE73E4D4F2C930A757 /* Pods_Blue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA0334BFE6A86C1EF0B2029 /* Pods_Blue.framework */; };
-		20F04D3FD916F48F70DBBE47 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		20F04D3FD916F48F70DBBE47 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		281B029A1C037C1F005202C3 /* TestBrowserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B02991C037C1F005202C3 /* TestBrowserDB.swift */; };
 		281B2BEA1ADF4D90002917DC /* MockProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B2BE91ADF4D90002917DC /* MockProfile.swift */; };
 		2829D3A01C2F0AD400DCF931 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829D39F1C2F0AD400DCF931 /* Sharing.swift */; };
@@ -304,7 +304,7 @@
 		2B1BF14C26FB764D000E6C03 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2B1BF14D26FB764D000E6C03 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2B1BF14E26FB764D000E6C03 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2B1BF14F26FB764D000E6C03 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2B1BF14F26FB764D000E6C03 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2B1BF15026FB764D000E6C03 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2B1BF15126FB764D000E6C03 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2B1BF15226FB764D000E6C03 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -677,7 +677,7 @@
 		2B65705224AB68A7005DE5D3 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2B65705324AB68A7005DE5D3 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2B65705424AB68A7005DE5D3 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2B65705524AB68A7005DE5D3 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2B65705524AB68A7005DE5D3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2B65705624AB68A7005DE5D3 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2B65705724AB68A7005DE5D3 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2B65705824AB68A7005DE5D3 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1024,7 +1024,7 @@
 		2BAD2A9224E6755B0098F3D1 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2BAD2A9324E6755B0098F3D1 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2BAD2A9424E6755B0098F3D1 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2BAD2A9524E6755B0098F3D1 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BAD2A9524E6755B0098F3D1 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BAD2A9624E6755B0098F3D1 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2BAD2A9724E6755B0098F3D1 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2BAD2A9824E6755B0098F3D1 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1369,7 +1369,7 @@
 		2BB3DF0D24ED34570050370A /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2BB3DF0E24ED34570050370A /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2BB3DF0F24ED34570050370A /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2BB3DF1024ED34570050370A /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BB3DF1024ED34570050370A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BB3DF1124ED34570050370A /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2BB3DF1224ED34570050370A /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2BB3DF1324ED34570050370A /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1726,7 +1726,7 @@
 		2BBB6FE0254EF17800720613 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2BBB6FE1254EF17800720613 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2BBB6FE2254EF17800720613 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2BBB6FE3254EF17800720613 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BBB6FE3254EF17800720613 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BBB6FE4254EF17800720613 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2BBB6FE5254EF17800720613 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2BBB6FE6254EF17800720613 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1931,7 +1931,7 @@
 		46BBFA6023575AEC00283594 /* Strings+PrivateBrowsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BBFA5F23575AEC00283594 /* Strings+PrivateBrowsing.swift */; };
 		46BBFA6223575B0000283594 /* Strings+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BBFA6123575B0000283594 /* Strings+Brand.swift */; };
 		4A59B58AD11B5EE1F80BBDEB /* TestHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A59BF410BBD9B3BE71F4C7C /* TestHistory.swift */; };
-		57DAC96F3F70F54A1BCB1CC3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		57DAC96F3F70F54A1BCB1CC3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		580B0C4221748CFE00448DF8 /* DataManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B0C4121748CFE00448DF8 /* DataManagementTests.swift */; };
 		63306D452110BAF000F25400 /* TabManagerStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63306D442110BAF000F25400 /* TabManagerStoreTests.swift */; };
 		660335E0F23729FE05E618CD /* Pods_ShareTo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF3DFE609D0D680B66408F /* Pods_ShareTo.framework */; };
@@ -2079,7 +2079,7 @@
 		EB9407492081353100702E05 /* UXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940747208134AF00702E05 /* UXConstants.swift */; };
 		EBA1CC1E214AB8FD009E6B06 /* StorageTestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289A4C121C4EB90600A460E3 /* StorageTestUtils.swift */; };
 		EBE7635920ADCB7600E27F2D /* SendTo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE7634F20ADCB7500E27F2D /* SendTo.xcassets */; };
-		F053AEC6767F02C2EA074139 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		F053AEC6767F02C2EA074139 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		F6B058067F4CF67468E0568D /* Pods_SuchHier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F201C6393AAA91FF8241C85F /* Pods_SuchHier.framework */; };
 		F84B21DA1A090F8100AAB793 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B21D91A090F8100AAB793 /* ClientTests.swift */; };
 		F8708D2E1A0970B70051AB07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8708D251A0970990051AB07 /* Images.xcassets */; };
@@ -3462,8 +3462,6 @@
 		E698FFD91B4AADF40001F623 /* TabScrollController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabScrollController.swift; sourceTree = "<group>"; };
 		E69922121B94E3EF007C480D /* Licenses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Licenses.html; sourceTree = "<group>"; };
 		E6A69FB19034F99B127D52DC /* Pods-Gexsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gexsi.debug.xcconfig"; path = "Target Support Files/Pods-Gexsi/Pods-Gexsi.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C191D41E38F7B7000A213B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		E6C191D51E38F7B7000A213B /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		E6D8D5E61B569D70009E5A58 /* BrowserTrayAnimators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserTrayAnimators.swift; sourceTree = "<group>"; };
 		E6F368281D7F594F008CDD67 /* SQLiteHistoryRecommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteHistoryRecommendations.swift; sourceTree = "<group>"; };
 		E6F9650C1B2F1CF20034B023 /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3589,7 +3587,7 @@
 				2B6570B024AB68A7005DE5D3 /* ImageIO.framework in Frameworks */,
 				2B6570B124AB68A7005DE5D3 /* ObjcExceptionBridging.framework in Frameworks */,
 				2B6570B224AB68A7005DE5D3 /* Widgets.framework in Frameworks */,
-				F053AEC6767F02C2EA074139 /* BuildFile in Frameworks */,
+				F053AEC6767F02C2EA074139 /* (null) in Frameworks */,
 				4514BBD5479B8F5568CB281C /* Pods_Gexsi.framework in Frameworks */,
 				CF678F2D301287CEAE835873 /* Pods_Gexsi.framework in Frameworks */,
 			);
@@ -3608,7 +3606,7 @@
 				2BAD2AF324E6755B0098F3D1 /* ImageIO.framework in Frameworks */,
 				2BAD2AF424E6755B0098F3D1 /* ObjcExceptionBridging.framework in Frameworks */,
 				2BAD2AF524E6755B0098F3D1 /* Widgets.framework in Frameworks */,
-				20F04D3FD916F48F70DBBE47 /* BuildFile in Frameworks */,
+				20F04D3FD916F48F70DBBE47 /* (null) in Frameworks */,
 				37D3EAAD845871608B0CCB7D /* Pods_Panda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3626,7 +3624,7 @@
 				2BB3DF6E24ED34570050370A /* ImageIO.framework in Frameworks */,
 				2BB3DF6F24ED34570050370A /* ObjcExceptionBridging.framework in Frameworks */,
 				2BB3DF7024ED34570050370A /* Widgets.framework in Frameworks */,
-				57DAC96F3F70F54A1BCB1CC3 /* BuildFile in Frameworks */,
+				57DAC96F3F70F54A1BCB1CC3 /* (null) in Frameworks */,
 				756A76457A3ECF4118B45BF0 /* Pods_SEALEGACYBlue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5238,8 +5236,6 @@
 			children = (
 				ACCEBD8823476EBB00B87136 /* .swiftlint.yml */,
 				ACB6D4362306B29A002D64E6 /* azure-pipelines.yml */,
-				E6C191D41E38F7B7000A213B /* Cartfile */,
-				E6C191D51E38F7B7000A213B /* Cartfile.resolved */,
 				C50ED2C22327C47D00EE71B8 /* Fastfile */,
 				ACB6D4382306B2B1002D64E6 /* Gemfile */,
 				ACB7398A2306847800FA5626 /* Jenkinsfile */,
@@ -7281,9 +7277,15 @@
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -7322,9 +7324,15 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -7462,9 +7470,15 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Panda/Pods-Panda-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -7502,9 +7516,15 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -7642,9 +7662,15 @@
 				"${PODS_ROOT}/Target Support Files/Pods-SEALEGACYBlue/Pods-SEALEGACYBlue-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -7682,9 +7708,15 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -7822,9 +7854,15 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Blue/Pods-Blue-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -7862,9 +7900,15 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -8042,9 +8086,15 @@
 				"${PODS_ROOT}/Target Support Files/Pods-SuchHier/Pods-SuchHier-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -8082,9 +8132,15 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -8544,7 +8600,7 @@
 				2B1BF14C26FB764D000E6C03 /* MailtoLinkHandler.swift in Sources */,
 				2B1BF14D26FB764D000E6C03 /* DownloadToast.swift in Sources */,
 				2B1BF14E26FB764D000E6C03 /* ChevronView.swift in Sources */,
-				2B1BF14F26FB764D000E6C03 /* BuildFile in Sources */,
+				2B1BF14F26FB764D000E6C03 /* (null) in Sources */,
 				2B1BF15026FB764D000E6C03 /* UIColor+Blending.swift in Sources */,
 				2B1BF15126FB764D000E6C03 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2B1BF15226FB764D000E6C03 /* UIDeviceExtensions.swift in Sources */,
@@ -8847,7 +8903,7 @@
 				2B65705224AB68A7005DE5D3 /* MailtoLinkHandler.swift in Sources */,
 				2B65705324AB68A7005DE5D3 /* DownloadToast.swift in Sources */,
 				2B65705424AB68A7005DE5D3 /* ChevronView.swift in Sources */,
-				2B65705524AB68A7005DE5D3 /* BuildFile in Sources */,
+				2B65705524AB68A7005DE5D3 /* (null) in Sources */,
 				2B65705624AB68A7005DE5D3 /* UIColor+Blending.swift in Sources */,
 				2B65705724AB68A7005DE5D3 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2B65705824AB68A7005DE5D3 /* UIDeviceExtensions.swift in Sources */,
@@ -9138,7 +9194,7 @@
 				2BAD2A9224E6755B0098F3D1 /* MailtoLinkHandler.swift in Sources */,
 				2BAD2A9324E6755B0098F3D1 /* DownloadToast.swift in Sources */,
 				2BAD2A9424E6755B0098F3D1 /* ChevronView.swift in Sources */,
-				2BAD2A9524E6755B0098F3D1 /* BuildFile in Sources */,
+				2BAD2A9524E6755B0098F3D1 /* (null) in Sources */,
 				2BAD2A9624E6755B0098F3D1 /* UIColor+Blending.swift in Sources */,
 				2BAD2A9724E6755B0098F3D1 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2BAD2A9824E6755B0098F3D1 /* UIDeviceExtensions.swift in Sources */,
@@ -9429,7 +9485,7 @@
 				2BB3DF0D24ED34570050370A /* MailtoLinkHandler.swift in Sources */,
 				2BB3DF0E24ED34570050370A /* DownloadToast.swift in Sources */,
 				2BB3DF0F24ED34570050370A /* ChevronView.swift in Sources */,
-				2BB3DF1024ED34570050370A /* BuildFile in Sources */,
+				2BB3DF1024ED34570050370A /* (null) in Sources */,
 				2BB3DF1124ED34570050370A /* UIColor+Blending.swift in Sources */,
 				2BB3DF1224ED34570050370A /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2BB3DF1324ED34570050370A /* UIDeviceExtensions.swift in Sources */,
@@ -9719,7 +9775,7 @@
 				2BBB6FE0254EF17800720613 /* MailtoLinkHandler.swift in Sources */,
 				2BBB6FE1254EF17800720613 /* DownloadToast.swift in Sources */,
 				2BBB6FE2254EF17800720613 /* ChevronView.swift in Sources */,
-				2BBB6FE3254EF17800720613 /* BuildFile in Sources */,
+				2BBB6FE3254EF17800720613 /* (null) in Sources */,
 				2BBB6FE4254EF17800720613 /* UIColor+Blending.swift in Sources */,
 				2BBB6FE5254EF17800720613 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2BBB6FE6254EF17800720613 /* UIDeviceExtensions.swift in Sources */,

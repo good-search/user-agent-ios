@@ -19,7 +19,7 @@ brew bundle
 
 nodenv install -s
 eval "$(nodenv init -)"
-nodenv exec npm i -g npm@6.5
+nodenv exec npm i -g npm@8.11.0
 nodenv exec npm ci
 nodenv exec npm run build-user-scripts
 
