@@ -2720,12 +2720,12 @@
 		2B5D877824E446E800768664 /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
 		2B5D877C24E542F600768664 /* SearchResultSuggestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultSuggestionCell.swift; sourceTree = "<group>"; };
 		2B5D877E24E5432100768664 /* SearchResultNavigationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultNavigationCell.swift; sourceTree = "<group>"; };
-		2B6570C424AB68A7005DE5D3 /* Gexsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gexsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6570C424AB68A7005DE5D3 /* GOOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B65717824AB693E005DE5D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B65717A24AB693E005DE5D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ForgetMode.strings; sourceTree = "<group>"; };
-		2B65717C24AB693E005DE5D3 /* GexsiDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GexsiDebug.xcconfig; sourceTree = "<group>"; };
-		2B65717D24AB693E005DE5D3 /* GexsiRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GexsiRelease.xcconfig; sourceTree = "<group>"; };
-		2B65717E24AB693E005DE5D3 /* GexsiAdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GexsiAdHoc.xcconfig; sourceTree = "<group>"; };
+		2B65717C24AB693E005DE5D3 /* GOODDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GOODDebug.xcconfig; sourceTree = "<group>"; };
+		2B65717D24AB693E005DE5D3 /* GOODRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GOODRelease.xcconfig; sourceTree = "<group>"; };
+		2B65717E24AB693E005DE5D3 /* GOODAdHoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GOODAdHoc.xcconfig; sourceTree = "<group>"; };
 		2B65717F24AB693E005DE5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B65718024AB693E005DE5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ForgetMode.strings; sourceTree = "<group>"; };
 		2B65718524AB693E005DE5D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -2738,12 +2738,12 @@
 		2B65719124AB693E005DE5D3 /* GexsiTodayDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiTodayDebug.entitlements; sourceTree = "<group>"; };
 		2B65719224AB693E005DE5D3 /* GexsiTodayAdhoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiTodayAdhoc.entitlements; sourceTree = "<group>"; };
 		2B65719324AB693E005DE5D3 /* GexsiToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiToday.entitlements; sourceTree = "<group>"; };
-		2B65719424AB693E005DE5D3 /* Gexsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gexsi.entitlements; sourceTree = "<group>"; };
+		2B65719424AB693E005DE5D3 /* GOOD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOOD.entitlements; sourceTree = "<group>"; };
 		2B65719624AB693E005DE5D3 /* GexsiShareToDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiShareToDebug.entitlements; sourceTree = "<group>"; };
 		2B65719724AB693E005DE5D3 /* GexsiShareToAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiShareToAdHoc.entitlements; sourceTree = "<group>"; };
 		2B65719824AB693E005DE5D3 /* GexsiShareTo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiShareTo.entitlements; sourceTree = "<group>"; };
-		2B65719924AB693E005DE5D3 /* GexsiAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiAdHoc.entitlements; sourceTree = "<group>"; };
-		2B65719A24AB693E005DE5D3 /* GexsiDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiDebug.entitlements; sourceTree = "<group>"; };
+		2B65719924AB693E005DE5D3 /* GOODAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODAdHoc.entitlements; sourceTree = "<group>"; };
+		2B65719A24AB693E005DE5D3 /* GOODDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODDebug.entitlements; sourceTree = "<group>"; };
 		2B65719B24AB693E005DE5D3 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
 		2B65719E24AB693E005DE5D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Intents.strings; sourceTree = "<group>"; };
 		2B65719F24AB693E005DE5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Intents.strings; sourceTree = "<group>"; };
@@ -4106,7 +4106,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		2B65717624AB693E005DE5D3 /* Gexsi */ = {
+		2B65717624AB693E005DE5D3 /* GOOD */ = {
 			isa = PBXGroup;
 			children = (
 				2B65719C24AB693E005DE5D3 /* Siri */,
@@ -4125,15 +4125,15 @@
 				2B2B173724B7435B00082787 /* LaunchScreen.storyboard */,
 				2B6571A124AB693E005DE5D3 /* BrandColors.xcassets */,
 			);
-			path = Gexsi;
+			path = GOOD;
 			sourceTree = "<group>";
 		};
 		2B65717B24AB693E005DE5D3 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				2B65717D24AB693E005DE5D3 /* GexsiRelease.xcconfig */,
-				2B65717C24AB693E005DE5D3 /* GexsiDebug.xcconfig */,
-				2B65717E24AB693E005DE5D3 /* GexsiAdHoc.xcconfig */,
+				2B65717D24AB693E005DE5D3 /* GOODRelease.xcconfig */,
+				2B65717C24AB693E005DE5D3 /* GOODDebug.xcconfig */,
+				2B65717E24AB693E005DE5D3 /* GOODAdHoc.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -4169,9 +4169,9 @@
 				2B65718C24AB693E005DE5D3 /* OpenIn */,
 				2B65719024AB693E005DE5D3 /* Today */,
 				2B65719524AB693E005DE5D3 /* ShareTo */,
-				2B65719424AB693E005DE5D3 /* Gexsi.entitlements */,
-				2B65719924AB693E005DE5D3 /* GexsiAdHoc.entitlements */,
-				2B65719A24AB693E005DE5D3 /* GexsiDebug.entitlements */,
+				2B65719424AB693E005DE5D3 /* GOOD.entitlements */,
+				2B65719924AB693E005DE5D3 /* GOODAdHoc.entitlements */,
+				2B65719A24AB693E005DE5D3 /* GOODDebug.entitlements */,
 			);
 			path = Entitlements;
 			sourceTree = "<group>";
@@ -5249,7 +5249,7 @@
 			children = (
 				46CF5F7F246A99B10058D750 /* setup.sh */,
 				46796FF624810C1100E64738 /* Features+toDict.swift */,
-				2B65717624AB693E005DE5D3 /* Gexsi */,
+				2B65717624AB693E005DE5D3 /* GOOD */,
 				2BAD2B0924E676060098F3D1 /* Panda */,
 				2BB3DDC324ED33850050370A /* SEALEGACYBlue */,
 				2BBB6E96254EF12B00720613 /* Blue */,
@@ -5803,7 +5803,7 @@
 				049DBADE23E4587B00D2D38D /* WidgetsTests.xctest */,
 				2B0E93682407A92300ED7703 /* Today.appex */,
 				2B308ABD242B2B4A009AF3D1 /* Siri.appex */,
-				2B6570C424AB68A7005DE5D3 /* Gexsi.app */,
+				2B6570C424AB68A7005DE5D3 /* GOOD.app */,
 				2BAD2B0724E6755B0098F3D1 /* Panda.app */,
 				2BB3DF8224ED34570050370A /* SEALEGACYBlue.app */,
 				2BBB7055254EF17800720613 /* Blue.app */,
@@ -6110,9 +6110,9 @@
 			productReference = 2B308ABD242B2B4A009AF3D1 /* Siri.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		2B656F4C24AB68A7005DE5D3 /* Gexsi */ = {
+		2B656F4C24AB68A7005DE5D3 /* GOOD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B6570BF24AB68A7005DE5D3 /* Build configuration list for PBXNativeTarget "Gexsi" */;
+			buildConfigurationList = 2B6570BF24AB68A7005DE5D3 /* Build configuration list for PBXNativeTarget "GOOD" */;
 			buildPhases = (
 				2B656F5924AB68A7005DE5D3 /* [CP] Check Pods Manifest.lock */,
 				2B656F5A24AB68A7005DE5D3 /* Start React Native Server */,
@@ -6137,9 +6137,9 @@
 				2B656F5724AB68A7005DE5D3 /* PBXTargetDependency */,
 				2BE8513626C688D1003CA316 /* PBXTargetDependency */,
 			);
-			name = Gexsi;
+			name = GOOD;
 			productName = Client;
-			productReference = 2B6570C424AB68A7005DE5D3 /* Gexsi.app */;
+			productReference = 2B6570C424AB68A7005DE5D3 /* GOOD.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2BAD298424E6755B0098F3D1 /* Panda */ = {
@@ -6548,7 +6548,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B656F4C24AB68A7005DE5D3 /* Gexsi */,
+				2B656F4C24AB68A7005DE5D3 /* GOOD */,
 				2BAD298424E6755B0098F3D1 /* Panda */,
 				2BB3DDFF24ED34570050370A /* SEALEGACYBlue */,
 				2BBB6ED2254EF17800720613 /* Blue */,
@@ -11267,7 +11267,7 @@
 			baseConfigurationReference = 469F03A5541032E15668BC5F /* Pods-SuchHier.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/SuchHier/Entitlements/SuchHierDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11325,7 +11325,7 @@
 			baseConfigurationReference = A5D5F4569C2E443DB65D3FB7 /* Pods-SuchHier.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Adhoc;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/SuchHier/Entitlements/SuchHierAdHoc.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11594,9 +11594,9 @@
 			baseConfigurationReference = E6A69FB19034F99B127D52DC /* Pods-Gexsi.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Gexsi/Entitlements/GexsiDebug.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/GOOD/Entitlements/GOODDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
@@ -11611,7 +11611,7 @@
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)/include/**",
 				);
 				INCLUDE_SETTINGS_BUNDLE = YES;
-				INFOPLIST_FILE = Branding/Gexsi/Info.plist;
+				INFOPLIST_FILE = Branding/GOOD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
@@ -11652,9 +11652,9 @@
 			baseConfigurationReference = CB19CEBE1DC3A8BC89644246 /* Pods-Gexsi.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Adhoc;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Gexsi/Entitlements/GexsiAdHoc.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/GOOD/Entitlements/GOODAdHoc.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
@@ -11669,7 +11669,7 @@
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)/include/**",
 				);
 				INCLUDE_SETTINGS_BUNDLE = NO;
-				INFOPLIST_FILE = Branding/Gexsi/Info.plist;
+				INFOPLIST_FILE = Branding/GOOD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
@@ -11712,7 +11712,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Gexsi/Entitlements/Gexsi.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/GOOD/Entitlements/GOOD.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
@@ -11728,7 +11728,7 @@
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)/include/**",
 				);
 				INCLUDE_SETTINGS_BUNDLE = NO;
-				INFOPLIST_FILE = Branding/Gexsi/Info.plist;
+				INFOPLIST_FILE = Branding/GOOD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
@@ -11755,7 +11755,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Gexsi/Entitlements/Gexsi.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/GOOD/Entitlements/GOOD.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
@@ -11771,7 +11771,7 @@
 					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)/include/**",
 				);
 				INCLUDE_SETTINGS_BUNDLE = NO;
-				INFOPLIST_FILE = Branding/Gexsi/Info.plist;
+				INFOPLIST_FILE = Branding/GOOD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "${APP_MARKETING_VERSION}";
@@ -11796,7 +11796,7 @@
 			baseConfigurationReference = AE3F772C9F0C0341A35FB081 /* Pods-Panda.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Panda/Entitlements/PandaDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11854,7 +11854,7 @@
 			baseConfigurationReference = F7351C4F5A8073500F609A8C /* Pods-Panda.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Adhoc;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Panda/Entitlements/PandaAdHoc.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -11998,7 +11998,7 @@
 			baseConfigurationReference = 4E320FA05A853D9BF1C16FAC /* Pods-SEALEGACYBlue.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/SEALEGACYBlue/Entitlements/SEALEGACYBlueDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -12056,7 +12056,7 @@
 			baseConfigurationReference = 9609159700E67571B480739E /* Pods-SEALEGACYBlue.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Adhoc;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/SEALEGACYBlue/Entitlements/SEALEGACYBlueAdHoc.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -12200,7 +12200,7 @@
 			baseConfigurationReference = 0404A6A1FA1A2CD53A43F861 /* Pods-Blue.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Blue/Entitlements/BlueDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -12258,7 +12258,7 @@
 			baseConfigurationReference = 5453F1078130ED445B6EE012 /* Pods-Blue.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Adhoc;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "${BUNDLE_DISPLAY_NAME}";
 				CODE_SIGN_ENTITLEMENTS = "$(inherit)Branding/Blue/Entitlements/BlueAdHoc.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -14039,7 +14039,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B6570BF24AB68A7005DE5D3 /* Build configuration list for PBXNativeTarget "Gexsi" */ = {
+		2B6570BF24AB68A7005DE5D3 /* Build configuration list for PBXNativeTarget "GOOD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B6570C024AB68A7005DE5D3 /* Debug */,

@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B656F4C24AB68A7005DE5D3"
-               BuildableName = "Gexsi.app"
-               BlueprintName = "Gexsi"
+               BuildableName = "GOOD.app"
+               BlueprintName = "GOOD"
                ReferencedContainer = "container:UserAgent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B656F4C24AB68A7005DE5D3"
-            BuildableName = "Gexsi.app"
-            BlueprintName = "Gexsi"
+            BuildableName = "GOOD.app"
+            BlueprintName = "GOOD"
             ReferencedContainer = "container:UserAgent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -91,14 +91,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B656F4C24AB68A7005DE5D3"
-            BuildableName = "Gexsi.app"
-            BlueprintName = "Gexsi"
+            BuildableName = "GOOD.app"
+            BlueprintName = "GOOD"
             ReferencedContainer = "container:UserAgent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

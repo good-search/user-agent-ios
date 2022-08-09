@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "HOME_Navigation_Icon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
