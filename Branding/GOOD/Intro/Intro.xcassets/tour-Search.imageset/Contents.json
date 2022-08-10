@@ -1,16 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "2C-gexsi-transparent-german.png",
+      "filename" : "Screen-1-Suchfeld-2.png",
       "idiom" : "universal"
     },
     {
-      "filename" : "2C-gexsi-transparent-german-1.png",
+      "filename" : "Screen-1-Suchfeld-1.png",
       "idiom" : "universal",
       "locale" : "de"
     },
     {
-      "filename" : "2C-gexsi-transparent_english.png",
+      "filename" : "Screen-1-Suchfeld.png",
       "idiom" : "universal",
       "locale" : "en"
     }

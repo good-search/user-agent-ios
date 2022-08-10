@@ -40,7 +40,8 @@ extension Features {
                 ],
                 "SearchBar": [
                     "cornerRadius": Features.Home.SearchBar.reactCornerRadius,
-                    "widthPercent": Features.Home.SearchBar.widthPercent,
+                    "borderWidth": Features.Home.SearchBar.borderWidth,
+                    "borderColor": Features.Home.SearchBar.borderColor,
                 ],
                 "Banner": [
                     "isBig": Features.Home.Banner.isBig,

@@ -131,6 +131,12 @@ public struct Features {
             public static var widthPercent: String {
                 return "100%"
             }
+            public static var borderWidth: CGFloat {
+                return 0.0
+            }
+            public static var borderColor: UIColor {
+                return .clear
+            }
         }
         public struct TopSites {
             public static var isEnabled: Bool {
