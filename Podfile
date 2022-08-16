@@ -77,7 +77,7 @@ def extensions
   fuzi
 end
 
-target 'Gexsi' do
+target 'GOOD' do
   main_app
   firebase
   facebook

@@ -1914,7 +1914,6 @@
 		3B4AA24B1D8B8C4C00A2E008 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA24A1D8B8C4C00A2E008 /* ArrayExtensionTests.swift */; };
 		3D71C89E1F5703A1008D8646 /* CopiedLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71C89D1F5703A1008D8646 /* CopiedLinksTests.swift */; };
 		3D9CAA1C1EFCD655002434DD /* ClipBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CAA1B1EFCD655002434DD /* ClipBoardTests.swift */; };
-		4514BBD5479B8F5568CB281C /* Pods_Gexsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B094B8D0DBC8B1CFEDB6733 /* Pods_Gexsi.framework */; };
 		461D753924619B990030F87C /* SearchURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464830EA243B290C0052CC2C /* SearchURL.swift */; };
 		464830F0243B4E580052CC2C /* SearchURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464830EA243B290C0052CC2C /* SearchURL.swift */; };
 		464830F1243B4E590052CC2C /* SearchURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464830EA243B290C0052CC2C /* SearchURL.swift */; };
@@ -1946,6 +1945,7 @@
 		7B9BF91C1E43472E00CB24F4 /* JSONExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BF91B1E43472E00CB24F4 /* JSONExtensions.swift */; };
 		7BBFEE741BB405D900A305AA /* TabManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFEE731BB405D900A305AA /* TabManagerTests.swift */; };
 		7BF5A1EA1B41640500EA9DD8 /* SyncQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5A1E91B41640500EA9DD8 /* SyncQueue.swift */; };
+		9052D4D973F7221FFF69848C /* Pods_GOOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4314F01C571EE8B5668D81BA /* Pods_GOOD.framework */; };
 		A83E5B1A1C1DA8BF0026D912 /* image.gif in Resources */ = {isa = PBXBuildFile; fileRef = A83E5B181C1DA8BF0026D912 /* image.gif */; };
 		A83E5B1B1C1DA8BF0026D912 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = A83E5B191C1DA8BF0026D912 /* image.png */; };
 		A83E5B1D1C1DA8D80026D912 /* UIPasteboardExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E5B1C1C1DA8D80026D912 /* UIPasteboardExtensionsTests.swift */; };
@@ -1984,7 +1984,6 @@
 		C5E94B5A233112CD00D3F31F /* Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E94B56233112CD00D3F31F /* Trees.swift */; };
 		C8611C8E1F71904C00C3DE7D /* DiskImageStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF8CBC1B7472FA0007AFE6 /* DiskImageStoreTests.swift */; };
 		C8DFFE492294AAB600296DB1 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DFFE482294AAB600296DB1 /* NetworkUtils.swift */; };
-		CF678F2D301287CEAE835873 /* Pods_Gexsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B094B8D0DBC8B1CFEDB6733 /* Pods_Gexsi.framework */; };
 		D018F93E1F44A71A0098F8CA /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D018F93D1F44A7190098F8CA /* Schema.swift */; };
 		D02818611EF056C800240CAA /* SentryIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02818601EF056C800240CAA /* SentryIntegration.swift */; };
 		D03DCD95211B63D000151ACA /* DateGroupedTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03DCD94211B63D000151ACA /* DateGroupedTableData.swift */; };
@@ -2079,7 +2078,6 @@
 		EB9407492081353100702E05 /* UXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940747208134AF00702E05 /* UXConstants.swift */; };
 		EBA1CC1E214AB8FD009E6B06 /* StorageTestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289A4C121C4EB90600A460E3 /* StorageTestUtils.swift */; };
 		EBE7635920ADCB7600E27F2D /* SendTo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE7634F20ADCB7500E27F2D /* SendTo.xcassets */; };
-		F053AEC6767F02C2EA074139 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		F6B058067F4CF67468E0568D /* Pods_SuchHier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F201C6393AAA91FF8241C85F /* Pods_SuchHier.framework */; };
 		F84B21DA1A090F8100AAB793 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B21D91A090F8100AAB793 /* ClientTests.swift */; };
 		F8708D2E1A0970B70051AB07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8708D251A0970990051AB07 /* Images.xcassets */; };
@@ -2588,6 +2586,7 @@
 		0BF0DB931A8545800039F300 /* URLBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLBarView.swift; sourceTree = "<group>"; };
 		0BF1B7E21AC60DEA00A7B407 /* InsetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetButton.swift; sourceTree = "<group>"; };
 		0C382C71B5A388709DD6DCD4 /* Pods-Storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Storage.release.xcconfig"; path = "Target Support Files/Pods-Storage/Pods-Storage.release.xcconfig"; sourceTree = "<group>"; };
+		0CAB57BD2A3BF6974D288950 /* Pods-GOOD.ci.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOOD.ci.xcconfig"; path = "Target Support Files/Pods-GOOD/Pods-GOOD.ci.xcconfig"; sourceTree = "<group>"; };
 		1E78F209B9DF15AA93A83449 /* Pods-OpenIn.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenIn.adhoc.xcconfig"; path = "Target Support Files/Pods-OpenIn/Pods-OpenIn.adhoc.xcconfig"; sourceTree = "<group>"; };
 		206D3535CE2C292003B52507 /* Pods-ShareTo.ci.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTo.ci.xcconfig"; path = "Target Support Files/Pods-ShareTo/Pods-ShareTo.ci.xcconfig"; sourceTree = "<group>"; };
 		22D579CBD91B48866DE7B829 /* Pods_SharedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2732,16 +2731,16 @@
 		2B65718624AB693E005DE5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B65718924AB693E005DE5D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B65718A24AB693E005DE5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2B65718D24AB693E005DE5D3 /* GexsiOpenInAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiOpenInAdHoc.entitlements; sourceTree = "<group>"; };
-		2B65718E24AB693E005DE5D3 /* GexsiOpenInDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiOpenInDebug.entitlements; sourceTree = "<group>"; };
-		2B65718F24AB693E005DE5D3 /* GexsiOpenIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiOpenIn.entitlements; sourceTree = "<group>"; };
-		2B65719124AB693E005DE5D3 /* GexsiTodayDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiTodayDebug.entitlements; sourceTree = "<group>"; };
-		2B65719224AB693E005DE5D3 /* GexsiTodayAdhoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiTodayAdhoc.entitlements; sourceTree = "<group>"; };
-		2B65719324AB693E005DE5D3 /* GexsiToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiToday.entitlements; sourceTree = "<group>"; };
+		2B65718D24AB693E005DE5D3 /* GOODOpenInAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODOpenInAdHoc.entitlements; sourceTree = "<group>"; };
+		2B65718E24AB693E005DE5D3 /* GOODOpenInDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODOpenInDebug.entitlements; sourceTree = "<group>"; };
+		2B65718F24AB693E005DE5D3 /* GOODOpenIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODOpenIn.entitlements; sourceTree = "<group>"; };
+		2B65719124AB693E005DE5D3 /* GOODTodayDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODTodayDebug.entitlements; sourceTree = "<group>"; };
+		2B65719224AB693E005DE5D3 /* GOODTodayAdhoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODTodayAdhoc.entitlements; sourceTree = "<group>"; };
+		2B65719324AB693E005DE5D3 /* GOODToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODToday.entitlements; sourceTree = "<group>"; };
 		2B65719424AB693E005DE5D3 /* GOOD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOOD.entitlements; sourceTree = "<group>"; };
-		2B65719624AB693E005DE5D3 /* GexsiShareToDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiShareToDebug.entitlements; sourceTree = "<group>"; };
-		2B65719724AB693E005DE5D3 /* GexsiShareToAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiShareToAdHoc.entitlements; sourceTree = "<group>"; };
-		2B65719824AB693E005DE5D3 /* GexsiShareTo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GexsiShareTo.entitlements; sourceTree = "<group>"; };
+		2B65719624AB693E005DE5D3 /* GOODShareToDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODShareToDebug.entitlements; sourceTree = "<group>"; };
+		2B65719724AB693E005DE5D3 /* GOODShareToAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODShareToAdHoc.entitlements; sourceTree = "<group>"; };
+		2B65719824AB693E005DE5D3 /* GOODShareTo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODShareTo.entitlements; sourceTree = "<group>"; };
 		2B65719924AB693E005DE5D3 /* GOODAdHoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODAdHoc.entitlements; sourceTree = "<group>"; };
 		2B65719A24AB693E005DE5D3 /* GOODDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOODDebug.entitlements; sourceTree = "<group>"; };
 		2B65719B24AB693E005DE5D3 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
@@ -2978,6 +2977,7 @@
 		2C8C07761E7800EA00DC1237 /* FindInPageTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindInPageTest.swift; sourceTree = "<group>"; };
 		2C97EC701E72C80E0092EC18 /* TopTabsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTabsTest.swift; sourceTree = "<group>"; };
 		2CB1A6591FDEA8B60084E96D /* NewTabSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabSettings.swift; sourceTree = "<group>"; };
+		2CB23FA73110EEA6DA356FED /* Pods-GOOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOOD.debug.xcconfig"; path = "Target Support Files/Pods-GOOD/Pods-GOOD.debug.xcconfig"; sourceTree = "<group>"; };
 		2CB56E3E1E926BFB00AF7586 /* ToolbarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarTest.swift; sourceTree = "<group>"; };
 		2CB67D297D79F3FE6CA52C94 /* Pods-SEALEGACYBlue.ci.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEALEGACYBlue.ci.xcconfig"; path = "Target Support Files/Pods-SEALEGACYBlue/Pods-SEALEGACYBlue.ci.xcconfig"; sourceTree = "<group>"; };
 		2CCF17522105E4FD00705AE5 /* DisplaySettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySettingsTests.swift; sourceTree = "<group>"; };
@@ -3042,6 +3042,7 @@
 		3D71C89D1F5703A1008D8646 /* CopiedLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopiedLinksTests.swift; sourceTree = "<group>"; };
 		3D9CAA1B1EFCD655002434DD /* ClipBoardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipBoardTests.swift; sourceTree = "<group>"; };
 		3E174732E1AE050726D91E40 /* Pods-OpenIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenIn.release.xcconfig"; path = "Target Support Files/Pods-OpenIn/Pods-OpenIn.release.xcconfig"; sourceTree = "<group>"; };
+		4314F01C571EE8B5668D81BA /* Pods_GOOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		460C247523EB0D3200D922B0 /* safari-popups-network.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "safari-popups-network.json"; sourceTree = "<group>"; };
 		460C247923ED73D700D922B0 /* WindowCryto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCryto.swift; sourceTree = "<group>"; };
 		460C247C23ED73EC00D922B0 /* WindowCrypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowCrypto.m; sourceTree = "<group>"; };
@@ -3138,8 +3139,10 @@
 		526508281A8FDBAAA5D03184 /* Pods-SharedTests.ci.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTests.ci.xcconfig"; path = "Target Support Files/Pods-SharedTests/Pods-SharedTests.ci.xcconfig"; sourceTree = "<group>"; };
 		5453F1078130ED445B6EE012 /* Pods-Blue.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue.adhoc.xcconfig"; path = "Target Support Files/Pods-Blue/Pods-Blue.adhoc.xcconfig"; sourceTree = "<group>"; };
 		554867221DC3935A00183DAA /* HomePageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageTests.swift; sourceTree = "<group>"; };
+		5707BCE160D274A4628DB02E /* Pods-GOOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOOD.release.xcconfig"; path = "Target Support Files/Pods-GOOD/Pods-GOOD.release.xcconfig"; sourceTree = "<group>"; };
 		580B0C4121748CFE00448DF8 /* DataManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagementTests.swift; sourceTree = "<group>"; };
 		58CD6C7D7B77A1C7ACC8B7F3 /* Pods-StoragePerfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoragePerfTests.release.xcconfig"; path = "Target Support Files/Pods-StoragePerfTests/Pods-StoragePerfTests.release.xcconfig"; sourceTree = "<group>"; };
+		5955FB38C2983D204C38C1AD /* Pods-GOOD.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOOD.adhoc.xcconfig"; path = "Target Support Files/Pods-GOOD/Pods-GOOD.adhoc.xcconfig"; sourceTree = "<group>"; };
 		59A68B1F857A8638598A63A0 /* TwoLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLineCell.swift; sourceTree = "<group>"; };
 		5B9B6AB5BF4CA8C44E340BCC /* Pods-StoragePerfTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoragePerfTests.adhoc.xcconfig"; path = "Target Support Files/Pods-StoragePerfTests/Pods-StoragePerfTests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		63306D3821103EAE00F25400 /* SavedTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTab.swift; sourceTree = "<group>"; };
@@ -3161,7 +3164,6 @@
 		74C027441B2A348C001B1E88 /* SessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionData.swift; sourceTree = "<group>"; };
 		74E36D771B71323500D69DA1 /* SettingsContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsContentViewController.swift; sourceTree = "<group>"; };
 		793FA5EA29FC7837DA9F09B5 /* Pods-Storage.ci.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Storage.ci.xcconfig"; path = "Target Support Files/Pods-Storage/Pods-Storage.ci.xcconfig"; sourceTree = "<group>"; };
-		7B094B8D0DBC8B1CFEDB6733 /* Pods_Gexsi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gexsi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B10AA9E1E3A15020002DD08 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
 		7B10AABA1E3A1F650002DD08 /* URLRequestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestExtensions.swift; sourceTree = "<group>"; };
 		7B3D9E641E4CBFDB007A50DA /* NSCoderExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCoderExtensions.swift; sourceTree = "<group>"; };
@@ -3587,9 +3589,7 @@
 				2B6570B024AB68A7005DE5D3 /* ImageIO.framework in Frameworks */,
 				2B6570B124AB68A7005DE5D3 /* ObjcExceptionBridging.framework in Frameworks */,
 				2B6570B224AB68A7005DE5D3 /* Widgets.framework in Frameworks */,
-				F053AEC6767F02C2EA074139 /* (null) in Frameworks */,
-				4514BBD5479B8F5568CB281C /* Pods_Gexsi.framework in Frameworks */,
-				CF678F2D301287CEAE835873 /* Pods_Gexsi.framework in Frameworks */,
+				9052D4D973F7221FFF69848C /* Pods_GOOD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3834,6 +3834,10 @@
 				A5D5F4569C2E443DB65D3FB7 /* Pods-SuchHier.adhoc.xcconfig */,
 				F4832E2737A2B14C0F495230 /* Pods-SuchHier.release.xcconfig */,
 				70023D582B4BEEC6A53EC437 /* Pods-SuchHier.ci.xcconfig */,
+				2CB23FA73110EEA6DA356FED /* Pods-GOOD.debug.xcconfig */,
+				5955FB38C2983D204C38C1AD /* Pods-GOOD.adhoc.xcconfig */,
+				5707BCE160D274A4628DB02E /* Pods-GOOD.release.xcconfig */,
+				0CAB57BD2A3BF6974D288950 /* Pods-GOOD.ci.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -4179,9 +4183,9 @@
 		2B65718C24AB693E005DE5D3 /* OpenIn */ = {
 			isa = PBXGroup;
 			children = (
-				2B65718D24AB693E005DE5D3 /* GexsiOpenInAdHoc.entitlements */,
-				2B65718E24AB693E005DE5D3 /* GexsiOpenInDebug.entitlements */,
-				2B65718F24AB693E005DE5D3 /* GexsiOpenIn.entitlements */,
+				2B65718D24AB693E005DE5D3 /* GOODOpenInAdHoc.entitlements */,
+				2B65718E24AB693E005DE5D3 /* GOODOpenInDebug.entitlements */,
+				2B65718F24AB693E005DE5D3 /* GOODOpenIn.entitlements */,
 			);
 			path = OpenIn;
 			sourceTree = "<group>";
@@ -4189,9 +4193,9 @@
 		2B65719024AB693E005DE5D3 /* Today */ = {
 			isa = PBXGroup;
 			children = (
-				2B65719124AB693E005DE5D3 /* GexsiTodayDebug.entitlements */,
-				2B65719224AB693E005DE5D3 /* GexsiTodayAdhoc.entitlements */,
-				2B65719324AB693E005DE5D3 /* GexsiToday.entitlements */,
+				2B65719124AB693E005DE5D3 /* GOODTodayDebug.entitlements */,
+				2B65719224AB693E005DE5D3 /* GOODTodayAdhoc.entitlements */,
+				2B65719324AB693E005DE5D3 /* GOODToday.entitlements */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -4199,9 +4203,9 @@
 		2B65719524AB693E005DE5D3 /* ShareTo */ = {
 			isa = PBXGroup;
 			children = (
-				2B65719624AB693E005DE5D3 /* GexsiShareToDebug.entitlements */,
-				2B65719724AB693E005DE5D3 /* GexsiShareToAdHoc.entitlements */,
-				2B65719824AB693E005DE5D3 /* GexsiShareTo.entitlements */,
+				2B65719624AB693E005DE5D3 /* GOODShareToDebug.entitlements */,
+				2B65719724AB693E005DE5D3 /* GOODShareToAdHoc.entitlements */,
+				2B65719824AB693E005DE5D3 /* GOODShareTo.entitlements */,
 			);
 			path = ShareTo;
 			sourceTree = "<group>";
@@ -5166,13 +5170,13 @@
 				A1B2E098D858B5632CD21ECE /* Pods_StoragePerfTests.framework */,
 				80AE66E0474080C26967C66B /* Pods_OpenIn.framework */,
 				D3CF3DFE609D0D680B66408F /* Pods_ShareTo.framework */,
-				7B094B8D0DBC8B1CFEDB6733 /* Pods_Gexsi.framework */,
 				B9BA0EFD4EBA8FB7BF34917B /* Pods_Panda.framework */,
 				DBA0334BFE6A86C1EF0B2029 /* Pods_Blue.framework */,
 				73BC21EFFE886082100C0F0A /* Pods_SEALEGACYBlue.framework */,
 				2BE8512B26C688CF003CA316 /* WidgetKit.framework */,
 				2BE8512D26C688CF003CA316 /* SwiftUI.framework */,
 				F201C6393AAA91FF8241C85F /* Pods_SuchHier.framework */,
+				4314F01C571EE8B5668D81BA /* Pods_GOOD.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -7192,7 +7196,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Gexsi-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GOOD-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -7273,7 +7277,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Gexsi/Pods-Gexsi-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GOOD/Pods-GOOD-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
@@ -7368,7 +7372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gexsi/Pods-Gexsi-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GOOD/Pods-GOOD-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2BAD299124E6755B0098F3D1 /* [CP] Check Pods Manifest.lock */ = {
@@ -11591,7 +11595,7 @@
 		};
 		2B6570C024AB68A7005DE5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6A69FB19034F99B127D52DC /* Pods-Gexsi.debug.xcconfig */;
+			baseConfigurationReference = 2CB23FA73110EEA6DA356FED /* Pods-GOOD.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -11649,7 +11653,7 @@
 		};
 		2B6570C124AB68A7005DE5D3 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB19CEBE1DC3A8BC89644246 /* Pods-Gexsi.adhoc.xcconfig */;
+			baseConfigurationReference = 5955FB38C2983D204C38C1AD /* Pods-GOOD.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -11707,7 +11711,7 @@
 		};
 		2B6570C224AB68A7005DE5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86833A66911FD5957EC51247 /* Pods-Gexsi.release.xcconfig */;
+			baseConfigurationReference = 5707BCE160D274A4628DB02E /* Pods-GOOD.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -11750,7 +11754,7 @@
 		};
 		2B6570C324AB68A7005DE5D3 /* CI */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9FBECC65A4248D04670A72A /* Pods-Gexsi.ci.xcconfig */;
+			baseConfigurationReference = 0CAB57BD2A3BF6974D288950 /* Pods-GOOD.ci.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -12879,7 +12883,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/XCUITests/XCUITests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Gexsi;
+				TEST_TARGET_NAME = GOOD;
 			};
 			name = Debug;
 		};
@@ -12922,7 +12926,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Gexsi;
+				TEST_TARGET_NAME = GOOD;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -13250,7 +13254,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Gexsi;
+				TEST_TARGET_NAME = GOOD;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = CI;
@@ -13528,7 +13532,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/XCUITests/XCUITests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Gexsi;
+				TEST_TARGET_NAME = GOOD;
 			};
 			name = Adhoc;
 		};

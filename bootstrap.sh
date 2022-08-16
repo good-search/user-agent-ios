@@ -6,7 +6,7 @@
 #
 
 if [ -z "$1" ]; then
-   echo "No argument specified. Fallback to Gexsi"
+   echo "No argument specified. Fallback to GOOD"
    sh Branding/setup.sh GOOD ./
 else
    sh Branding/setup.sh $1 ./

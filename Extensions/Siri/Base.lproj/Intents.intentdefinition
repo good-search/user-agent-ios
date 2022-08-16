@@ -5,15 +5,15 @@
 	<key>INEnums</key>
 	<array/>
 	<key>INIntentDefinitionModelVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
 	<string>uLmBZn</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>19F101</string>
+	<string>21G72</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>11E708</string>
+	<string>13F100</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>11.6</string>
+	<string>13.4.1</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -22,7 +22,7 @@
 			<key>INIntentConfigurable</key>
 			<true/>
 			<key>INIntentDescription</key>
-			<string>Search any query with Gexsi</string>
+			<string>Search any query with GOOD</string>
 			<key>INIntentDescriptionID</key>
 			<string>nChTLr</string>
 			<key>INIntentIneligibleForSuggestions</key>
@@ -36,7 +36,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Search With Gexsi</string>
+					<string>Search With GOOD</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>WogcPW</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
@@ -48,6 +48,8 @@
 			<key>INIntentParameters</key>
 			<array>
 				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
 					<key>INIntentParameterDisplayName</key>
 					<string>Query</string>
 					<key>INIntentParameterDisplayNameID</key>
@@ -99,7 +101,7 @@
 				</array>
 			</dict>
 			<key>INIntentTitle</key>
-			<string>Search With Gexsi</string>
+			<string>Search With GOOD</string>
 			<key>INIntentTitleID</key>
 			<string>uYCcdq</string>
 			<key>INIntentType</key>

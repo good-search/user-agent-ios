@@ -6,19 +6,19 @@
   Copyright © 2019 Cliqz. All rights reserved.
 */
 
-"website" = "https://gexsi.com/";
-"whatsNewWebsite" = "https://gexsi.com/about/projekte/";
+"website" = "https://good-search.org/search";
+"whatsNewWebsite" = "https://good-search.org/about/projekte/";
 "humanWebInfoWebsite" = "https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html";
 "repositoryWebsite" = "https://github.com/cliqz/user-agent-ios";
-"privacyPolicyWebsite" = "https://gexsi.com/about/datenschutz/";
-"contact" = "https://gexsi.com/about/kontakt/";
-"about" = "https://gexsi.com/about/";
+"privacyPolicyWebsite" = "https://good-search.org/datenschutz";
+"contact" = "https://good-search.org/about/kontakt/";
+"about" = "https://good-search.org/about";
 "faq" = "";
-"termsOfUse" = "https://gexsi.com/about/nutzungsbedingungen/";
+"termsOfUse" = "https://good-search.org/nutzungsbedingungen";
 "licensesHeader" = "GOOD";
 
 /* The text shown in the URL bar on about:home */
 "UrlBar.Placeholder" = "Suchen und Gutes tun";
 
 /* Label for the button, displayed in the menu, used to open the What's new page. */
-"Menu.OpenWhatsNewAction.Title" = "Aktuelles Projekt";
+"Menu.OpenWhatsNewAction.Title" = "Über GOOD";

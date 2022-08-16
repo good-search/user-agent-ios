@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "logo-negativ.png",
+      "filename" : "good-logo-white.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "logo-negativ-1.png",
+      "filename" : "good-logo-white-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "logo-negativ-2.png",
+      "filename" : "good-logo-white-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
