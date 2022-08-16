@@ -6,7 +6,7 @@
   Copyright © 2019 Cliqz. All rights reserved.
 */
 
-"website" = "https://good-search.org/search";
+"website" = "https://good-search.org";
 "whatsNewWebsite" = "https://good-search.org/about/projekte/";
 "humanWebInfoWebsite" = "https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html";
 "repositoryWebsite" = "https://github.com/cliqz/user-agent-ios";
