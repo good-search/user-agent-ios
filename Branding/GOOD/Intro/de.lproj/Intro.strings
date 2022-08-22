@@ -1,12 +1,12 @@
 
 /* Description for the 'AntiTracking' panel in the First Run tour. */
-"Intro.Slides.AntiTracking.Description" = "Wir sammeln keine persönlichen Daten. Ad-blocker und Anti-Tracking helfen dir, dich zu schützen.";
+"Intro.Slides.AntiTracking.Description" = "Wir sammeln keine persönlichen Daten. Ad-Blocker und Anti-Tracking helfen dir, dich zu schützen.";
 
 /* Title for the 'AntiTracking' panel in the First Run tour. */
 "Intro.Slides.AntiTracking.Title" = "Besserer Datenschutz und mehr Privatsphäre";
 
 /* Description for the 'Search' panel in the First Run tour. */
-"Intro.Slides.Search.Description" = "Suche mit GOOD und unterstütze jeden Monat ein neues Projekt, das die Welt positiv verändert und einen Beitrag zu den 17 UN-Nachhaltigkeitszielen (SDGs) leistet.";
+"Intro.Slides.Search.Description" = "Suche mit GOOD und unterstütze so Lösungen, die die Welt positiv verändern.";
 
 /* Title for the 'Search' panel in the First Run tour. */
 "Intro.Slides.Search.Title" = "Die Suchmaschine für eine bessere Welt";
@@ -15,10 +15,10 @@
 "Intro.Slides.Skip.Title" = "Überspringen";
 
 /* Button title for starting browsing. */
-"Intro.Slides.Welcome.Button.Title" = "Suche mit Herz";
+"Intro.Slides.Welcome.Button.Title" = "Suche und Gutes tun";
 
 /* Title for the 'Welcome' panel in the First Run tour. */
-"Intro.Slides.Welcome.Title" = "Non-profit und C02-neutral";
+"Intro.Slides.Welcome.Title" = "Non-profit und CO2-neutral";
 
 /* Description for the 'Welcome' panel in the First Run tour. */
-"Intro.Slides.Welcome.Description" = "Wir sind ein zertifiziertes Sozial-unternehmen. Deine Suche hinterlässt keinen CO2-Fußabdruck.";
+"Intro.Slides.Welcome.Description" = "Wir sind ein zertifiziertes Sozialunternehmen. Deine Suche hinterlässt keinen CO2-Fußabdruck.";
