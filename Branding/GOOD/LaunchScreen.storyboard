@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,23 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newSplash" translatesAutoresizingMaskIntoConstraints="NO" id="sFF-6h-VyS">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newLogo" translatesAutoresizingMaskIntoConstraints="NO" id="BKq-uV-NNY">
                                 <rect key="frame" x="101.00000000000001" y="195" width="188.33333333333337" height="64.333333333333314"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="Brand"/>
                         <constraints>
-                            <constraint firstAttribute="top" secondItem="sFF-6h-VyS" secondAttribute="top" id="1tK-TQ-rAr"/>
-                            <constraint firstItem="sFF-6h-VyS" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="6KX-H7-xH2"/>
-                            <constraint firstItem="sFF-6h-VyS" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="C0u-GG-ouW"/>
                             <constraint firstItem="BKq-uV-NNY" firstAttribute="centerY" secondItem="Bcu-3y-fUS" secondAttribute="centerY" constant="-200" id="Ejy-Iq-FW7"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="sFF-6h-VyS" secondAttribute="trailing" id="q2d-xv-pGw"/>
-                            <constraint firstItem="BKq-uV-NNY" firstAttribute="centerX" secondItem="sFF-6h-VyS" secondAttribute="centerX" id="tt9-D7-wJe"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="sFF-6h-VyS" secondAttribute="trailing" id="u6U-Eb-qVj"/>
+                            <constraint firstItem="BKq-uV-NNY" firstAttribute="centerX" secondItem="Bcu-3y-fUS" secondAttribute="centerX" id="nf6-bz-Oy4"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -43,6 +36,8 @@
     </scenes>
     <resources>
         <image name="newLogo" width="188.33332824707031" height="64.333335876464844"/>
-        <image name="newSplash" width="1000" height="1000"/>
+        <namedColor name="Brand">
+            <color red="0.22352941176470589" green="0.45882352941176469" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
