@@ -17,8 +17,8 @@ struct DefaultBrowserHintUX {
     static let ButtonHeight = 60.0
     static let ButtonBottomOffset = 20.0
     static let Padding = 10.0
-    static let LogoImageSize = 40.0
-    static let ImageTopOffes = 20.0
+    static let LogoImageSize = 45.0
+    static let ImageTopOffes = 40.0
     static let CornerRadius = 10.0
     static let TextHorizontalPadding = 40.0
     static let TextVerticalPadding = 33.0
@@ -54,6 +54,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var titleLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 24.0)
         label.textAlignment = .center
         label.numberOfLines = 0
         label.text = String(format: Strings.DefaultBrowserHint.Title, AppInfo.displayName)
@@ -62,6 +63,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var messageLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 20.0, weight: .ultraLight)
         label.textAlignment = .center
         label.numberOfLines = 0
         label.text = String(format: Strings.DefaultBrowserHint.Message, AppInfo.displayName)
@@ -70,6 +72,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var firstStepLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
         label.textAlignment = .left
         label.text = Strings.DefaultBrowserHint.Step1
         return label
@@ -77,6 +80,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var secondStepLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
         label.textAlignment = .left
         label.text = Strings.DefaultBrowserHint.Step2
         return label
@@ -84,6 +88,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var thirdStepLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
         label.textAlignment = .left
         label.text = String(format: Strings.DefaultBrowserHint.Step3, AppInfo.displayName)
         return label
@@ -153,14 +158,14 @@ class DefaultBrowserHintViewController: UIViewController {
 
         self.contentView.addSubview(self.secondStepLabel)
         self.secondStepLabel.snp.makeConstraints { make in
-            make.top.equalTo(self.firstStepLabel.snp.bottom)
+            make.top.equalTo(self.firstStepLabel.snp.bottom).offset(DefaultBrowserHintUX.Padding / 2)
             make.leading.equalTo(self.contentView.snp.leading).offset(DefaultBrowserHintUX.TextHorizontalPadding)
             make.trailing.equalTo(self.contentView.snp.trailing).offset(-DefaultBrowserHintUX.TextHorizontalPadding)
         }
 
         self.contentView.addSubview(self.thirdStepLabel)
         self.thirdStepLabel.snp.makeConstraints { make in
-            make.top.equalTo(self.secondStepLabel.snp.bottom)
+            make.top.equalTo(self.secondStepLabel.snp.bottom).offset(DefaultBrowserHintUX.Padding / 2)
             make.leading.equalTo(self.contentView.snp.leading).offset(DefaultBrowserHintUX.TextHorizontalPadding)
             make.trailing.equalTo(self.contentView.snp.trailing).offset(-DefaultBrowserHintUX.TextHorizontalPadding)
         }
@@ -169,8 +174,8 @@ class DefaultBrowserHintViewController: UIViewController {
         self.settingButton.snp.makeConstraints { make in
             make.height.equalTo(DefaultBrowserHintUX.ButtonHeight)
             make.top.equalTo(self.thirdStepLabel.snp.bottom).offset(DefaultBrowserHintUX.TextVerticalPadding)
-            make.leading.equalTo(self.contentView.snp.leading).offset(DefaultBrowserHintUX.Padding)
-            make.trailing.equalTo(self.contentView.snp.trailing).offset(-DefaultBrowserHintUX.Padding)
+            make.leading.equalTo(self.contentView.snp.leading).offset(2 * DefaultBrowserHintUX.Padding)
+            make.trailing.equalTo(self.contentView.snp.trailing).offset(-2 * DefaultBrowserHintUX.Padding)
             make.bottom.equalTo(self.contentView.snp.bottom).offset(-DefaultBrowserHintUX.ButtonBottomOffset)
         }
     }
