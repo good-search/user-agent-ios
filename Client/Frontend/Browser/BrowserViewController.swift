@@ -707,7 +707,9 @@ class BrowserViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        presentOnboarding()
+        if !self.presentOnboarding() {
+            self.presentDefaultBrowserHint()
+        }
 
         screenshotHelper.viewIsVisible = true
         screenshotHelper.takePendingScreenshots(tabManager.tabs)
@@ -833,7 +835,7 @@ class BrowserViewController: UIViewController {
         }
         let blurEffect = UIBlurEffect(style: .light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        //always fill the view
+        // always fill the view
         blurEffectView.frame = self.view.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.view.addSubview(blurEffectView)
@@ -2011,8 +2013,29 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
         }
     }
 
-    func presentOnboarding(_ force: Bool = false, animated: Bool = true) {
+    func presentOnboarding(_ force: Bool = false, animated: Bool = true) -> Bool {
         if Onboarding.isEnabled && (force || profile.prefs.intForKey(PrefsKeys.IntroSeen) == nil) {
+            guard let onboardingViewController = Onboarding.presentingViewController(delegate: self) else { return false }
+            // On iPad we present it modally in a controller
+            if topTabsVisible {
+                onboardingViewController.preferredContentSize = CGSize(width: BrowserViewControllerUX.OnboardingWidth, height: BrowserViewControllerUX.OnboardingHeight)
+                onboardingViewController.modalPresentationStyle = UIDevice.current.isPhone ? .fullScreen : .formSheet
+            } else {
+                onboardingViewController.modalPresentationStyle = .fullScreen
+            }
+            self.present(onboardingViewController, animated: animated) {
+                // On first run (and forced) open up the homepage in the background.
+                if let homePageURL = NewTabPage.topSites.url, let tab = self.tabManager.selectedTab, DeviceInfo.hasConnectivity() {
+                    tab.loadRequest(URLRequest(url: homePageURL))
+                }
+            }
+            return true
+        }
+        return false
+    }
+
+    func presentDefaultBrowserHint() {
+        if Features.DefaultBrowserHint.isEnabled && (self.profile.prefs.intForKey(PrefsKeys.DefaultBrowserHint) == nil) {
             guard let onboardingViewController = Onboarding.presentingViewController(delegate: self) else { return }
             // On iPad we present it modally in a controller
             if topTabsVisible {
@@ -2021,16 +2044,14 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
             } else {
                 onboardingViewController.modalPresentationStyle = .fullScreen
             }
-            present(onboardingViewController, animated: animated) {
+            self.present(onboardingViewController, animated: true) {
                 // On first run (and forced) open up the homepage in the background.
                 if let homePageURL = NewTabPage.topSites.url, let tab = self.tabManager.selectedTab, DeviceInfo.hasConnectivity() {
                     tab.loadRequest(URLRequest(url: homePageURL))
                 }
             }
-
-            return
+//            self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
         }
-        return
     }
 
 }
@@ -2088,7 +2109,7 @@ extension BrowserViewController: ContextMenuHelperDelegate {
             let downloadAction = UIAlertAction(title: Strings.ContextMenu.DownloadLink, style: .default) { _ in
                 // This checks if download is a blob, if yes, begin blob download process
                 if !DownloadContentScript.requestBlobDownload(url: url, tab: currentTab) {
-                    //if not a blob, set pendingDownloadWebView and load the request in the webview, which will trigger the WKWebView navigationResponse delegate function and eventually downloadHelper.open()
+                    // if not a blob, set pendingDownloadWebView and load the request in the webview, which will trigger the WKWebView navigationResponse delegate function and eventually downloadHelper.open()
                     self.pendingDownloadWebView = currentTab.webView
                     let request = URLRequest(url: url)
                     currentTab.webView?.load(request)
@@ -2201,10 +2222,10 @@ extension BrowserViewController: ContextMenuHelperDelegate {
         }
     }
 
-    //Support for CMD+ Click on link to open in a new tab
+    // Support for CMD+ Click on link to open in a new tab
     override func pressesBegan(_ presses: Set<UIPress>, with event: UIPressesEvent?) {
         super.pressesBegan(presses, with: event)
-         guard let key = presses.first?.key, (key.keyCode == .keyboardLeftGUI || key.keyCode == .keyboardRightGUI) else { return } //GUI buttons = CMD buttons on ipad/mac
+         guard let key = presses.first?.key, (key.keyCode == .keyboardLeftGUI || key.keyCode == .keyboardRightGUI) else { return } // GUI buttons = CMD buttons on ipad/mac
          self.isCmdClickForNewTab = true
     }
 

@@ -1,7 +1,7 @@
 disabled_rules: # rule identifiers to exclude from running
   - unneeded_notification_center_removal
   - implicit_getter
-  - variable_name
+  - identifier_name
   - file_header
   - type_name
   - function_body_length
@@ -26,6 +26,7 @@ disabled_rules: # rule identifiers to exclude from running
   - fallthrough
   - legacy_cggeometry_functions
   - closure_parameter_position
+  - inclusive_language
 
 # The following rules are disabled for now because firefox code breaks them. Try to reintroduce them gradually
   - force_try

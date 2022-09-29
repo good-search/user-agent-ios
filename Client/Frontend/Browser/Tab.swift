@@ -389,7 +389,7 @@ class Tab: NSObject {
             return Strings.Menu.OpenHomePageTitleString
         }
 
-        //lets double check the sessionData in case this is a non-restored new tab
+        // lets double check the sessionData in case this is a non-restored new tab
         if let firstURL = sessionData?.urls.first, sessionData?.urls.count == 1, InternalURL(firstURL)?.isAboutHomeURL ?? false {
             return Strings.Menu.OpenHomePageTitleString
         }

@@ -195,8 +195,7 @@ open class MemoryBookmarkFolder: BookmarkFolder, Sequence {
             return nil
         }
         // swiftlint:disable:next unused_setter_value
-        set {
-        }
+        set {}
     }
 
     override open var count: Int {

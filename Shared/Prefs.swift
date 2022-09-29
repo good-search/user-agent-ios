@@ -8,6 +8,7 @@ public struct PrefsKeys {
     public static let KeyDefaultHomePageURL = "KeyDefaultHomePageURL"
     public static let KeyMailToOption = "MailToOption"
     public static let IntroSeen = "IntroViewControllerSeen-3.0.0"
+    public static let DefaultBrowserHint = "DefaultBrowserHint"
     public static let ShowAppReview = "ShowAppReview-\(AppInfo.appVersion)"
 
     public static let WhatsNewBubble = "WhatsNewBubble-\(AppInfo.appVersion)"
@@ -15,10 +16,10 @@ public struct PrefsKeys {
     public static let OpenLinks = "OpenLinks"
     public static let OnBrowserStartTab = "OnBrowserStartTab"
 
-    //Today Widget
+    // Today Widget
     public static let TodayWidgetWeatherLocation = "WeatherLocation"
 
-    //Pull to refresh
+    // Pull to refresh
     public static let RefreshControlEnabled = "RefreshControlEnabled"
 
     // Contextual Onboarding
@@ -34,14 +35,14 @@ public struct PrefsKeys {
     public static let HomeBackgroundImage = "HomeBackgroundImage"
     public static let HomeBackgroundOption = "HomeBackgroundOption"
 
-    //News
+    // News
     public static let NewTabNewsEnabled = "NewTabNewsEnabled"
     public static let NewTabNewsImagesEnabled = "NewTabNewsImagesEnabled"
 
     public static let ContextMenuShowLinkPreviews = "showLinkPreviews"
 
     public static let NewTabCustomUrlPrefKey = "HomePageURLPref"
-    //Activity Stream
+    // Activity Stream
     public static let KeyTopSitesCacheIsValid = "topSitesCacheIsValid"
     public static let KeyTopSitesCacheSize = "topSitesCacheSize"
 
