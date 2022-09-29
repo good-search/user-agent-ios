@@ -89,6 +89,18 @@ public struct Features {
         }
     }
 
+    public struct ContentBlocker {
+        public static var excludeURLs: [String] {
+            return []
+        }
+    }
+
+    public struct DefaultBrowserHint {
+        public static var isEnabled: Bool {
+            return false
+        }
+    }
+
     public struct AntiPhishing {
         public static var isEnabled: Bool {
             return false

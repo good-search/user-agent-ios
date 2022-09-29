@@ -8,6 +8,7 @@
 
 import Foundation
 import WebKit
+import Shared
 
 struct AllowListedDomains {
     var domainSet = Set<String>() {
@@ -35,7 +36,9 @@ class AllowList {
 
         // Read the allowList at startup
         if let list = self.readAllowListFile() {
-            self.allowListedDomains.domainSet = Set(list)
+            self.allowListedDomains.domainSet = Set(list + Features.ContentBlocker.excludeURLs)
+        } else {
+            self.allowListedDomains.domainSet = Set(Features.ContentBlocker.excludeURLs)
         }
     }
 

@@ -208,7 +208,7 @@ class URLBarView: UIView {
         cancelButton.addSubview(separator)
 
         [scrollToTopButton, line, tabsButton, progressBar, self.searchButton,
-         menuButton, forwardButton, backButton, stopReloadButton, locationContainer, ].forEach {
+         menuButton, forwardButton, backButton, stopReloadButton, locationContainer].forEach {
             addSubview($0)
         }
 

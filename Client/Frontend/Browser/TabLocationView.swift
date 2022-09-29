@@ -418,6 +418,10 @@ extension TabLocationView: TabEventHandler {
         let (arcs, strike) = PrivacyIndicatorTransformation
             .transform(status: blocker.status, stats: blocker.stats)
         self.privacyIndicator.update(arcs: arcs, strike: strike)
+        if let host = tab.url?.host, !host.isEmpty {
+            self.privacyIndicator.isUserInteractionEnabled = !Features.ContentBlocker.excludeURLs.contains(host)
+            self.privacyIndicator.alpha = Features.ContentBlocker.excludeURLs.contains(host) ? 0.0 : 1.0
+        }
     }
 
     func tabDidGainFocus(_ tab: Tab) {

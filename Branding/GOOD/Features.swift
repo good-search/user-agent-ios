@@ -109,6 +109,18 @@ extension Features.PrivacyDashboard {
     }
 }
 
+extension Features.ContentBlocker {
+    public static var excludeURLs: [String] {
+        return ["good-search.org", "www.good-search.org"]
+    }
+}
+
+extension Features.DefaultBrowserHint {
+    public static var isEnabled: Bool {
+        return true
+    }
+}
+
 extension Features.AutoSuggestion {
 
     public static func parse(json: JSON) -> ([String], [[String: Any]]) {
