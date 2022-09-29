@@ -2043,7 +2043,7 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
 extension BrowserViewController: DefaultBrowserHintViewControllerDelegate {
 
     func defaultBrowserHintViewControllerDidFinish(_ viewController: UIViewController) {
-//        self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
+        self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
     }
 
     func presentDefaultBrowserHint() {
