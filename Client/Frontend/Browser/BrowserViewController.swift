@@ -2007,12 +2007,16 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
             if self.navigationController?.viewControllers.count ?? 0 > 1 {
                 _ = self.navigationController?.popToRootViewController(animated: true)
             }
-            if shouldPresentPrivacyStatement && DataAndPrivacy.isEnabled {
-                self.presentDataAndPrivacyViewController()
+//            if shouldPresentPrivacyStatement && DataAndPrivacy.isEnabled {
+//                self.presentDataAndPrivacyViewController()
+//            }
+            if shouldPresentPrivacyStatement {
+                self.presentDefaultBrowserHint()
             }
         }
     }
 
+    @discardableResult
     func presentOnboarding(_ force: Bool = false, animated: Bool = true) -> Bool {
         if Onboarding.isEnabled && (force || profile.prefs.intForKey(PrefsKeys.IntroSeen) == nil) {
             guard let onboardingViewController = Onboarding.presentingViewController(delegate: self) else { return false }
@@ -2039,21 +2043,20 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
 extension BrowserViewController: DefaultBrowserHintViewControllerDelegate {
 
     func defaultBrowserHintViewControllerDidFinish(_ viewController: UIViewController) {
-        self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
-        viewController.dismiss(animated: true)
+//        self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
     }
 
     func presentDefaultBrowserHint() {
+        guard !(self.presentedViewController is DefaultBrowserHintViewController) else {
+            return
+        }
         if Features.DefaultBrowserHint.isEnabled && (self.profile.prefs.intForKey(PrefsKeys.DefaultBrowserHint) == nil) {
             let viewController = DefaultBrowserHintViewController()
             viewController.delegate = self
-            // On iPad we present it modally in a controller
-            if topTabsVisible {
-                viewController.preferredContentSize = CGSize(width: BrowserViewControllerUX.OnboardingWidth, height: BrowserViewControllerUX.OnboardingHeight)
-                viewController.modalPresentationStyle = UIDevice.current.isPhone ? .overCurrentContext : .formSheet
-            } else {
-                viewController.modalPresentationStyle = .overCurrentContext
-            }
+
+            viewController.preferredContentSize = CGSize(width: BrowserViewControllerUX.OnboardingWidth, height: BrowserViewControllerUX.OnboardingHeight)
+            viewController.modalPresentationStyle = UIDevice.current.isPhone ? .overFullScreen : .formSheet
+
             self.present(viewController, animated: true)
         }
     }

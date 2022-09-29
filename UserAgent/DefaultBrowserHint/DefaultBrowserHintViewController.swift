@@ -30,7 +30,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var closeButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = .White
+        button.backgroundColor = .Grey10
         button.setTitle(Strings.General.CloseString, for: .normal)
         button.setTitleColor(UIColor.Brand, for: .normal)
         button.addTarget(self, action: #selector(closeButtonAction), for: UIControl.Event.touchUpInside)
@@ -40,9 +40,22 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var contentView: UIView = {
         let view = UIView()
-        view.backgroundColor = .White
+        view.backgroundColor = .Grey10
         view.layer.cornerRadius = DefaultBrowserHintUX.CornerRadius
         return view
+    }()
+
+    lazy private var shadowView: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIDevice.current.isPhone ? .clear : .black.withAlphaComponent(0.1)
+        view.layer.cornerRadius = DefaultBrowserHintUX.CornerRadius
+        return view
+    }()
+
+    lazy private var scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.backgroundColor = .clear
+        return scrollView
     }()
 
     lazy private var logoImageView: UIImageView = {
@@ -108,8 +121,8 @@ class DefaultBrowserHintViewController: UIViewController {
         super.viewDidLoad()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapGesture(gesture:)))
         self.view.addGestureRecognizer(tapGestureRecognizer)
-        self.view.backgroundColor = .black.withAlphaComponent(0.5)
-
+        self.view.backgroundColor = UIDevice.current.isPhone ? .black.withAlphaComponent(0.5) : .clear
+        self.view.addSubview(self.shadowView)
         self.view.addSubview(self.closeButton)
 
         self.closeButton.snp.makeConstraints { make in
@@ -125,7 +138,7 @@ class DefaultBrowserHintViewController: UIViewController {
             make.leading.equalTo(self.view.safeAreaLayoutGuide.snp.leading).offset(DefaultBrowserHintUX.Padding)
             make.trailing.equalTo(self.view.safeAreaLayoutGuide.snp.trailing).offset(-DefaultBrowserHintUX.Padding)
             make.bottom.equalTo(self.closeButton.snp.top).offset(-DefaultBrowserHintUX.Padding)
-            make.top.greaterThanOrEqualTo(self.view.safeAreaLayoutGuide.snp.top)
+            make.top.greaterThanOrEqualTo(self.view.safeAreaLayoutGuide.snp.top).offset(DefaultBrowserHintUX.Padding)
         }
 
         self.contentView.addSubview(self.logoImageView)
@@ -133,6 +146,13 @@ class DefaultBrowserHintViewController: UIViewController {
             make.centerX.equalTo(self.contentView.snp.centerX)
             make.top.equalTo(self.contentView.snp.top).offset(DefaultBrowserHintUX.ImageTopOffes)
             make.height.width.equalTo(DefaultBrowserHintUX.LogoImageSize)
+        }
+
+        self.shadowView.snp.makeConstraints { make in
+            make.top.equalTo(self.contentView.snp.top).offset(-DefaultBrowserHintUX.Padding / 3)
+            make.left.equalTo(self.contentView.snp.left).offset(-DefaultBrowserHintUX.Padding / 3)
+            make.right.equalTo(self.contentView.snp.right).offset(DefaultBrowserHintUX.Padding / 3)
+            make.bottom.equalTo(self.closeButton.snp.bottom).offset(DefaultBrowserHintUX.Padding / 3)
         }
 
         self.contentView.addSubview(self.titleLabel)
@@ -180,22 +200,51 @@ class DefaultBrowserHintViewController: UIViewController {
         }
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        if self.isBeingDismissed {
+            self.delegate?.defaultBrowserHintViewControllerDidFinish(self)
+        }
+    }
+
+    override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate { _ in
+            self.shadowView.backgroundColor = newCollection.horizontalSizeClass == .regular ? .clear : .black.withAlphaComponent(0.1)
+        }
+    }
+
     // MARK: - Actions
 
     @objc func tapGesture(gesture: UITapGestureRecognizer) {
         let location = gesture.location(in: self.view)
         if !self.contentView.frame.contains(location) && !self.closeButton.frame.contains(location) {
-            self.delegate?.defaultBrowserHintViewControllerDidFinish(self)
+            self.dismiss(animated: true)
         }
     }
 
     @objc func closeButtonAction() {
-        self.delegate?.defaultBrowserHintViewControllerDidFinish(self)
+        self.dismiss(animated: true)
     }
 
     @objc func settingButtonAction() {
-        self.delegate?.defaultBrowserHintViewControllerDidFinish(self)
+        self.dismiss(animated: true)
         UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:])
     }
 
+}
+
+extension DefaultBrowserHintViewController {
+    override var prefersStatusBarHidden: Bool {
+        return false
+    }
+
+    override var shouldAutorotate: Bool {
+        return false
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        // This actually does the right thing on iPad where the modally
+        // presented version happily rotates with the iPad orientation.
+        return .portrait
+    }
 }
