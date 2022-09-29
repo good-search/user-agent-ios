@@ -1,0 +1,20 @@
+/* 
+  DefaultBrowserHint.strings
+  UserAgent
+
+  Created by Shahen on 29.09.22.
+  Copyright © 2022 Cliqz. All rights reserved.
+*/
+
+/* Title for default browser hint screen*/
+"DefaultBrowserHint.Title" = "Mach %@ zu deinem Standard-Browser!";
+/* Message for default browser hint screen */
+"DefaultBrowserHint.Message" = "Stelle Links von Websites, E-Mails und Nachrichten so ein, dass sie mit der %@ Browser App geöffnet werden.";
+/* First step for default browser hint screen */
+"DefaultBrowserHint.Step1" = "1. Einstellungen öffnen";
+/* Second step for default browser hint screen */
+"DefaultBrowserHint.Step2" = "2. Standard-Browser-App antippen";
+/* Third step for default browser hint screen */
+"DefaultBrowserHint.Step3" = "3. %@ auswählen";
+/* Setting button title for default browser hint screen */
+"DefaultBrowserHint.Setting" = "Einstellungen öffnen";

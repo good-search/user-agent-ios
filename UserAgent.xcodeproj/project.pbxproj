@@ -757,6 +757,17 @@
 		2B6571AA24AB69A6005DE5D3 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65719B24AB693E005DE5D3 /* Features.swift */; };
 		2B6571AB24AB69AF005DE5D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B65717724AB693E005DE5D3 /* InfoPlist.strings */; };
 		2B6571AE24AB69BC005DE5D3 /* BrandColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6571A124AB693E005DE5D3 /* BrandColors.xcassets */; };
+		2B6C34B928E586D2004790B5 /* DefaultBrowserHintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */; };
+		2B6C34BA28E586D6004790B5 /* DefaultBrowserHintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */; };
+		2B6C34BB28E586D7004790B5 /* DefaultBrowserHintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */; };
+		2B6C34BC28E586D8004790B5 /* DefaultBrowserHintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */; };
+		2B6C34BD28E586D8004790B5 /* DefaultBrowserHintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */; };
+		2B6C34BF28E596D7004790B5 /* Strings+DefaultBrowserHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C34BE28E596D7004790B5 /* Strings+DefaultBrowserHint.swift */; };
+		2B6C34C728E59841004790B5 /* DefaultBrowserHint.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */; };
+		2B6C34C828E59841004790B5 /* DefaultBrowserHint.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */; };
+		2B6C34C928E59841004790B5 /* DefaultBrowserHint.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */; };
+		2B6C34CA28E59842004790B5 /* DefaultBrowserHint.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */; };
+		2B6C34CB28E59842004790B5 /* DefaultBrowserHint.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */; };
 		2B7C286C2498D1A800D43685 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7C286B2498D1A800D43685 /* Colors.swift */; };
 		2B7C286D2498D1D600D43685 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC6EC5E232945FF000F5499 /* Colors.xcassets */; };
 		2B9072192477BB7E0003ADC1 /* Favicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9072182477BB7E0003ADC1 /* Favicons.swift */; };
@@ -2751,6 +2762,10 @@
 		2B6571A424AB693E005DE5D3 /* brand.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = brand.xcassets; sourceTree = "<group>"; };
 		2B6571A524AB693E005DE5D3 /* ShareTo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ShareTo.xcassets; sourceTree = "<group>"; };
 		2B6571A624AB693E005DE5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrowserHintViewController.swift; sourceTree = "<group>"; };
+		2B6C34BE28E596D7004790B5 /* Strings+DefaultBrowserHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+DefaultBrowserHint.swift"; sourceTree = "<group>"; };
+		2B6C34CC28E59842004790B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DefaultBrowserHint.strings; sourceTree = "<group>"; };
+		2B6C34CE28E59843004790B5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/DefaultBrowserHint.strings; sourceTree = "<group>"; };
 		2B723CDC2461676E008986E5 /* SearchEnginePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEnginePicker.swift; sourceTree = "<group>"; };
 		2B79E4172480E4C300263B90 /* NativeFavicon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeFavicon.m; sourceTree = "<group>"; };
 		2B79E41A2481041500263B90 /* NativeFaviconFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeFaviconFetcher.swift; sourceTree = "<group>"; };
@@ -4229,6 +4244,14 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		2B6C34B728E586A9004790B5 /* DefaultBrowserHint */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C34B828E586D2004790B5 /* DefaultBrowserHintViewController.swift */,
+			);
+			path = DefaultBrowserHint;
+			sourceTree = "<group>";
+		};
 		2B7C286A2498D1A800D43685 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
@@ -4689,6 +4712,7 @@
 				2BCD92BC24B5EFD8007B4F2D /* ErrorPages.strings */,
 				2BCD92BE24B5EFD8007B4F2D /* AlertController.strings */,
 				2BCD92C024B5EFD8007B4F2D /* Settings.strings */,
+				2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */,
 			);
 			path = Translations;
 			sourceTree = "<group>";
@@ -4957,6 +4981,7 @@
 		463432F6233251F70014A9F0 /* UserAgent */ = {
 			isa = PBXGroup;
 			children = (
+				2B6C34B728E586A9004790B5 /* DefaultBrowserHint */,
 				2B46494C243EF1D2002913F5 /* ContextualOnboarding */,
 				2BE9D522243C802B00553556 /* SpeechSynthesizer */,
 				464830E6243B27270052CC2C /* Trampoline */,
@@ -5208,6 +5233,7 @@
 				2BE3BD81246ECDFB0066D0BD /* Strings+ReaderMode.swift */,
 				2BE3BD97247272F90066D0BD /* Strings+Settings.swift */,
 				2B38E22F2493A797001D6236 /* Strings+Menu.swift */,
+				2B6C34BE28E596D7004790B5 /* Strings+DefaultBrowserHint.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -6641,6 +6667,7 @@
 				2B1BF18A26FB764D000E6C03 /* MainFrameAtDocumentStart.js in Resources */,
 				2B1BF18B26FB764D000E6C03 /* ContextualOnboarding.strings in Resources */,
 				2B1BF18C26FB764D000E6C03 /* Authenticator.strings in Resources */,
+				2B6C34CB28E59842004790B5 /* DefaultBrowserHint.strings in Resources */,
 				2B1BF18D26FB764D000E6C03 /* SearchPlugins in Resources */,
 				2B1BF18E26FB764D000E6C03 /* MailSchemes.plist in Resources */,
 				2B1BF18F26FB764D000E6C03 /* ReaderMode.strings in Resources */,
@@ -6713,6 +6740,7 @@
 				2B36FC0224B34E5500D61D6A /* GoogleService-Info.plist in Resources */,
 				2B6571AB24AB69AF005DE5D3 /* InfoPlist.strings in Resources */,
 				2BCD930D24B5EFD8007B4F2D /* ErrorPages.strings in Resources */,
+				2B6C34C728E59841004790B5 /* DefaultBrowserHint.strings in Resources */,
 				2B65708F24AB68A7005DE5D3 /* MainFrameAtDocumentStart.js in Resources */,
 				2BCD92E124B5EFD8007B4F2D /* ContextualOnboarding.strings in Resources */,
 				2BCD92D524B5EFD8007B4F2D /* Authenticator.strings in Resources */,
@@ -6778,6 +6806,7 @@
 				2BAD2AD124E6755B0098F3D1 /* ContextualOnboarding.strings in Resources */,
 				2B571CB724E6789B00F17C1A /* BrandColors.xcassets in Resources */,
 				2BAD2AD224E6755B0098F3D1 /* Authenticator.strings in Resources */,
+				2B6C34C828E59841004790B5 /* DefaultBrowserHint.strings in Resources */,
 				2BAD2AD324E6755B0098F3D1 /* SearchPlugins in Resources */,
 				2BAD2AD424E6755B0098F3D1 /* MailSchemes.plist in Resources */,
 				2B571CBD24E6899700F17C1A /* GoogleService-Info.plist in Resources */,
@@ -6843,6 +6872,7 @@
 				2BB3DF4724ED34570050370A /* MainFrameAtDocumentStart.js in Resources */,
 				2BB3DF4824ED34570050370A /* ContextualOnboarding.strings in Resources */,
 				2BB3DF4A24ED34570050370A /* Authenticator.strings in Resources */,
+				2B6C34C928E59841004790B5 /* DefaultBrowserHint.strings in Resources */,
 				2BB3DF4B24ED34570050370A /* SearchPlugins in Resources */,
 				2BB3DF4C24ED34570050370A /* MailSchemes.plist in Resources */,
 				2BB3DF4E24ED34570050370A /* ReaderMode.strings in Resources */,
@@ -6908,6 +6938,7 @@
 				2BBB701D254EF17800720613 /* Authenticator.strings in Resources */,
 				2BBB701E254EF17800720613 /* SearchPlugins in Resources */,
 				2BBB701F254EF17800720613 /* MailSchemes.plist in Resources */,
+				2B6C34CA28E59842004790B5 /* DefaultBrowserHint.strings in Resources */,
 				2BBB7020254EF17800720613 /* ReaderMode.strings in Resources */,
 				2BBB7022254EF17800720613 /* adult-domains.bin in Resources */,
 				2BBB7023254EF17800720613 /* ControlCenter.strings in Resources */,
@@ -8320,6 +8351,7 @@
 				E65075A41E37F7AB006961AC /* NSCharacterSetExtensions.swift in Sources */,
 				EB912B9A22722B5F00DF585A /* Deferred.swift in Sources */,
 				46BBFA6223575B0000283594 /* Strings+Brand.swift in Sources */,
+				2B6C34BF28E596D7004790B5 /* Strings+DefaultBrowserHint.swift in Sources */,
 				E65075B71E37F7AB006961AC /* Logger.swift in Sources */,
 				E65075961E37F7AB006961AC /* AsyncReducer.swift in Sources */,
 				466BF3C82521F9610070F922 /* WKWebViewExtensions.swift in Sources */,
@@ -8480,6 +8512,7 @@
 				2B1BF0CD26FB764D000E6C03 /* SearchSettingsTableViewController.swift in Sources */,
 				2B1BF0CE26FB764D000E6C03 /* UserActivityHandler.swift in Sources */,
 				2B1BF0CF26FB764D000E6C03 /* PhotonActionSheetAnimator.swift in Sources */,
+				2B6C34BD28E586D8004790B5 /* DefaultBrowserHintViewController.swift in Sources */,
 				2B1BF0D026FB764D000E6C03 /* Authenticator.swift in Sources */,
 				2B1BF0D126FB764D000E6C03 /* TabScrollController.swift in Sources */,
 				2B1BF0D226FB764D000E6C03 /* TranslationService.swift in Sources */,
@@ -8782,6 +8815,7 @@
 				2B656FDB24AB68A7005DE5D3 /* PhotonActionSheetAnimator.swift in Sources */,
 				2B656FDC24AB68A7005DE5D3 /* Authenticator.swift in Sources */,
 				2B656FDD24AB68A7005DE5D3 /* TabScrollController.swift in Sources */,
+				2B6C34B928E586D2004790B5 /* DefaultBrowserHintViewController.swift in Sources */,
 				2B656FDE24AB68A7005DE5D3 /* TranslationService.swift in Sources */,
 				2B656FDF24AB68A7005DE5D3 /* UIViewExtensions.swift in Sources */,
 				2B656FE024AB68A7005DE5D3 /* BrowserViewController+WebViewDelegates.swift in Sources */,
@@ -9073,6 +9107,7 @@
 				2BAD2A1324E6755B0098F3D1 /* SearchSettingsTableViewController.swift in Sources */,
 				2BAD2A1424E6755B0098F3D1 /* UserActivityHandler.swift in Sources */,
 				2BAD2A1524E6755B0098F3D1 /* PhotonActionSheetAnimator.swift in Sources */,
+				2B6C34BA28E586D6004790B5 /* DefaultBrowserHintViewController.swift in Sources */,
 				2BAD2A1624E6755B0098F3D1 /* Authenticator.swift in Sources */,
 				2BAD2A1724E6755B0098F3D1 /* TabScrollController.swift in Sources */,
 				2BAD2A1824E6755B0098F3D1 /* TranslationService.swift in Sources */,
@@ -9364,6 +9399,7 @@
 				2BB3DE8F24ED34570050370A /* BrowserViewController+DownloadQueueDelegate.swift in Sources */,
 				2BB3DE9024ED34570050370A /* SearchSettingsTableViewController.swift in Sources */,
 				2BB3DE9124ED34570050370A /* UserActivityHandler.swift in Sources */,
+				2B6C34BB28E586D7004790B5 /* DefaultBrowserHintViewController.swift in Sources */,
 				2BB3DE9224ED34570050370A /* PhotonActionSheetAnimator.swift in Sources */,
 				2BB3DE9324ED34570050370A /* Authenticator.swift in Sources */,
 				2BB3DE9424ED34570050370A /* TabScrollController.swift in Sources */,
@@ -9655,6 +9691,7 @@
 				2BBB6F63254EF17800720613 /* BrowserViewController+DownloadQueueDelegate.swift in Sources */,
 				2BBB6F64254EF17800720613 /* SearchSettingsTableViewController.swift in Sources */,
 				2BBB6F65254EF17800720613 /* UserActivityHandler.swift in Sources */,
+				2B6C34BC28E586D8004790B5 /* DefaultBrowserHintViewController.swift in Sources */,
 				2BBB6F66254EF17800720613 /* PhotonActionSheetAnimator.swift in Sources */,
 				2BBB6F67254EF17800720613 /* Authenticator.swift in Sources */,
 				2BBB6F68254EF17800720613 /* TabScrollController.swift in Sources */,
@@ -10379,6 +10416,15 @@
 				2B65719F24AB693E005DE5D3 /* en */,
 			);
 			name = Intents.strings;
+			sourceTree = "<group>";
+		};
+		2B6C34CD28E59842004790B5 /* DefaultBrowserHint.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6C34CC28E59842004790B5 /* en */,
+				2B6C34CE28E59843004790B5 /* de */,
+			);
+			name = DefaultBrowserHint.strings;
 			sourceTree = "<group>";
 		};
 		2B9D2EE124AF1AB600C2A9CB /* Intro.strings */ = {

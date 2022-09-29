@@ -2034,23 +2034,27 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
         return false
     }
 
+}
+
+extension BrowserViewController: DefaultBrowserHintViewControllerDelegate {
+
+    func defaultBrowserHintViewControllerDidFinish(_ viewController: UIViewController) {
+//        self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
+        viewController.dismiss(animated: true)
+    }
+
     func presentDefaultBrowserHint() {
         if Features.DefaultBrowserHint.isEnabled && (self.profile.prefs.intForKey(PrefsKeys.DefaultBrowserHint) == nil) {
-            guard let onboardingViewController = Onboarding.presentingViewController(delegate: self) else { return }
+            let viewController = DefaultBrowserHintViewController()
+            viewController.delegate = self
             // On iPad we present it modally in a controller
             if topTabsVisible {
-                onboardingViewController.preferredContentSize = CGSize(width: BrowserViewControllerUX.OnboardingWidth, height: BrowserViewControllerUX.OnboardingHeight)
-                onboardingViewController.modalPresentationStyle = UIDevice.current.isPhone ? .fullScreen : .formSheet
+                viewController.preferredContentSize = CGSize(width: BrowserViewControllerUX.OnboardingWidth, height: BrowserViewControllerUX.OnboardingHeight)
+                viewController.modalPresentationStyle = UIDevice.current.isPhone ? .overCurrentContext : .formSheet
             } else {
-                onboardingViewController.modalPresentationStyle = .fullScreen
+                viewController.modalPresentationStyle = .overCurrentContext
             }
-            self.present(onboardingViewController, animated: true) {
-                // On first run (and forced) open up the homepage in the background.
-                if let homePageURL = NewTabPage.topSites.url, let tab = self.tabManager.selectedTab, DeviceInfo.hasConnectivity() {
-                    tab.loadRequest(URLRequest(url: homePageURL))
-                }
-            }
-//            self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
+            self.present(viewController, animated: true)
         }
     }
 
