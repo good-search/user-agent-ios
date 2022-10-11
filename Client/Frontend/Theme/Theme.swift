@@ -320,7 +320,7 @@ class SnackBarColor {
     var highlight: UIColor { return UIColor.TextHighlightBlue.withAlphaComponent(0.9) }
     var highlightText: UIColor { return UIColor.Blue40 }
     var border: UIColor { return UIColor.Grey30 }
-    var title: UIColor { return UIColor.Blue40 }
+    var title: UIColor { return UIColor.Black }
 }
 
 class GeneralColor {

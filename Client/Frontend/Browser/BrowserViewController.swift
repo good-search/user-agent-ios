@@ -497,6 +497,8 @@ class BrowserViewController: UIViewController {
 
         // Re-show toolbar which might have been hidden during scrolling (prior to app moving into the background)
         scrollController.showToolbars(animated: false)
+
+        self.presentDefaultBrowserHint()
     }
 
     override func viewDidLoad() {
@@ -707,9 +709,7 @@ class BrowserViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        if !self.presentOnboarding() {
-            self.presentDefaultBrowserHint()
-        }
+        self.presentOnboarding()
 
         screenshotHelper.viewIsVisible = true
         screenshotHelper.takePendingScreenshots(tabManager.tabs)
@@ -2007,19 +2007,15 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
             if self.navigationController?.viewControllers.count ?? 0 > 1 {
                 _ = self.navigationController?.popToRootViewController(animated: true)
             }
-//            if shouldPresentPrivacyStatement && DataAndPrivacy.isEnabled {
-//                self.presentDataAndPrivacyViewController()
-//            }
-            if shouldPresentPrivacyStatement {
-                self.presentDefaultBrowserHint()
+            if shouldPresentPrivacyStatement && DataAndPrivacy.isEnabled {
+                self.presentDataAndPrivacyViewController()
             }
         }
     }
 
-    @discardableResult
-    func presentOnboarding(_ force: Bool = false, animated: Bool = true) -> Bool {
+    func presentOnboarding(_ force: Bool = false, animated: Bool = true) {
         if Onboarding.isEnabled && (force || profile.prefs.intForKey(PrefsKeys.IntroSeen) == nil) {
-            guard let onboardingViewController = Onboarding.presentingViewController(delegate: self) else { return false }
+            guard let onboardingViewController = Onboarding.presentingViewController(delegate: self) else { return }
             // On iPad we present it modally in a controller
             if topTabsVisible {
                 onboardingViewController.preferredContentSize = CGSize(width: BrowserViewControllerUX.OnboardingWidth, height: BrowserViewControllerUX.OnboardingHeight)
@@ -2033,9 +2029,7 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
                     tab.loadRequest(URLRequest(url: homePageURL))
                 }
             }
-            return true
         }
-        return false
     }
 
 }
@@ -2043,14 +2037,20 @@ extension BrowserViewController: OnboardingViewControllerDelegate {
 extension BrowserViewController: DefaultBrowserHintViewControllerDelegate {
 
     func defaultBrowserHintViewControllerDidFinish(_ viewController: UIViewController) {
-        self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
+        self.profile.prefs.setInt(2, forKey: PrefsKeys.DefaultBrowserHint)
     }
 
     func presentDefaultBrowserHint() {
+        if self.profile.prefs.intForKey(PrefsKeys.IntroSeen) != nil && self.profile.prefs.intForKey(PrefsKeys.DefaultBrowserHint) == nil {
+            self.profile.prefs.setInt(1, forKey: PrefsKeys.DefaultBrowserHint)
+        }
+        guard Features.DefaultBrowserHint.isEnabled, let value = self.profile.prefs.intForKey(PrefsKeys.DefaultBrowserHint) else {
+            return
+        }
         guard !(self.presentedViewController is DefaultBrowserHintViewController) else {
             return
         }
-        if Features.DefaultBrowserHint.isEnabled && (self.profile.prefs.intForKey(PrefsKeys.DefaultBrowserHint) == nil) {
+        if value == 1 {
             let viewController = DefaultBrowserHintViewController()
             viewController.delegate = self
 

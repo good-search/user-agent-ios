@@ -7,12 +7,12 @@
 */
 
 "website" = "https://good-search.org";
-"whatsNewWebsite" = "https://good-search.org/about/projekte/";
+"whatsNewWebsite" = "https://good-search.org/index.php#more";
 "humanWebInfoWebsite" = "https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html";
 "repositoryWebsite" = "https://github.com/cliqz/user-agent-ios";
 "privacyPolicyWebsite" = "https://good-search.org/datenschutz";
 "contact" = "https://good-search.org/about/kontakt/";
-"about" = "https://good-search.org/about";
+"about" = "https://good-search.org/index.php#more";
 "faq" = "";
 "termsOfUse" = "https://good-search.org/nutzungsbedingungen";
 "licensesHeader" = "GOOD";

@@ -18,7 +18,7 @@ struct DefaultBrowserHintUX {
     static let ButtonBottomOffset = 20.0
     static let Padding = 10.0
     static let LogoImageSize = 45.0
-    static let ImageTopOffes = 40.0
+    static let ImageTopOffes = 33.0
     static let CornerRadius = 10.0
     static let TextHorizontalPadding = 40.0
     static let TextVerticalPadding = 33.0
@@ -31,6 +31,7 @@ class DefaultBrowserHintViewController: UIViewController {
     lazy private var closeButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .Grey10
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
         button.setTitle(Strings.General.CloseString, for: .normal)
         button.setTitleColor(UIColor.Brand, for: .normal)
         button.addTarget(self, action: #selector(closeButtonAction), for: UIControl.Event.touchUpInside)
@@ -67,7 +68,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 24.0)
+        label.font = UIFont.boldSystemFont(ofSize: 20.0)
         label.textAlignment = .center
         label.numberOfLines = 0
         label.text = String(format: Strings.DefaultBrowserHint.Title, AppInfo.displayName)
@@ -76,7 +77,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var messageLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 20.0, weight: .ultraLight)
+        label.font = UIFont.systemFont(ofSize: 15.0, weight: .light)
         label.textAlignment = .center
         label.numberOfLines = 0
         label.text = String(format: Strings.DefaultBrowserHint.Message, AppInfo.displayName)
@@ -85,7 +86,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var firstStepLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 13.5, weight: .bold)
         label.textAlignment = .left
         label.text = Strings.DefaultBrowserHint.Step1
         return label
@@ -93,7 +94,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var secondStepLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 13.5, weight: .bold)
         label.textAlignment = .left
         label.text = Strings.DefaultBrowserHint.Step2
         return label
@@ -101,7 +102,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var thirdStepLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 13.5, weight: .bold)
         label.textAlignment = .left
         label.text = String(format: Strings.DefaultBrowserHint.Step3, AppInfo.displayName)
         return label
@@ -109,6 +110,7 @@ class DefaultBrowserHintViewController: UIViewController {
 
     lazy private var settingButton: UIButton = {
         let button = UIButton()
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 15.0, weight: .bold)
         button.backgroundColor = UIColor.Brand
         button.setTitle(Strings.DefaultBrowserHint.Setting, for: .normal)
         button.setTitleColor(.White, for: .normal)
