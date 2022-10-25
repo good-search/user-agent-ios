@@ -53,6 +53,12 @@ extension Features.Home.DynamicBackgrounds {
     }
 }
 
+extension Features.DefaultBrowserHint {
+    public static var isEnabled: Bool {
+        return true
+    }
+}
+
 extension Features.HumanWeb {
     public static var isEnabled: Bool {
         return false

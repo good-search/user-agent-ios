@@ -36,6 +36,12 @@ extension Features.Search.QuickSearch {
     }
 }
 
+extension Features.DefaultBrowserHint {
+    public static var isEnabled: Bool {
+        return true
+    }
+}
+
 extension Features.ControlCenter.PrivacyStats.SearchStats {
     public static var isEnabled: Bool {
         return false
