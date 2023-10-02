@@ -38,7 +38,7 @@ class DownloadContentScript: TabContentScript {
             return false
         }
         blobUrlForDownload = URL(string: safeUrl)
-        tab.webView?.evaluateJavaScript("window.__firefox__.download('\(safeUrl)', '\(UserScriptManager.appIdToken)')")
+        tab.webView?.evaluateJavascriptInDefaultContentWorld("window.__firefox__.download('\(safeUrl)', '\(UserScriptManager.appIdToken)')")
         return true
     }
 
