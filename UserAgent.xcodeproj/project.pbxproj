@@ -282,7 +282,6 @@
 		2B1BF13626FB764D000E6C03 /* NativeDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CA60ED2317E1390010CE6B /* NativeDrawable.m */; };
 		2B1BF13726FB764D000E6C03 /* ReadTheNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 464830F2243DC1090052CC2C /* ReadTheNews.m */; };
 		2B1BF13826FB764D000E6C03 /* NewTabAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */; };
-		2B1BF13926FB764D000E6C03 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A994961A3686BD008AD1AC /* Tab.swift */; };
 		2B1BF13A26FB764D000E6C03 /* CustomSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39EDCA1E16E1AA00EF029F /* CustomSearchViewController.swift */; };
 		2B1BF13B26FB764D000E6C03 /* GradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863C8E31F68BFC20058D95F /* GradientProgressBar.swift */; };
 		2B1BF13C26FB764D000E6C03 /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C744CC1A687D6C004CE85D /* URIFixup.swift */; };
@@ -655,7 +654,6 @@
 		2B65703C24AB68A7005DE5D3 /* NativeDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CA60ED2317E1390010CE6B /* NativeDrawable.m */; };
 		2B65703D24AB68A7005DE5D3 /* ReadTheNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 464830F2243DC1090052CC2C /* ReadTheNews.m */; };
 		2B65703E24AB68A7005DE5D3 /* NewTabAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */; };
-		2B65703F24AB68A7005DE5D3 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A994961A3686BD008AD1AC /* Tab.swift */; };
 		2B65704024AB68A7005DE5D3 /* CustomSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39EDCA1E16E1AA00EF029F /* CustomSearchViewController.swift */; };
 		2B65704124AB68A7005DE5D3 /* GradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863C8E31F68BFC20058D95F /* GradientProgressBar.swift */; };
 		2B65704224AB68A7005DE5D3 /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C744CC1A687D6C004CE85D /* URIFixup.swift */; };
@@ -1013,7 +1011,6 @@
 		2BAD2A7C24E6755B0098F3D1 /* NativeDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CA60ED2317E1390010CE6B /* NativeDrawable.m */; };
 		2BAD2A7D24E6755B0098F3D1 /* ReadTheNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 464830F2243DC1090052CC2C /* ReadTheNews.m */; };
 		2BAD2A7E24E6755B0098F3D1 /* NewTabAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */; };
-		2BAD2A7F24E6755B0098F3D1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A994961A3686BD008AD1AC /* Tab.swift */; };
 		2BAD2A8024E6755B0098F3D1 /* CustomSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39EDCA1E16E1AA00EF029F /* CustomSearchViewController.swift */; };
 		2BAD2A8124E6755B0098F3D1 /* GradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863C8E31F68BFC20058D95F /* GradientProgressBar.swift */; };
 		2BAD2A8224E6755B0098F3D1 /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C744CC1A687D6C004CE85D /* URIFixup.swift */; };
@@ -1358,7 +1355,6 @@
 		2BB3DEF624ED34570050370A /* NativeDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CA60ED2317E1390010CE6B /* NativeDrawable.m */; };
 		2BB3DEF724ED34570050370A /* ReadTheNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 464830F2243DC1090052CC2C /* ReadTheNews.m */; };
 		2BB3DEF824ED34570050370A /* NewTabAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */; };
-		2BB3DEF924ED34570050370A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A994961A3686BD008AD1AC /* Tab.swift */; };
 		2BB3DEFA24ED34570050370A /* CustomSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39EDCA1E16E1AA00EF029F /* CustomSearchViewController.swift */; };
 		2BB3DEFB24ED34570050370A /* GradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863C8E31F68BFC20058D95F /* GradientProgressBar.swift */; };
 		2BB3DEFC24ED34570050370A /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C744CC1A687D6C004CE85D /* URIFixup.swift */; };
@@ -1715,7 +1711,6 @@
 		2BBB6FCA254EF17800720613 /* NativeDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CA60ED2317E1390010CE6B /* NativeDrawable.m */; };
 		2BBB6FCB254EF17800720613 /* ReadTheNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 464830F2243DC1090052CC2C /* ReadTheNews.m */; };
 		2BBB6FCC254EF17800720613 /* NewTabAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */; };
-		2BBB6FCD254EF17800720613 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A994961A3686BD008AD1AC /* Tab.swift */; };
 		2BBB6FCE254EF17800720613 /* CustomSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39EDCA1E16E1AA00EF029F /* CustomSearchViewController.swift */; };
 		2BBB6FCF254EF17800720613 /* GradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863C8E31F68BFC20058D95F /* GradientProgressBar.swift */; };
 		2BBB6FD0254EF17800720613 /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C744CC1A687D6C004CE85D /* URIFixup.swift */; };
@@ -8615,7 +8610,6 @@
 				2B1BF13626FB764D000E6C03 /* NativeDrawable.m in Sources */,
 				2B1BF13726FB764D000E6C03 /* ReadTheNews.m in Sources */,
 				2B1BF13826FB764D000E6C03 /* NewTabAccessors.swift in Sources */,
-				2B1BF13926FB764D000E6C03 /* Tab.swift in Sources */,
 				2B1BF13A26FB764D000E6C03 /* CustomSearchViewController.swift in Sources */,
 				2B1BF13B26FB764D000E6C03 /* GradientProgressBar.swift in Sources */,
 				2B1BF13C26FB764D000E6C03 /* URIFixup.swift in Sources */,
@@ -8919,7 +8913,6 @@
 				2B65703C24AB68A7005DE5D3 /* NativeDrawable.m in Sources */,
 				2B65703D24AB68A7005DE5D3 /* ReadTheNews.m in Sources */,
 				2B65703E24AB68A7005DE5D3 /* NewTabAccessors.swift in Sources */,
-				2B65703F24AB68A7005DE5D3 /* Tab.swift in Sources */,
 				2B65704024AB68A7005DE5D3 /* CustomSearchViewController.swift in Sources */,
 				2B65704124AB68A7005DE5D3 /* GradientProgressBar.swift in Sources */,
 				2B65704224AB68A7005DE5D3 /* URIFixup.swift in Sources */,
@@ -9210,7 +9203,6 @@
 				2BAD2A7C24E6755B0098F3D1 /* NativeDrawable.m in Sources */,
 				2BAD2A7D24E6755B0098F3D1 /* ReadTheNews.m in Sources */,
 				2BAD2A7E24E6755B0098F3D1 /* NewTabAccessors.swift in Sources */,
-				2BAD2A7F24E6755B0098F3D1 /* Tab.swift in Sources */,
 				2BAD2A8024E6755B0098F3D1 /* CustomSearchViewController.swift in Sources */,
 				2BAD2A8124E6755B0098F3D1 /* GradientProgressBar.swift in Sources */,
 				2BAD2A8224E6755B0098F3D1 /* URIFixup.swift in Sources */,
@@ -9503,7 +9495,6 @@
 				2BB3DEF624ED34570050370A /* NativeDrawable.m in Sources */,
 				2BB3DEF724ED34570050370A /* ReadTheNews.m in Sources */,
 				2BB3DEF824ED34570050370A /* NewTabAccessors.swift in Sources */,
-				2BB3DEF924ED34570050370A /* Tab.swift in Sources */,
 				2BB3DEFA24ED34570050370A /* CustomSearchViewController.swift in Sources */,
 				2BB3DEFB24ED34570050370A /* GradientProgressBar.swift in Sources */,
 				2BB3DEFC24ED34570050370A /* URIFixup.swift in Sources */,
@@ -9794,7 +9785,6 @@
 				2BBB6FCA254EF17800720613 /* NativeDrawable.m in Sources */,
 				2BBB6FCB254EF17800720613 /* ReadTheNews.m in Sources */,
 				2BBB6FCC254EF17800720613 /* NewTabAccessors.swift in Sources */,
-				2BBB6FCD254EF17800720613 /* Tab.swift in Sources */,
 				2BBB6FCE254EF17800720613 /* CustomSearchViewController.swift in Sources */,
 				2BBB6FCF254EF17800720613 /* GradientProgressBar.swift in Sources */,
 				2BBB6FD0254EF17800720613 /* URIFixup.swift in Sources */,
