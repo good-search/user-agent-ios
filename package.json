@@ -4,7 +4,7 @@
   "description": "Cliqz User Agent for iOS",
   "scripts": {
     "update-content-blocker": "node ./scripts/update-content-blocker.js",
-    "start": "react-native start --reset-cache",
+    "start": "react-native start --reset-cache --openssl-legacy-provider",
     "build-detox": "detox build",
     "build-user-scripts": "webpack --config webpack.config.js",
     "test-detox": "detox test --take-screenshots all",
@@ -38,8 +38,8 @@
     "react-native": "^0.63.3",
     "react-native-fs": "^2.16.6",
     "react-native-gifted-chat": "^0.13.0",
-    "react-native-sqlite-2": "^3.1.0",
-    "react-native-svg": "^12.1.0",
+    "react-native-sqlite-2": "3.1.0",
+    "react-native-svg": "12.1.0",
     "react-native-swipe-list-view": "^2.3.0",
     "readability": "mozilla/readability#b9f47bcc8d3c223cabe2dec6a42eeb3bd778d85c",
     "tldts": "^5.0.3"
@@ -59,7 +59,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "metro-react-native-babel-preset": "^0.59.0",
     "mocha": "^6.2.1",
     "node-fetch": "^2.6.1",

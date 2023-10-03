@@ -8,6 +8,10 @@ workspace 'UserAgent'
 inhibit_all_warnings!
 use_frameworks!
 
+def tldextract
+  pod 'TLDExtract', '~> 1.0',  :modular_headers => true
+end
+
 def xclogger
   pod 'XCGLogger', '~> 7.0.0',  :modular_headers => true
 end
@@ -145,6 +149,7 @@ target 'Shared' do
   sentry
   swiftlint
   xclogger
+  tldextract
 end
 
 #target 'Today' do
