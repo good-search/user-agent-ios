@@ -21,7 +21,7 @@
 		0BC9C9C41F26F54D000E8AB5 /* SiteLoadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9C9C31F26F54D000E8AB5 /* SiteLoadTest.swift */; };
 		0BF0DB4A1E57B05E009172B0 /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65075861E37F7AB006961AC /* LaunchArguments.swift */; };
 		0D184DAE73E4D4F2C930A757 /* Pods_Blue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA0334BFE6A86C1EF0B2029 /* Pods_Blue.framework */; };
-		20F04D3FD916F48F70DBBE47 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		20F04D3FD916F48F70DBBE47 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		281B029A1C037C1F005202C3 /* TestBrowserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B02991C037C1F005202C3 /* TestBrowserDB.swift */; };
 		281B2BEA1ADF4D90002917DC /* MockProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B2BE91ADF4D90002917DC /* MockProfile.swift */; };
 		2829D3A01C2F0AD400DCF931 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829D39F1C2F0AD400DCF931 /* Sharing.swift */; };
@@ -302,7 +302,7 @@
 		2B1BF14C26FB764D000E6C03 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2B1BF14D26FB764D000E6C03 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2B1BF14E26FB764D000E6C03 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2B1BF14F26FB764D000E6C03 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2B1BF14F26FB764D000E6C03 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2B1BF15026FB764D000E6C03 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2B1BF15126FB764D000E6C03 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2B1BF15226FB764D000E6C03 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -673,7 +673,7 @@
 		2B65705224AB68A7005DE5D3 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2B65705324AB68A7005DE5D3 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2B65705424AB68A7005DE5D3 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2B65705524AB68A7005DE5D3 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2B65705524AB68A7005DE5D3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2B65705624AB68A7005DE5D3 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2B65705724AB68A7005DE5D3 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2B65705824AB68A7005DE5D3 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1029,7 +1029,7 @@
 		2BAD2A9224E6755B0098F3D1 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2BAD2A9324E6755B0098F3D1 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2BAD2A9424E6755B0098F3D1 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2BAD2A9524E6755B0098F3D1 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BAD2A9524E6755B0098F3D1 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BAD2A9624E6755B0098F3D1 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2BAD2A9724E6755B0098F3D1 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2BAD2A9824E6755B0098F3D1 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1372,7 +1372,7 @@
 		2BB3DF0D24ED34570050370A /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2BB3DF0E24ED34570050370A /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2BB3DF0F24ED34570050370A /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2BB3DF1024ED34570050370A /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BB3DF1024ED34570050370A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BB3DF1124ED34570050370A /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2BB3DF1224ED34570050370A /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2BB3DF1324ED34570050370A /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1727,7 +1727,7 @@
 		2BBB6FE0254EF17800720613 /* MailtoLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744ED5601DBFEB8D00A2B5BE /* MailtoLinkHandler.swift */; };
 		2BBB6FE1254EF17800720613 /* DownloadToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D1B852097859B0074B35F /* DownloadToast.swift */; };
 		2BBB6FE2254EF17800720613 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B844E3C1BBDDB9D00E733A2 /* ChevronView.swift */; };
-		2BBB6FE3254EF17800720613 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		2BBB6FE3254EF17800720613 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2BBB6FE4254EF17800720613 /* UIColor+Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6EC5223290974000F5499 /* UIColor+Blending.swift */; };
 		2BBB6FE5254EF17800720613 /* BrowserViewController+DownloadsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B516D3B238BACE4006D6B57 /* BrowserViewController+DownloadsDelegate.swift */; };
 		2BBB6FE6254EF17800720613 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7DC1A234485B9000125D7 /* UIDeviceExtensions.swift */; };
@@ -1931,7 +1931,7 @@
 		46BBFA6023575AEC00283594 /* Strings+PrivateBrowsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BBFA5F23575AEC00283594 /* Strings+PrivateBrowsing.swift */; };
 		46BBFA6223575B0000283594 /* Strings+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BBFA6123575B0000283594 /* Strings+Brand.swift */; };
 		4A59B58AD11B5EE1F80BBDEB /* TestHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A59BF410BBD9B3BE71F4C7C /* TestHistory.swift */; };
-		57DAC96F3F70F54A1BCB1CC3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		57DAC96F3F70F54A1BCB1CC3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		580B0C4221748CFE00448DF8 /* DataManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B0C4121748CFE00448DF8 /* DataManagementTests.swift */; };
 		63306D452110BAF000F25400 /* TabManagerStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63306D442110BAF000F25400 /* TabManagerStoreTests.swift */; };
 		660335E0F23729FE05E618CD /* Pods_ShareTo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF3DFE609D0D680B66408F /* Pods_ShareTo.framework */; };
@@ -3614,7 +3614,7 @@
 				2BAD2AF324E6755B0098F3D1 /* ImageIO.framework in Frameworks */,
 				2BAD2AF424E6755B0098F3D1 /* ObjcExceptionBridging.framework in Frameworks */,
 				2BAD2AF524E6755B0098F3D1 /* Widgets.framework in Frameworks */,
-				20F04D3FD916F48F70DBBE47 /* BuildFile in Frameworks */,
+				20F04D3FD916F48F70DBBE47 /* (null) in Frameworks */,
 				37D3EAAD845871608B0CCB7D /* Pods_Panda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3632,7 +3632,7 @@
 				2BB3DF6E24ED34570050370A /* ImageIO.framework in Frameworks */,
 				2BB3DF6F24ED34570050370A /* ObjcExceptionBridging.framework in Frameworks */,
 				2BB3DF7024ED34570050370A /* Widgets.framework in Frameworks */,
-				57DAC96F3F70F54A1BCB1CC3 /* BuildFile in Frameworks */,
+				57DAC96F3F70F54A1BCB1CC3 /* (null) in Frameworks */,
 				756A76457A3ECF4118B45BF0 /* Pods_SEALEGACYBlue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -8662,7 +8662,7 @@
 				2B1BF14C26FB764D000E6C03 /* MailtoLinkHandler.swift in Sources */,
 				2B1BF14D26FB764D000E6C03 /* DownloadToast.swift in Sources */,
 				2B1BF14E26FB764D000E6C03 /* ChevronView.swift in Sources */,
-				2B1BF14F26FB764D000E6C03 /* BuildFile in Sources */,
+				2B1BF14F26FB764D000E6C03 /* (null) in Sources */,
 				2B1BF15026FB764D000E6C03 /* UIColor+Blending.swift in Sources */,
 				2B1BF15126FB764D000E6C03 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2B1BF15226FB764D000E6C03 /* UIDeviceExtensions.swift in Sources */,
@@ -8965,7 +8965,7 @@
 				2B65705224AB68A7005DE5D3 /* MailtoLinkHandler.swift in Sources */,
 				2B65705324AB68A7005DE5D3 /* DownloadToast.swift in Sources */,
 				2B65705424AB68A7005DE5D3 /* ChevronView.swift in Sources */,
-				2B65705524AB68A7005DE5D3 /* BuildFile in Sources */,
+				2B65705524AB68A7005DE5D3 /* (null) in Sources */,
 				2B65705624AB68A7005DE5D3 /* UIColor+Blending.swift in Sources */,
 				2B65705724AB68A7005DE5D3 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2B65705824AB68A7005DE5D3 /* UIDeviceExtensions.swift in Sources */,
@@ -9256,7 +9256,7 @@
 				2BAD2A9224E6755B0098F3D1 /* MailtoLinkHandler.swift in Sources */,
 				2BAD2A9324E6755B0098F3D1 /* DownloadToast.swift in Sources */,
 				2BAD2A9424E6755B0098F3D1 /* ChevronView.swift in Sources */,
-				2BAD2A9524E6755B0098F3D1 /* BuildFile in Sources */,
+				2BAD2A9524E6755B0098F3D1 /* (null) in Sources */,
 				2BAD2A9624E6755B0098F3D1 /* UIColor+Blending.swift in Sources */,
 				2BAD2A9724E6755B0098F3D1 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2BAD2A9824E6755B0098F3D1 /* UIDeviceExtensions.swift in Sources */,
@@ -9547,7 +9547,7 @@
 				2BB3DF0D24ED34570050370A /* MailtoLinkHandler.swift in Sources */,
 				2BB3DF0E24ED34570050370A /* DownloadToast.swift in Sources */,
 				2BB3DF0F24ED34570050370A /* ChevronView.swift in Sources */,
-				2BB3DF1024ED34570050370A /* BuildFile in Sources */,
+				2BB3DF1024ED34570050370A /* (null) in Sources */,
 				2BB3DF1124ED34570050370A /* UIColor+Blending.swift in Sources */,
 				2BB3DF1224ED34570050370A /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2BB3DF1324ED34570050370A /* UIDeviceExtensions.swift in Sources */,
@@ -9837,7 +9837,7 @@
 				2BBB6FE0254EF17800720613 /* MailtoLinkHandler.swift in Sources */,
 				2BBB6FE1254EF17800720613 /* DownloadToast.swift in Sources */,
 				2BBB6FE2254EF17800720613 /* ChevronView.swift in Sources */,
-				2BBB6FE3254EF17800720613 /* BuildFile in Sources */,
+				2BBB6FE3254EF17800720613 /* (null) in Sources */,
 				2BBB6FE4254EF17800720613 /* UIColor+Blending.swift in Sources */,
 				2BBB6FE5254EF17800720613 /* BrowserViewController+DownloadsDelegate.swift in Sources */,
 				2BBB6FE6254EF17800720613 /* UIDeviceExtensions.swift in Sources */,
@@ -11006,6 +11006,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Widgets/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -11285,6 +11286,7 @@
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "${APP_DEVELOPMENT_TEAM}";
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Extensions/Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
@@ -11461,6 +11463,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
@@ -11615,6 +11618,7 @@
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "${APP_DEVELOPMENT_TEAM}";
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Extensions/Siri/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -12563,6 +12567,7 @@
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "${APP_DEVELOPMENT_TEAM}";
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Extensions/OpenIn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
@@ -12697,6 +12702,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZX98ZK2A75;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Extensions/Search/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -13774,6 +13780,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${APP_BUILD_VERSION}";
 				DEVELOPMENT_TEAM = "${APP_DEVELOPMENT_TEAM}";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
@@ -13803,6 +13810,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -13835,6 +13843,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Storage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
